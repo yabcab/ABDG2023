@@ -1,0 +1,1 @@
+txt = "Press Ⓐ to jump"

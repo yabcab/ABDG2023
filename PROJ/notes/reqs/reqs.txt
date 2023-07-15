@@ -1,0 +1,6 @@
+MUST:
+-like 3 or so levels
+-rooms are connected (not 1 room per level like JBDG, a full thing)
+-red one can possess certain objects which change the movement
+-edit movement to be different
+-the cool new artstyle

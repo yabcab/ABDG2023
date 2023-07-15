@@ -1,0 +1,1 @@
+txt = "Use the eggs to kill those guys.\n(Jumping on them will hurt you)"

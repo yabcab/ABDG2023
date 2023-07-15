@@ -1,0 +1,1 @@
+txt = "Placing the flour in a bowl will remove the effect."
