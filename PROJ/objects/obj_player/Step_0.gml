@@ -1,3 +1,6 @@
+if vsp >= 0
+	jumping = false
+
 var axdir = gamepad_axis_value(0,gp_axislh)
 var axisv = gamepad_axis_value(0,gp_axislv)
 if KEY_D
@@ -23,25 +26,25 @@ switch state
 		{
 			if abs(axdir) > 0 || KEY_L || KEY_R
 			{
-				sprite_index = spr_playerJ_move
+				sprite_index = spr_playerR_walk
 				image_speed = abs(hsp) / 3
 			}
 			else
 				if axisv > 0.1
-					sprite_index = spr_playerJ_crouch
+					sprite_index = spr_playerR_idle
 				else
-					sprite_index = spr_playerJ_idle
+					sprite_index = spr_playerR_idle
 		}
 		else
 		{
 			if anim_hurt
 				sprite_index = spr_playerJ_pain
 			else if anim_jump
-				sprite_index = spr_playerJ_jump
+				sprite_index = spr_playerR_jump
 			else if anim_egg
 				sprite_index = spr_playerJ_egg
 			else
-				sprite_index = spr_playerJ_air
+				sprite_index = spr_playerR_jump
 		}
 		
 		//STROMBULOUS
@@ -64,8 +67,8 @@ switch state
 			if KEY_R
 				axdir = 1
 			var holdrun = 0 //gamepad_button_check(0,CONT_RB)
-			var runsp = 3
-			var walksp = 12
+			var runsp = 0
+			var walksp = 7
 	
 			if levelcomplete
 			{
@@ -79,16 +82,16 @@ switch state
 				if axdir != 0
 					facing = sign(axdir)
 				if abs(axdir) > 0
-					hsp = approach(hsp,(walksp + (holdrun * runsp)) * axdir,0.3)
+					hsp = approach(hsp,(walksp + (holdrun * runsp)) * axdir,1)
 				else
-					hsp = approach(hsp,0,0.5)
+					hsp = approach(hsp,0,2)
 	
 				if (grounded || place_meeting(x,y,obj_airjump) || place_meeting(x,y + 20,obj_solid)) && (gamepad_button_check_pressed(0,CONT_A) || KEY_JMP_P)
 				{
 					if place_meeting(x,y,obj_airjump) // bad coding practice. do i care? no, i have hours remaining.
 						play_sfx(sfx_bubblejump)
 					play_sfx(sfx_jump)
-					vsp = -15
+					vsp = -11
 					jumping = true
 					hasdoublejump = true
 					anim_jump = true
@@ -114,11 +117,11 @@ switch state
 				}
 				else if hasdoublejump && can_doublejump && (gamepad_button_check_pressed(0,CONT_A) || KEY_JMP_P)
 				{
-					repeat 15
+					repeat 5
 						with instance_create_depth(x,y,depth,obj_whiteparticle)
 							vspeed = random_range(3,5)
 					play_sfx(sfx_jump)
-					vsp = -15
+					vsp = -11
 					jumping = true
 					hasdoublejump = false
 					anim_jump = true
@@ -133,20 +136,21 @@ switch state
 					jumping = false
 				}
 	
-				if place_meeting(x + hsp,y,obj_solid) && abs(hsp) > 4
-				{
-					play_sfx(choose(sfx_hitwall1,sfx_hitwall2,sfx_hitwall3),false)
-					x -= hsp
-					hsp *= -0.75
-					//if grounded
-					//	vsp = -3
-					//if !place_meeting(x,y - 11,obj_solid)
-					//	y -= 11
-					anim_hurt = true
-					anim_egg = false
-				}
+				//the wallbumb is GONE!
+				//if place_meeting(x + hsp,y,obj_solid) && abs(hsp) > 4
+				//{
+				//	play_sfx(choose(sfx_hitwall1,sfx_hitwall2,sfx_hitwall3),false)
+				//	x -= hsp
+				//	hsp *= -0.75
+				//	//if grounded
+				//	//	vsp = -3
+				//	//if !place_meeting(x,y - 11,obj_solid)
+				//	//	y -= 11
+				//	anim_hurt = true
+				//	anim_egg = false
+				//}
 		
-				if can_egg
+				if can_egg // yeah i wont remove this incase it gets used just keep the variable at false ok bye
 				{
 					if (gamepad_button_check_pressed(0,CONT_X) || KEY_EGG_P) && instance_number(obj_eggprojectile) < 5
 					{

@@ -11,13 +11,13 @@ globalvar global_transition_surface; global_transition_surface = 0
 draw_set_font(fnt_game)
 
 globalvar can_egg; can_egg = false
-globalvar can_doublejump; can_doublejump = false
+globalvar can_doublejump; can_doublejump = true
 globalvar can_groundpound; can_groundpound = false
 globalvar deaths; deaths = 0
 globalvar coins; coins = 0
 globalvar points; points = 0
 globalvar skip_loading; skip_loading = false
-globalvar version; version = "1.0.0"
+globalvar version; version = "not done yet"
 
 room_goto(rm_disclaimer)
 

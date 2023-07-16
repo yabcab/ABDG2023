@@ -1,14 +1,14 @@
 {
   "spriteId": {
-    "name": "spr_playerJ_idle",
-    "path": "sprites/spr_playerJ_idle/spr_playerJ_idle.yy",
+    "name": "spr_playerR_idle",
+    "path": "sprites/spr_playerR_idle/spr_playerR_idle.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": {
-    "name": "spr_playerJ_idle",
-    "path": "sprites/spr_playerJ_idle/spr_playerJ_idle.yy",
+    "name": "spr_playerR_idle",
+    "path": "sprites/spr_playerR_idle/spr_playerR_idle.yy",
   },
   "persistent": false,
   "parentObjectId": null,

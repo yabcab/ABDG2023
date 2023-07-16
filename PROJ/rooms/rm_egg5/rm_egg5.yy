@@ -847,7 +847,7 @@
   },
   "parent": {
     "name": "game",
-    "path": "folders/Rooms/game.yy",
+    "path": "folders/Rooms/old trials and tribulations/game.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_egg5",

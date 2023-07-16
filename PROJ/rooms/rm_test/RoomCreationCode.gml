@@ -1,2 +1,2 @@
-can_egg = true
+can_egg = false // no more!!
 can_doublejump = true

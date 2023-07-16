@@ -1,9 +1,9 @@
 {
-  "option_windows_display_name": "Trials And Tribulations v1.0.0",
-  "option_windows_executable_name": "Trials And Tribulations.exe",
+  "option_windows_display_name": "ABDG2023",
+  "option_windows_executable_name": "ABDG2023.exe",
   "option_windows_version": "1.0.0.0",
   "option_windows_company_info": "idk",
-  "option_windows_product_info": "JBDG2023",
+  "option_windows_product_info": "ABDG2023",
   "option_windows_copyright_info": "",
   "option_windows_description_info": "A GameMaker Game",
   "option_windows_display_cursor": true,

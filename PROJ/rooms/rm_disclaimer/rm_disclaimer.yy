@@ -46,8 +46,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "old trials and tribulations",
+    "path": "folders/Rooms/old trials and tribulations.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_disclaimer",

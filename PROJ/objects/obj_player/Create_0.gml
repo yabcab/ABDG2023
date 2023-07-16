@@ -32,6 +32,7 @@ anim_egg = false
 
 // 4/20/23 - i predict there will be like 4 states in total
 // 5/17/23 - i was very wrong
+// 7/15/23 - hey guys im making another game on this engine
 enum states
 {
 	none = -1,
@@ -41,6 +42,9 @@ enum states
 	groundpound,
 	floured,
 	
+	//possesions
+	chicken,
+	train,
 }
 state = states.normal
 
