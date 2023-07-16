@@ -216,7 +216,7 @@ switch state
 		if grounded && abs(hsp) > 2
 		{
 			runtimer++
-			if runtimer > 17 - abs(hsp)
+			if runtimer > 20 - abs(hsp)
 			{
 				runtimer = 0
 				if soundpick = sfx_run1
@@ -224,7 +224,7 @@ switch state
 				else
 					soundpick = sfx_run1
 		
-				play_sfx(soundpick,false)
+				play_sfx(soundpick)
 			}
 		}
 		else
