@@ -18,6 +18,7 @@ globalvar coins; coins = 0
 globalvar points; points = 0
 globalvar skip_loading; skip_loading = false
 globalvar version; version = "not done yet"
+globalvar possessed_object; possessed_object = noone
 
 room_goto(rm_disclaimer)
 
@@ -45,4 +46,4 @@ if os_type = os_windows
 #macro KEY_D keyboard_check(vk_down)
 #macro KEY_JMP keyboard_check(ord("Z"))
 #macro KEY_JMP_P keyboard_check_pressed(ord("Z"))
-#macro KEY_EGG_P keyboard_check_pressed(ord("X"))
+#macro KEY_POS_P keyboard_check_pressed(ord("X"))

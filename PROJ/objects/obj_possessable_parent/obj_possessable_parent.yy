@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemy_walk",
+    "path": "sprites/spr_enemy_walk/spr_enemy_walk.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -30,7 +33,7 @@
     "path": "folders/Objects/ITS A SECRET/aaa/yesyes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_possessable",
+  "name": "obj_possessable_parent",
   "tags": [],
   "resourceType": "GMObject",
 }

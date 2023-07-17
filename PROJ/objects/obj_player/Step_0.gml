@@ -152,7 +152,7 @@ switch state
 		
 				if can_egg // yeah i wont remove this incase it gets used just keep the variable at false ok bye
 				{
-					if (gamepad_button_check_pressed(0,CONT_X) || KEY_EGG_P) && instance_number(obj_eggprojectile) < 5
+					if (gamepad_button_check_pressed(0,CONT_X) || KEY_POS_P) && instance_number(obj_eggprojectile) < 5
 					{
 						play_sfx(sfx_eggtoss)
 						anim_egg = true
@@ -281,7 +281,7 @@ switch state
 		//thou shalt not egg any longer
 		//if can_egg
 		//{
-		//	if (gamepad_button_check_pressed(0,CONT_X) || KEY_EGG_P) && instance_number(obj_eggprojectile) < 5
+		//	if (gamepad_button_check_pressed(0,CONT_X) || KEY_POS_P) && instance_number(obj_eggprojectile) < 5
 		//	{
 		//		play_sfx(sfx_eggtoss)
 				
