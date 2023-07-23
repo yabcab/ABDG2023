@@ -17,7 +17,7 @@ if possessed_object = id && !just_possessed
 {
 	x = obj_player.x
 	y = obj_player.y
-	if KEY_POS_P
+	if KEY_D_P
 	{
 		possessed_object = noone
 		obj_player.state = states.normal

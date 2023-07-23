@@ -45,7 +45,11 @@ enum states
 	//possesions
 	chicken,
 	train,
+	lavalamp,
 }
 state = states.normal
 
 make_shadow()
+
+eggtime = 0
+lamptimer = 0
