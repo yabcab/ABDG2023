@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_possessable_lavalamp",
-    "path": "sprites/spr_possessable_lavalamp/spr_possessable_lavalamp.yy",
+    "name": "spr_possessable_chicken",
+    "path": "sprites/spr_possessable_chicken/spr_possessable_chicken.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
     "path": "folders/Objects/ITS A SECRET/aaa/yesyes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lavalamp",
+  "name": "obj_chicken",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -4,4 +4,4 @@ MUST:
 -red one can possess certain objects which change the movement
 -edit movement to be different
 -the cool new artstyle
--prompt some of room 10
+-prompt some people

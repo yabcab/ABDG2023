@@ -20,7 +20,7 @@ globalvar skip_loading; skip_loading = false
 globalvar version; version = "not done yet"
 globalvar possessed_object; possessed_object = noone
 
-room_goto(rm_disclaimer)
+room_goto(rm_finish)
 
 if os_type = os_windows
 	window_set_size(1920,1080)
@@ -31,13 +31,14 @@ if os_type = os_windows
 //audio_group_set_gain(audiogroup_default,0,0) 
 
 #macro CONT_A gp_face1
+#macro CONT_B gp_face2
 #macro CONT_X gp_face3
+#macro CONT_Y gp_face4
 #macro CONT_RB gp_shoulderrb
 #macro CONT_RT gp_shoulderr
 #macro CONT_LB gp_shoulderlb
 #macro CONT_LT gp_shoulderl
 
-//leave controller support to die
 #macro KEY_L keyboard_check(vk_left)
 #macro KEY_R keyboard_check(vk_right)
 #macro KEY_U keyboard_check(vk_up)
@@ -45,5 +46,7 @@ if os_type = os_windows
 #macro KEY_D_P keyboard_check_pressed(vk_down)
 #macro KEY_JMP keyboard_check(ord("Z"))
 #macro KEY_JMP_P keyboard_check_pressed(ord("Z"))
-#macro KEY_POS keyboard_check(ord("X"))
-#macro KEY_POS_P keyboard_check_pressed(ord("X"))
+#macro KEY_EGG keyboard_check(ord("X"))
+#macro KEY_EGG_P keyboard_check_pressed(ord("X"))
+#macro KEY_POS keyboard_check(ord("C"))
+#macro KEY_POS_P keyboard_check_pressed(ord("C"))

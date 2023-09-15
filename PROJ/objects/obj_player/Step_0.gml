@@ -153,7 +153,7 @@ switch state
 		
 				if can_egg // yeah i wont remove this incase it gets used just keep the variable at false ok bye
 				{
-					if (gamepad_button_check_pressed(0,CONT_X) || KEY_POS_P) && instance_number(obj_eggprojectile) < 5
+					if (gamepad_button_check_pressed(0,CONT_X) || KEY_EGG_P) && instance_number(obj_eggprojectile) < 5
 					{
 						play_sfx(sfx_eggtoss)
 						anim_egg = true
@@ -282,7 +282,7 @@ switch state
 		//thou shalt not egg any longer
 		//if can_egg
 		//{
-		//	if (gamepad_button_check_pressed(0,CONT_X) || KEY_POS_P) && instance_number(obj_eggprojectile) < 5
+		//	if (gamepad_button_check_pressed(0,CONT_X) || KEY_EGG_P) && instance_number(obj_eggprojectile) < 5
 		//	{
 		//		play_sfx(sfx_eggtoss)
 				
@@ -497,17 +497,33 @@ switch state
 	
 	case states.lavalamp:
 	{
-		//lamptimer += 0.001
-		//image_blend = merge_color(c_white,c_red,lamptimer)
-		//if lamptimer >= 1
-		//{
-		//	state = states.normal
-		//	instance_destroy(possessed_object)
-		//	possessed_object = noone
-		//	image_blend = c_white
-		//}	
-		image_speed = 1
-		sprite_index = spr_playerR_lampplaceholder
+		lamptimer += 0.005
+		image_blend = merge_color(c_white,c_red,lamptimer)
+		if lamptimer >= 1
+		{
+			state = states.normal
+			//instance_destroy(possessed_object)
+			with possessed_object
+			{
+				visible = true
+				x = xstart
+				y = ystart
+				repeat 15
+					with instance_create_depth(x,y,depth - 1,obj_whiteparticle)
+					{
+						image_angle = point_direction(0,0,hspeed,vspeed)
+						sprite_index = spr_bubbleline
+						alphlower = random_range(0.07,0.09)
+						starth = abs(hspeed / 50)
+						startv = abs(vspeed / 50)
+					}
+			}
+			possessed_object = noone
+			image_blend = c_white
+		}	
+		image_speed = 0
+		image_index = 1
+		sprite_index = spr_possessable_lavalamp
 		
 		if abs(hsp) > 10
 			instance_create_depth(x,y,depth + 1,obj_trail)
@@ -584,12 +600,12 @@ switch state
 					anim_hurt = false
 					anim_egg = false
 					
-					repeat 10
-						with instance_create_depth(x,y,depth + 1,obj_eggprojectile)
-						{
-							hspeed = other.hsp + random_range(-4,4)
-							vspeed = random_range(-1,3)	
-						}
+					//repeat 10
+					//	with instance_create_depth(x,y,depth + 1,obj_eggprojectile)
+					//	{
+					//		hspeed = other.hsp + random_range(-4,4)
+					//		vspeed = random_range(-1,3)	
+					//	}
 				}
 		
 				if jumping && vsp < -3 && (!gamepad_button_check(0,CONT_A) && !KEY_JMP)
@@ -614,12 +630,12 @@ switch state
 		
 				//if can_egg // yeah i wont remove this incase it gets used just keep the variable at false ok bye
 				//{ // it was used cool
-					if (gamepad_button_check_pressed(0,CONT_X) || KEY_POS)
-					{
+					//if (gamepad_button_check_pressed(0,CONT_X) || KEY_EGG)
+					//{
 						eggtime--
 						if eggtime <= 0
 						{
-							eggtime = 5
+							eggtime = 4
 							play_sfx(sfx_eggtoss)
 							anim_egg = true
 							anim_hurt = false
@@ -635,7 +651,7 @@ switch state
 								hspeed = (5 * dir) + other.hsp
 								vspeed = random_range(-3,-6)	
 							}
-						}
+						//}
 							
 						//if grounded
 						//{
@@ -645,6 +661,173 @@ switch state
 						//}
 					}
 				//}
+				
+				if can_groundpound
+				{
+					if axisv > 0.5 && !grounded && !alreadypounded
+					{
+						//play_sfx(sfx_gpstart)
+						vsp = -4
+						state = states.groundpound
+					}
+				}
+			}
+		}
+		else if !broimdead
+			hsp = lerp(hsp,0,0.2)
+			
+		if broimdead
+		{
+			sprite_index = spr_playerJ_pain
+			hsp = lerp(hsp,0,0.05)
+			vsp = lerp(vsp,0,0.05)
+			deadtimer = approach(deadtimer,-1,1)
+			if deadtimer <= 0
+			{
+				if deadtimer > -1 && !audio_is_playing(sfx_bubblemove)
+					play_sfx(sfx_bubblemove)
+				hsp = 0
+				vsp = 0
+				x = lerp(x,checkpointx,0.035)
+				y = lerp(y,checkpointy - 100,0.035) 
+		
+				if distance_to_point(checkpointx,checkpointy - 100) < 10
+				{
+					broimdead = false
+					play_sfx(sfx_bubblepop)	
+				}
+			}
+		}
+		
+		if grounded && abs(hsp) > 2
+		{
+			runtimer++
+			if runtimer > 20 - abs(hsp)
+			{
+				runtimer = 0
+				if soundpick = sfx_run1
+					soundpick = sfx_run2
+				else
+					soundpick = sfx_run1
+		
+				play_sfx(soundpick)
+			}
+		}
+		else
+			runtimer = 99
+	}
+	break;
+	
+	case states.chicken:
+	{
+		image_speed = 0
+		image_index = 1
+		sprite_index = spr_possessable_chicken
+		
+		if abs(hsp) > 10
+			instance_create_depth(x,y,depth + 1,obj_trail)
+		
+		if !broimdead
+			vsp = approach(vsp,18,0.5)
+		
+		if controllable && !broimdead
+		{
+			if KEY_L
+				axdir = -1
+			if KEY_R
+				axdir = 1
+			var holdrun = 0 //gamepad_button_check(0,CONT_RB)
+			var runsp = 0
+			var walksp = 15
+	
+			if levelcomplete
+			{
+				hsp = approach(hsp,0,0.5)
+				vsp = approach(vsp,0,0.5)
+				yoffspeed += 0.175 // too lazy to cap the speed :p
+				yoff -= yoffspeed
+			}
+			else
+			{
+				if axdir != 0
+					facing = sign(axdir)
+				if abs(axdir) > 0
+					hsp = approach(hsp,(walksp + (holdrun * runsp)) * axdir,0.5)
+				else
+					hsp = approach(hsp,0,1)
+	
+				if (grounded || place_meeting(x,y,obj_airjump) || place_meeting(x,y + 20,obj_solid)) && (gamepad_button_check_pressed(0,CONT_A) || KEY_JMP_P)
+				{
+					if place_meeting(x,y,obj_airjump) // bad coding practice. do i care? no, i have hours remaining.
+						play_sfx(sfx_bubblejump)
+					play_sfx(sfx_jump)
+					vsp = -11
+					jumping = true
+					hasdoublejump = true
+					anim_jump = true
+					image_index = 0
+					
+					if place_meeting(x,y,obj_airjump)
+					{
+						with instance_nearest(x,y,obj_airjump)
+						{
+							image_xscale = 1.6
+							image_yscale = 1.6
+							repeat 15
+								with instance_create_depth(x,y,depth - 1,obj_whiteparticle)
+								{
+									image_angle = point_direction(0,0,hspeed,vspeed)
+									sprite_index = spr_bubbleline
+									alphlower = random_range(0.07,0.09)
+									starth = abs(hspeed / 50)
+									startv = abs(vspeed / 50)
+								}
+						}
+					}
+				}
+				else if can_doublejump && (gamepad_button_check_pressed(0,CONT_A) || KEY_JMP_P)
+				{
+					//repeat 5
+					//	with instance_create_depth(x,y - 15,depth,obj_whiteparticle)
+					//		vspeed = random_range(-3,-5)
+					play_sfx(sfx_jump)
+					vsp = -12
+					jumping = true
+					hasdoublejump = false
+					anim_jump = true
+					image_index = 0
+					anim_hurt = false
+					anim_egg = false
+					
+					//repeat 10
+					//	with instance_create_depth(x,y,depth + 1,obj_eggprojectile)
+					//	{
+					//		hspeed = other.hsp + random_range(-4,4)
+					//		vspeed = random_range(-1,3)	
+					//	}
+				}
+		
+				if jumping && vsp < -3 && (!gamepad_button_check(0,CONT_A) && !KEY_JMP)
+				{
+					vsp = -3
+					jumping = false
+				}
+	
+				//the wallbumb is GONE!
+				//no its not dumbass
+				if place_meeting(x + hsp,y,obj_solid) && abs(hsp) > 4 && place_meeting(x + hsp,y - 32,obj_solid)
+				{
+					play_sfx(choose(sfx_hitwall1,sfx_hitwall2,sfx_hitwall3),false)
+					x -= hsp
+					hsp *= -0.75
+					//if grounded
+					//	vsp = -3
+					//if !place_meeting(x,y - 11,obj_solid)
+					//	y -= 11
+					anim_hurt = true
+					anim_egg = false
+				}
+		
 				
 				if can_groundpound
 				{

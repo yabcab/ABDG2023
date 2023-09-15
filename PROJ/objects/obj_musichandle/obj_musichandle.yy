@@ -1,17 +1,11 @@
 {
-  "spriteId": {
-    "name": "spr_possessable_lavalamp",
-    "path": "sprites/spr_possessable_lavalamp/spr_possessable_lavalamp.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_possessable_parent",
-    "path": "objects/obj_possessable_parent/obj_possessable_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -26,15 +20,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "yesyes",
-    "path": "folders/Objects/ITS A SECRET/aaa/yesyes.yy",
+    "name": "engine",
+    "path": "folders/Objects/engine.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lavalamp",
+  "name": "obj_musichandle",
   "tags": [],
   "resourceType": "GMObject",
 }

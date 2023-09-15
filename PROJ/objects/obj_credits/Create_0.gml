@@ -9,26 +9,16 @@ creditstring = @"
 Jacob
 
 --Playtesting--
-Drooly
-Sodamang
-Marioket
-osp
-?JDrive
+//please find at least one playtester
 
---Bingle Sound--
-Drooly
-
---Featured Animal--
-Bingle
+--Game Prompts--
+Elijah 'EAAK' Kowenski
+Nolan 'bogos' Terrigino
+JP
+Gilberto 'gibbleton' Ruiz
 
 --Music Used--
-Monseni Lotus - Disclaimer
-normal evening - Title
-Planet A - Area 1
-Planet B - Area 2
-Planet Q - Area 3
-Planet X - Area 4
-abc123genesis (trimmed) - Credits
+music :)
 
-Developed March 3rd - June 13th
+Developed September 15th - ENDDATE
 Ver. " + version
