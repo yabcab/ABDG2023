@@ -41,11 +41,11 @@ switch state
 			if anim_hurt
 				sprite_index = spr_playerJ_pain
 			else if anim_jump
-				sprite_index = spr_playerR_jump
+				sprite_index = spr_playerR_jumpstart
 			else if anim_egg
 				sprite_index = spr_playerJ_egg
 			else
-				sprite_index = spr_playerR_jump
+				sprite_index = spr_playerR_jumphold
 		}
 		
 		//STROMBULOUS
