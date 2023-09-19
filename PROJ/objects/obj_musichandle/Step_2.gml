@@ -12,11 +12,16 @@ for (var i = 0; i <= active_slot_count; i++)
 	//if prevslot != slot_active
 	//{
 		if slot_active = i
-			audio_sound_gain(playing_id[i],f_vol[i],f_fadeintime[i])
+		{
+			if ceil(audio_sound_get_gain(playing_id[i])) != f_vol[i]
+				audio_sound_gain(playing_id[i],f_vol[i],f_fadeintime[i])
+		}
 		else
-			audio_sound_gain(playing_id[i],f_absentvol[i],f_fadeouttime[i])
+		{
+			if floor(audio_sound_get_gain(playing_id[i])) != f_absentvol[i]
+				audio_sound_gain(playing_id[i],f_absentvol[i],f_fadeouttime[i])
+		}
 	//}
 }
 
-if prevslot != slot_active
-	prevslot = slot_active
+prevslot = slot_active

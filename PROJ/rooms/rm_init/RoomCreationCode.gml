@@ -20,7 +20,7 @@ globalvar skip_loading; skip_loading = false
 globalvar version; version = "not done yet"
 globalvar possessed_object; possessed_object = noone
 
-room_goto(rm_test)
+room_goto(rm_disclaimer)
 
 if os_type = os_windows
 	window_set_size(1920,1080)

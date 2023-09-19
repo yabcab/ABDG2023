@@ -1,10 +1,13 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_camregion",
+    "path": "sprites/spr_camregion/spr_camregion.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -20,7 +23,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -29,7 +31,7 @@
     "path": "folders/Objects/engine.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_musichandle",
+  "name": "obj_camregion",
   "tags": [],
   "resourceType": "GMObject",
 }

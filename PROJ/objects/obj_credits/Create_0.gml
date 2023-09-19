@@ -5,20 +5,31 @@ alarm[0] = 120 // fucked up workaround for the audio refusing to play
 
 creditstring = @"
 
+
 --Developed by--
-Jacob
+Jacob Scherer
+
+
 
 --Playtesting--
 //please find at least one playtester
+
+
 
 --Game Prompts--
 Elijah 'EAAK' Kowenski
 Nolan 'bogos' Terrigino
 JP
 Gilberto 'gibbleton' Ruiz
+Jayla 'jarlatag' Williams
+
+
 
 --Music Used--
-music :)
+music here :)
+
+
 
 Developed September 15th - ENDDATE
+Built off Trials and Tribulations v1.0.0 Engine
 Ver. " + version
