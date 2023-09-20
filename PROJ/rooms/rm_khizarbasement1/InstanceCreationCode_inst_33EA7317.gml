@@ -1,0 +1,1 @@
+txt = "Possess objects with Ⓨ"

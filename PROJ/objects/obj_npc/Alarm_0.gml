@@ -36,4 +36,12 @@ switch npcid
 		idlespr = spr_redcritter_idle
 	}
 	break;
+	
+	case npcs.toaster:
+	{
+		drawnbg = spr_textbg_placeholder
+		talkspr = spr_toaster_idle
+		idlespr = spr_toaster_idle
+	}
+	break;
 }

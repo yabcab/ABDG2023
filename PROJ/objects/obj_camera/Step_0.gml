@@ -1,6 +1,6 @@
 if instance_exists(obj_player)
 {
-	playercamregion = instance_position(obj_player.x,obj_player.y,obj_camregion)
+	playercamregion = instance_place(obj_player.x,obj_player.y,obj_camregion)
 	
 	//if playercamregion = noone
 	//{

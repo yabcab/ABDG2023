@@ -1,6 +1,6 @@
 if gamepad_button_check_pressed(0,CONT_A) || KEY_JMP_P
 {
-	room_goto(rm_test)
+	room_goto(rm_khizarbasement1)
 	play_sfx(sfx_baby,false)
 }	
 

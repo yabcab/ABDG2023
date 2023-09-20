@@ -1,0 +1,1 @@
+txt = "You can also depossess objects with Ⓨ"

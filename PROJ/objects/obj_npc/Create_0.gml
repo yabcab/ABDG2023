@@ -35,7 +35,9 @@ enum npcs // 5/11/23 - all npcs are in!!
 	badfather,
 	sadguy,
 	updog,
-	redcritter
+	redcritter,
+	toaster,
+	
 }
 alarm[0] = 1
 talkspr = sprite_index

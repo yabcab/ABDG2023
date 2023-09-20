@@ -1,0 +1,1 @@
+txt = "Waltz with the left stick and jump with Ⓐ"
