@@ -37,7 +37,7 @@ enum npcs // 5/11/23 - all npcs are in!!
 	updog,
 	redcritter,
 	toaster,
-	
+	ash_pokemon,
 }
 alarm[0] = 1
 talkspr = sprite_index

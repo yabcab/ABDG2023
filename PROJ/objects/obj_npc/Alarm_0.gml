@@ -44,4 +44,12 @@ switch npcid
 		idlespr = spr_toaster_idle
 	}
 	break;
+	
+	case npcs.ash_pokemon:
+	{
+		drawnbg = spr_textbg_placeholder
+		talkspr = spr_ashpokemon_talk
+		idlespr = spr_ashpokemon_idle
+	}
+	break;
 }

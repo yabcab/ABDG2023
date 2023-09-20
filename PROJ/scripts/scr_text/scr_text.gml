@@ -133,6 +133,35 @@ function text_checker()
 			glue_overlay(spr_updogimage)
 		}
 		break;
+		
+		case "@4:3_ENABLE":
+		{
+			with obj_4by3
+				targ = 0
+		}
+		break;
+		
+		case "@4:3_DISABLE":
+		{
+			with obj_4by3
+				targ = -200
+		}
+		break;
+		
+		case "@POKEBATTLE_START":
+		{
+			override_cambound_music_slots = true;
+			music_set_active_slot(3)
+			music_restart_slot(3)
+			instance_create_depth(0,0,0,obj_pokemonbattlestart)
+		}
+		break;
+		
+		case "@ASH_PUMP_IRON":
+		{
+			talkspr = spr_ashpokemon_pumpiron
+		}
+		break;
 	}
 	
 	if string_copy(text[text_selected],1,1) = "@"

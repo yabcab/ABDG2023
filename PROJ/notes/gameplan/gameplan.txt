@@ -2,9 +2,17 @@
 
 level order:
 -khizars basement (tutorial)
+-cave
 -garbage world super deluxe
 -pantry
 -SOME STUFF HERE
 -bank vault
--FINALE HERE
+-courtroom
 
+death plans:
+ASH:
+-interact with npc
+-false pokemon battle initiates, ash does not whip out a pokemon (important)
+-you can only use fight (lazy programmer)
+-only fight move is "wrecking ball"
+-wrecking ball kills ash

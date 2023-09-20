@@ -19,6 +19,7 @@ globalvar points; points = 0
 globalvar skip_loading; skip_loading = false
 globalvar version; version = "not done yet"
 globalvar possessed_object; possessed_object = noone
+globalvar override_cambound_music_slots; override_cambound_music_slots = false
 
 room_goto(rm_disclaimer)
 

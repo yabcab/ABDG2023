@@ -910,7 +910,7 @@ if arrowframetime >= 30 //2 fps
 
 if talking // to the right of npc when talking
 {
-	sprite_index = spr_playerJ_idle
+	sprite_index = spr_playerR_idle
 	
 	var i = instance_nearest(x,y,obj_npc)
 	if !instance_exists(i)
