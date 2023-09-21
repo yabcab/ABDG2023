@@ -46,6 +46,7 @@
     {"id":{"name":"ts_lev3","path":"tilesets/ts_lev3/ts_lev3.yy",},"order":3,},
     {"id":{"name":"obj_rocketdestroyable","path":"objects/obj_rocketdestroyable/obj_rocketdestroyable.yy",},"order":12,},
     {"id":{"name":"rm_sugar1","path":"rooms/rm_sugar1/rm_sugar1.yy",},"order":9,},
+    {"id":{"name":"lines","path":"notes/lines/lines.yy",},"order":3,},
     {"id":{"name":"spr_meatbox","path":"sprites/spr_meatbox/spr_meatbox.yy",},"order":1,},
     {"id":{"name":"sfx_egghit","path":"sounds/sfx_egghit/sfx_egghit.yy",},"order":17,},
     {"id":{"name":"spr_possessable_chicken","path":"sprites/spr_possessable_chicken/spr_possessable_chicken.yy",},"order":0,},
