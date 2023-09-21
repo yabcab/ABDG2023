@@ -20,8 +20,8 @@ for (var i = 0; i < MAX_MUSIC_SLOTS; i++)
 	playing_index[i] = noone
 	target_index[i] = noone
 	
-	f_fadeintime[i] = 1
-	f_fadeouttime[i] = 1
+	f_fadeintime[i] = 0
+	f_fadeouttime[i] = 0
 	f_vol[i] = 1
 	f_absentvol[i] = 0
 }

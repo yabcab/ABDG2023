@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "mu_pokemonbattle.mp3",
-  "duration": 190.128,
+  "duration": 169.656,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",
