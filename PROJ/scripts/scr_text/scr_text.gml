@@ -150,6 +150,8 @@ function text_checker()
 		
 		case "@POKEBATTLE_START":
 		{
+			with obj_player
+				state = -87 // yeah thatll show em
 			override_cambound_music_slots = true;
 			music_set_active_slot(3)
 			music_restart_slot(3)
@@ -160,6 +162,24 @@ function text_checker()
 		case "@ASH_PUMP_IRON":
 		{
 			talkspr = spr_ashpokemon_pumpiron
+		}
+		break;
+		
+		case "@ASH_OUT":
+		{
+			idlespr = spr_empty
+			talkspr = spr_empty
+			instance_create_depth(x,y,101,obj_risinggrave)
+			x = -1000
+			y = -1000
+			
+			override_cambound_music_slots = false
+		}
+		break;
+		
+		case "@POKEWINMUSIC":
+		{
+			music_set_slot_target(3,mu_pokemonwin)
 		}
 		break;
 	}

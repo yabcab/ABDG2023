@@ -1,2 +1,2 @@
 state = 0
-alarm[0] = 120
+alarm[0] = 80

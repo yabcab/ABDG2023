@@ -22,6 +22,7 @@ Nolan 'bogos' Terrigino
 JP
 Gilberto 'gibbleton' Ruiz
 Jayla 'jarlatag' Williams
+Eli 'Franklin Alligator' Margehowdoyouspellthatbro
 
 
 
@@ -32,4 +33,7 @@ music here :)
 
 Developed September 15th - ENDDATE
 Built off Trials and Tribulations v1.0.0 Engine
+
+
+Thanks for playing!
 Ver. " + version

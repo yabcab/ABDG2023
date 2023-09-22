@@ -41,8 +41,11 @@ if os_type = os_windows
 #macro CONT_LT gp_shoulderl
 
 #macro KEY_L keyboard_check(vk_left)
+#macro KEY_L_P keyboard_check_pressed(vk_left)
 #macro KEY_R keyboard_check(vk_right)
+#macro KEY_R_P keyboard_check_pressed(vk_right)
 #macro KEY_U keyboard_check(vk_up)
+#macro KEY_U_P keyboard_check_pressed(vk_up)
 #macro KEY_D keyboard_check(vk_down)
 #macro KEY_D_P keyboard_check_pressed(vk_down)
 #macro KEY_JMP keyboard_check(ord("Z"))
@@ -51,3 +54,18 @@ if os_type = os_windows
 #macro KEY_EGG_P keyboard_check_pressed(ord("X"))
 #macro KEY_POS keyboard_check(ord("C"))
 #macro KEY_POS_P keyboard_check_pressed(ord("C"))
+
+enum pokeframes
+{
+	start = 0,
+	menu_sfight,
+	menu_sother,
+	menu_sitem,
+	menu_sflee,
+	sel_fight,
+	sel_item,
+	sel_other,
+	sel_flee,
+	supereffective,
+	winner,
+}
