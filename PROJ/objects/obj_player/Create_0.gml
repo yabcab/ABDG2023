@@ -41,6 +41,7 @@ enum states
 	golf,
 	groundpound,
 	floured,
+	mariodeath,
 	
 	//possesions
 	chicken,
@@ -53,3 +54,4 @@ make_shadow()
 
 eggtime = 0
 lamptimer = 0
+mariotimer = 0
