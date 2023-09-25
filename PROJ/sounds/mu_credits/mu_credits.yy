@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 1,
-  "volume": 0.25,
+  "volume": 0.4,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mu_credits.wav",
-  "duration": 38.499,
+  "soundFile": "mu_credits.mp3",
+  "duration": 89.05143,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",
