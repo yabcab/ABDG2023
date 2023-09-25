@@ -16,7 +16,8 @@ Nolan 'bogos' Terrigino
 J 'T-Rex' P
 Gilberto 'gibbleton' Ruiz
 Jayla 'jarlatag' Williams
-Eli 'Franklin Alligator' Margehowdoyouspellthatbro
+Eli 'The Evil One' Margehowdoyouspellthatbro
+Khizar 'Hamburger' Saiyad
 
 
 

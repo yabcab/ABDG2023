@@ -10,7 +10,13 @@ draw_sprite(spr_textbox_border,0,0,textbox_yoff - 10)
 draw_set_font(fnt_game)
 draw_set_color(c_black)
 draw_set_alpha(0.25)
-draw_text(xx-2,yy+2,textcopy)
+if dyslexia_mode
+	draw_text(xx-2,yy+2,dys_textcopy)
+else
+	draw_text(xx-2,yy+2,textcopy)
 draw_set_color(c_white)
 draw_set_alpha(1)
-draw_text(xx,yy,textcopy)
+if dyslexia_mode
+	draw_text(xx,yy,dys_textcopy)
+else
+	draw_text(xx,yy,textcopy)

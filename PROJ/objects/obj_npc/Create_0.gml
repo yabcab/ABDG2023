@@ -22,6 +22,9 @@ textbox_yoff = 100
 
 speaking = false
 
+dyslexia_mode = false
+dys_textcopy = ""
+
 //435y
 surf = surface_create(960,115)
 drawnbg = spr_textbg_placeholder
@@ -46,3 +49,4 @@ idlespr = sprite_index
 make_shadow()
 
 fadeaway = false
+dys_timer = 0
