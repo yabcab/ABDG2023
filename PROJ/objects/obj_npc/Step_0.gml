@@ -114,7 +114,7 @@ if speaking
 				if string_width(string_copy(textcopy,textlinestart,999)) > text_wrap_width && string_copy(text[text_selected],text_spot,1) = " "
 					textcopy += "\n"
 			}
-			dys_textcopy = ""
+			dys_textcopy = textcopy
 		}
 	}
 }
@@ -178,11 +178,11 @@ if fadeaway
 		
 			//build it
 			if dyslexia_swap_letters = 12
-				dys_textcopy += string_copy(text[text_selected],i + 1,1)
+				dys_textcopy += string_copy(textcopy,i + 1,1)
 			else if dyslexia_prev_swap_letters && i != 1
-				dys_textcopy += string_copy(text[text_selected],i - 2,1)
+				dys_textcopy += string_copy(textcopy,i - 2,1)
 			else
-				dys_textcopy += string_copy(text[text_selected],i,1)
+				dys_textcopy += string_copy(textcopy,i,1)
 		
 			//if dyslexia_swap_letters
 			//	dyslexia_prev_swap_letters = true
