@@ -1,4 +1,4 @@
-if state = states.normal && !other.dead
+if state = states.normal && !other.dead && state != states.mariodeath
 {
 	if bbox_bottom < other.y + 30 && vsp > -9 // ag
 	{
@@ -15,7 +15,8 @@ if state = states.normal && !other.dead
 	}
 	else
 	{
-		
+		state = states.mariodeath
+		play_sfx(sfx_goombadeath,false)
 	}
 }
 else if state = states.rocket

@@ -884,6 +884,33 @@ switch state
 			runtimer = 99
 	}
 	break;
+	
+	case states.mariodeath:
+	{
+		sprite_index = spr_playerR_touchgoomba
+		vsp = 0
+		hsp = 0
+		mariotimer++
+		if mariotimer = 60
+		{
+			mariospeed = -9
+		}
+		if mariotimer > 60
+		{
+			yoff += mariospeed
+			mariospeed = approach(mariospeed,12,0.5)
+		}
+		
+		if yoff > 500
+		{
+			state = states.normal
+			mariotimer = 0
+			yoff = 0
+			x = xstart // make checkpoint sys later
+			y = ystart
+		}
+	}
+	break;
 }
 
 #region up arrow

@@ -55,3 +55,4 @@ make_shadow()
 eggtime = 0
 lamptimer = 0
 mariotimer = 0
+mariospeed = 0
