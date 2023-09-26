@@ -1,6 +1,6 @@
 if state = states.normal && !other.dead && state != states.mariodeath
 {
-	if bbox_bottom < other.y + 30 && vsp > -9 // ag
+	if bbox_bottom < other.y + 40 && vsp > -9 // ag
 	{
 		play_sfx(sfx_goombastomp)
 		instance_create_depth(other.x,other.y,-100,obj_100)
@@ -12,6 +12,7 @@ if state = states.normal && !other.dead && state != states.mariodeath
 			vsp = -12
 		else
 			vsp = -8
+		y -= 5
 	}
 	else
 	{

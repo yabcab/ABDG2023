@@ -172,7 +172,7 @@ if fadeaway
 		for (var i = 1; i < string_length(textcopy); i++)
 		{
 			//am i a swapper?
-			randomize()
+			//randomize()
 			if !dyslexia_prev_swap_letters
 				dyslexia_swap_letters = irandom_range(1,13)
 		
@@ -184,10 +184,10 @@ if fadeaway
 			else
 				dys_textcopy += string_copy(text[text_selected],i,1)
 		
-			if dyslexia_swap_letters
-				dyslexia_prev_swap_letters = true
-			else 
-				dyslexia_prev_swap_letters = false
+			//if dyslexia_swap_letters
+			//	dyslexia_prev_swap_letters = true
+			//else 
+			//	dyslexia_prev_swap_letters = false
 		
 			dyslexia_swap_letters = -1
 		}

@@ -182,6 +182,18 @@ function text_checker()
 			music_set_slot_target(3,mu_pokemonwin)
 		}
 		break;
+		
+		case "@DYSLEXIA_ENABLE":
+		{
+			dyslexia_mode = true
+		}
+		break;
+		
+		case "@DYSLEXIA_DISABLE":
+		{
+			dyslexia_mode = false
+		}
+		break;
 	}
 	
 	if string_copy(text[text_selected],1,1) = "@"
