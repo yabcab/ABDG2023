@@ -5,34 +5,44 @@ alarm[0] = 120 // fucked up workaround for the audio refusing to play
 
 creditstring = @"
 
-
 --Developed by--
 Jacob Scherer
-
-
-
---Playtesting--
-//please find at least one playtester
 
 
 
 --Game Prompts--
 Elijah 'EAAK' Kowenski
 Nolan 'bogos' Terrigino
-JP
+J 'T-Rex' P
 Gilberto 'gibbleton' Ruiz
 Jayla 'jarlatag' Williams
-Eli 'Franklin Alligator' Margehowdoyouspellthatbro
+Eli 'The Evil One' Margehowdoyouspellthatbro
+Khizar 'Hamburger' Saiyad
 
 
 
 --Music Used--
-music here :)
+Khizar's Basement - The Grey Skies Of The Haunted Playground
+Lava Lamp Camp - ghost surfing
+Ash Room - trances
+Ash Battle - Battle Theme - Pokemon Emerald
+Ash Victory - TAC#21: The Journey Continues!
+Caverns - Candescent Chasm
+Eli Goomba Tunnel - The Toneland Intermission
+Credits - TAC#6: Skinner Box
+
+
+
+--Quest of The Quenge (2020)--
+Developed by Jacob Scherer and Elijah Kowenseki
+(QOTQ IS NOT REPRESENTATIVE OF TODAY'S CREATIONS,
+IT WAS INCLUDED AS AN ARCADE GAME FOR THE LOLS.)
 
 
 
 Developed September 15th - ENDDATE
 Built off Trials and Tribulations v1.0.0 Engine
+
 
 
 Thanks for playing!

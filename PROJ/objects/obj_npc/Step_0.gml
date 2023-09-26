@@ -36,6 +36,43 @@ if speaking
 		if string_width(string_copy(textcopy,textlinestart,999)) > text_wrap_width && string_copy(text[text_selected],text_spot,1) = " "
 			textcopy += "\n"
 		text_spot++
+		
+		//if dyslexia_mode
+		//{
+		//	dys_timer--
+		//	if dys_timer <= 0
+		//	{
+		//		dys_timer = 15
+		//		dys_textcopy = ""
+		//		var dyslexia_swap_letters = false
+		//		var dyslexia_prev_swap_letters = false
+		//		for (var i = 1; i < string_length(textcopy); i++)
+		//		{
+		//			//am i a swapper?
+		//			randomize()
+		//			if !dyslexia_prev_swap_letters
+		//				dyslexia_swap_letters = irandom_range(1,12)
+		
+		//			//build it
+		//			if dyslexia_swap_letters = 1
+		//				dys_textcopy += string_copy(textcopy,i + 1,1)
+		//			else if dyslexia_prev_swap_letters
+		//				dys_textcopy += string_copy(textcopy,i - 2,1)
+		//			else
+		//				dys_textcopy += string_copy(textcopy,i,1)
+		
+		//			if dyslexia_swap_letters
+		//				dyslexia_prev_swap_letters = true
+		//			else dyslexia_prev_swap_letters = false
+		
+		//			dyslexia_swap_letters = false
+		//		}
+		//	}
+		//	else
+		//	{
+		//		dys_textcopy += string_copy(textcopy,text_spot,1)
+		//	}
+		//}
 	}
 	
 	if gamepad_button_check_pressed(0,CONT_A) || KEY_JMP_P
@@ -45,6 +82,7 @@ if speaking
 			if text_selected < max_texts
 			{
 				textcopy = ""
+				dys_textcopy = ""
 				text_spot = 1
 				text_selected++
 				play_sfx(sfx_textcontinue,false)
@@ -55,6 +93,7 @@ if speaking
 				textbox_show = false
 				text_selected = 0
 				textcopy = ""
+				dys_textcopy = ""
 				textcopy_timer = 0
 				text_spot = 1
 
@@ -75,6 +114,7 @@ if speaking
 				if string_width(string_copy(textcopy,textlinestart,999)) > text_wrap_width && string_copy(text[text_selected],text_spot,1) = " "
 					textcopy += "\n"
 			}
+			dys_textcopy = ""
 		}
 	}
 }
@@ -117,3 +157,39 @@ if fadeaway
 	if image_alpha <= 0
 		instance_destroy()
 }
+
+//if string_length(textcopy) >= string_length(text[text_selected])
+//{
+	dys_timer--
+	var dyslexia_swap_letters = false
+	var dyslexia_prev_swap_letters = false
+	if dys_timer <= 0
+	{
+		dys_timer = 15
+		dys_textcopy = ""
+		var dyslexia_swap_letters = false
+		var dyslexia_prev_swap_letters = false
+		for (var i = 1; i < string_length(textcopy); i++)
+		{
+			//am i a swapper?
+			randomize()
+			if !dyslexia_prev_swap_letters
+				dyslexia_swap_letters = irandom_range(1,13)
+		
+			//build it
+			if dyslexia_swap_letters = 12
+				dys_textcopy += string_copy(text[text_selected],i + 1,1)
+			else if dyslexia_prev_swap_letters && i != 1
+				dys_textcopy += string_copy(text[text_selected],i - 2,1)
+			else
+				dys_textcopy += string_copy(text[text_selected],i,1)
+		
+			if dyslexia_swap_letters
+				dyslexia_prev_swap_letters = true
+			else 
+				dyslexia_prev_swap_letters = false
+		
+			dyslexia_swap_letters = -1
+		}
+	}
+//}
