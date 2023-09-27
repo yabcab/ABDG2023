@@ -1,0 +1,26 @@
+{
+  "kind": 1,
+  "closed": false,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":325.0,"y":121.0,},
+    {"speed":100.0,"x":353.0,"y":131.0,},
+    {"speed":100.0,"x":384.0,"y":161.0,},
+    {"speed":100.0,"x":389.0,"y":197.0,},
+    {"speed":100.0,"x":379.0,"y":226.0,},
+    {"speed":100.0,"x":342.0,"y":250.0,},
+    {"speed":100.0,"x":303.0,"y":235.0,},
+    {"speed":100.0,"x":286.0,"y":215.0,},
+    {"speed":100.0,"x":281.0,"y":150.0,},
+    {"speed":100.0,"x":298.0,"y":131.0,},
+    {"speed":100.0,"x":322.0,"y":122.0,},
+  ],
+  "parent": {
+    "name": "QOTQ",
+    "path": "folders/Paths/QOTQ.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "CarrotCircle",
+  "tags": [],
+  "resourceType": "GMPath",
+}

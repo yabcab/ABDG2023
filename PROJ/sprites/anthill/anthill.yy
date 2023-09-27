@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "EnemyRelated",
-    "path": "folders/Sprites/EnemyRelated.yy",
+    "name": "QOTQ",
+    "path": "folders/Sprites/QOTQ.yy",
   },
   "resourceVersion": "1.0",
   "name": "Anthill",
