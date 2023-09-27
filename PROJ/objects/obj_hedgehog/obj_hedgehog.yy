@@ -1,12 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_playerR_idle",
-    "path": "sprites/spr_playerR_idle/spr_playerR_idle.yy",
+    "name": "spr_possessable_hedgehog",
+    "path": "sprites/spr_possessable_hedgehog/spr_possessable_hedgehog.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_playerR_idle",
+    "path": "sprites/spr_playerR_idle/spr_playerR_idle.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_possessable_parent",
