@@ -121,7 +121,7 @@ if speaking
 else
 {
 	textbox_yoff = lerp(textbox_yoff,150,0.2)
-	if place_meeting(x,y,obj_player) && (gamepad_axis_value(0,gp_axislv) < -0.2 || keyboard_check(vk_up)) && !speaking && !fadeaway && obj_player.state != states.floured && obj_player.state != states.rocket
+	if place_meeting(x,y,obj_player) && (gamepad_axis_value(0,gp_axislv) < -0.2 || keyboard_check(vk_up)) && !speaking && !fadeaway && obj_player.state != states.floured && obj_player.state != states.rocket && obj_player.state = states.normal
 	{
 		play_sfx(sfx_textopen,false)
 		speaking = true
@@ -169,16 +169,20 @@ if fadeaway
 		dys_textcopy = ""
 		var dyslexia_swap_letters = false
 		var dyslexia_prev_swap_letters = false
-		//lets get it bro
 		for (var i = 1; i < string_length(textcopy); i++)
 		{
-			//am i going to shuffle shit?
+			//am i a swapper?
 			//randomize()
+			var dyslexia_char_at_place = string_copy(textcopy,i,1)
+			var dyslexia_char_at_next_place = string_copy(textcopy,i + 1,1)
+			
 			if !dyslexia_prev_swap_letters
-				dyslexia_swap_letters = irandom_range(1,13)
+				dyslexia_swap_letters = irandom_range(1,8)
+			if dyslexia_char_at_place = "\n" || dyslexia_char_at_next_place = "\n" // basically dont swap out newlines
+				dyslexia_swap_letters = -1
 		
-			//rebuild the string from textcopy
-			if dyslexia_swap_letters = 12
+			//build it
+			if dyslexia_swap_letters = 8
 				dys_textcopy += string_copy(textcopy,i + 1,1)
 			else if dyslexia_prev_swap_letters && i != 1
 				dys_textcopy += string_copy(textcopy,i - 2,1)
@@ -189,8 +193,7 @@ if fadeaway
 			//	dyslexia_prev_swap_letters = true
 			//else 
 			//	dyslexia_prev_swap_letters = false
-			
-			//NO MORE....
+		
 			dyslexia_swap_letters = -1
 		}
 	}

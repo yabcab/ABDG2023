@@ -47,6 +47,12 @@ enum states
 	chicken,
 	train,
 	lavalamp,
+	car,
+	circle,
+	objection,
+	rollers,
+	hedgehog,
+	sandal,
 }
 state = states.normal
 

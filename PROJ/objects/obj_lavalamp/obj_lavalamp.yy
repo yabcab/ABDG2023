@@ -6,7 +6,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_playerR_idle",
+    "path": "sprites/spr_playerR_idle/spr_playerR_idle.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_possessable_parent",

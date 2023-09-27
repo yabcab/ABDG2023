@@ -52,4 +52,12 @@ switch npcid
 		idlespr = spr_ashpokemon_idle
 	}
 	break;
+	
+	case npcs.bogus: // TODO: FIND BOGOS SPRITE
+	{
+		drawnbg = spr_textbg_placeholder
+		talkspr = spr_nolana_talk
+		idlespr = spr_nolana_idle
+	}
+	break;
 }

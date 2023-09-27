@@ -17,7 +17,7 @@ if state = states.normal
 	hsp = lengthdir_x(sp,dir)
 	vsp = lengthdir_y(sp,dir)
 }
-else if state = states.rocket
+else if state = states.rocket || state = states.chicken
 {
 	points += 125
 	instance_destroy(other)
