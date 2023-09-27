@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_possessable_hedgehog",
-    "path": "sprites/spr_possessable_hedgehog/spr_possessable_hedgehog.yy",
+    "name": "spr_playerR_idle",
+    "path": "sprites/spr_playerR_idle/spr_playerR_idle.yy",
   },
   "solid": false,
   "visible": true,

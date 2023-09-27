@@ -39,7 +39,7 @@ switch state
 		else
 		{
 			if anim_hurt
-				sprite_index = spr_playerJ_pain
+				sprite_index = spr_playerR_hurt
 			else if anim_jump
 				sprite_index = spr_playerR_jumpstart
 			else if anim_egg

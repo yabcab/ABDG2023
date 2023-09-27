@@ -58,6 +58,7 @@
     {"id":{"name":"sfx_egghit","path":"sounds/sfx_egghit/sfx_egghit.yy",},"order":17,},
     {"id":{"name":"spr_possessable_chicken","path":"sprites/spr_possessable_chicken/spr_possessable_chicken.yy",},"order":0,},
     {"id":{"name":"sfx_explosion","path":"sounds/sfx_explosion/sfx_explosion.yy",},"order":32,},
+    {"id":{"name":"spr_playerR_hurt","path":"sprites/spr_playerR_hurt/spr_playerR_hurt.yy",},"order":6,},
     {"id":{"name":"obj_killedrocket","path":"objects/obj_killedrocket/obj_killedrocket.yy",},"order":11,},
     {"id":{"name":"mu_intermission","path":"sounds/mu_intermission/mu_intermission.yy",},"order":2,},
     {"id":{"name":"spr_npcarrow","path":"sprites/spr_npcarrow/spr_npcarrow.yy",},"order":5,},
