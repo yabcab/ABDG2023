@@ -12,11 +12,11 @@ Jacob Scherer
 
 --Game Prompts--
 Elijah 'EAAK' Kowenski
-Nolan 'bogos' Terrigino
+Nolan 'Bogos' Terrigino
 J 'T-Rex' P
 Gilberto 'gibbleton' Ruiz
 Jayla 'jarlatag' Williams
-Eli 'The Evil One' Margehowdoyouspellthatbro
+Eli 'The Evil One' Marge-howdoyouspellthatbro
 Khizar 'Hamburger' Saiyad
 
 

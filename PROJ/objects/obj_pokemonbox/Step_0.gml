@@ -11,6 +11,8 @@ if rotatepls
 		wait = false
 		sel = pokeframes.supereffective
 		render_trainer2 = false
+		if !instance_exists(obj_deadash)
+			instance_create_depth(686,109,depth,obj_deadash)
 	}
 	if rot > 180
 		rotatepls = false
@@ -69,7 +71,7 @@ switch sel
 				text[i++] = "Well it seems that I have been bested..."
 				text[i++] = "I HATE your BITCH ASS I hope you DIE tomorrow because I DO NOT LIKE YOU VERY MUCH OKAY."
 				text[i++] = "Also, I will open the door, because I am a rebel and do not follow the rules, because I am Ash from Pokemon."
-				text[i++] = "Ash pokemon out!"
+				text[i++] = "Ash from Pokemon out!"
 				text[i++] = "@ASH_OUT"
 				
 				max_texts = i - 1

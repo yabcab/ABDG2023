@@ -5,7 +5,7 @@ with obj_player
 var closest_possessable = instance_nearest(obj_player.x,obj_player.y,obj_possessable_parent)
 var just_possessed = false
 
-if closest_possessable = id && (KEY_POS_P || gamepad_button_check_pressed(0,CONT_Y)) && possessed_object = noone && obj_player.grounded
+if closest_possessable = id && (KEY_POS_P || gamepad_button_check_pressed(0,CONT_Y)) && possessed_object = noone && obj_player.grounded && dist < 300 && !obj_player.talking
 {
 	obj_player.state = possessed_state
 	possessed_object = id
