@@ -169,14 +169,15 @@ if fadeaway
 		dys_textcopy = ""
 		var dyslexia_swap_letters = false
 		var dyslexia_prev_swap_letters = false
+		//lets get it bro
 		for (var i = 1; i < string_length(textcopy); i++)
 		{
-			//am i a swapper?
+			//am i going to shuffle shit?
 			//randomize()
 			if !dyslexia_prev_swap_letters
 				dyslexia_swap_letters = irandom_range(1,13)
 		
-			//build it
+			//rebuild the string from textcopy
 			if dyslexia_swap_letters = 12
 				dys_textcopy += string_copy(textcopy,i + 1,1)
 			else if dyslexia_prev_swap_letters && i != 1
@@ -188,7 +189,8 @@ if fadeaway
 			//	dyslexia_prev_swap_letters = true
 			//else 
 			//	dyslexia_prev_swap_letters = false
-		
+			
+			//NO MORE....
 			dyslexia_swap_letters = -1
 		}
 	}
