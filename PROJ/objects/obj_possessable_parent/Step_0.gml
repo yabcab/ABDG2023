@@ -7,6 +7,11 @@ var just_possessed = false
 
 if closest_possessable = id && (KEY_POS_P || gamepad_button_check_pressed(0,CONT_Y)) && possessed_object = noone && obj_player.grounded && dist < 300 && !obj_player.talking
 {
+	if possessmusic
+	{
+		override_cambound_music_slots = true
+		music_set_active_slot(pos_slot)	
+	}
 	obj_player.state = possessed_state
 	possessed_object = id
 	just_possessed = true
@@ -19,6 +24,8 @@ if possessed_object = id && !just_possessed
 	y = obj_player.y
 	if (KEY_POS_P || gamepad_button_check_pressed(0,CONT_Y)) && exitable
 	{
+		if possessmusic
+			override_cambound_music_slots = false
 		possessed_object = noone
 		obj_player.state = states.normal
 		//obj_player.hsp = 0

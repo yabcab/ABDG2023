@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Farm",
-    "path": "folders/Sprites/Levels/Farm.yy",
+    "name": "QOTQ",
+    "path": "folders/Sprites/QOTQ.yy",
   },
   "resourceVersion": "1.0",
   "name": "FarmDecorTilesSpr_1",

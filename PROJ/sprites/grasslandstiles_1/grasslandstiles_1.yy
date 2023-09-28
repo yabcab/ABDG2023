@@ -148,8 +148,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Grasslands",
-    "path": "folders/Sprites/Levels/Grasslands.yy",
+    "name": "QOTQ",
+    "path": "folders/Sprites/QOTQ.yy",
   },
   "resourceVersion": "1.0",
   "name": "GrasslandsTiles_1",

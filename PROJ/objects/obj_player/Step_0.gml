@@ -906,8 +906,8 @@ switch state
 			state = states.normal
 			mariotimer = 0
 			yoff = 0
-			x = xstart // make checkpoint sys later
-			y = ystart
+			x = checkpointx
+			y = checkpointy
 		}
 	}
 	break;
@@ -916,6 +916,8 @@ switch state
 	{
 		sprite_index = spr_possessable_hedgehog
 		image_index = 1
+		if hog_charge > 0
+			image_index = 2
 		image_speed = 0
 		
 		//STROMBULOUS
@@ -933,6 +935,16 @@ switch state
 		
 		if controllable && !broimdead
 		{
+			hog_charge = approach(hog_charge,-15,1)
+			if gamepad_button_check_pressed(0,CONT_X) || KEY_EGG_P
+			{
+				if hog_charge <= -15
+				{
+					hog_charge = 15
+					
+				}
+			}
+			
 			if KEY_L
 				axdir = -1
 			if KEY_R
@@ -950,6 +962,8 @@ switch state
 			}
 			else
 			{
+				//if hog_charge > 0 && grounded
+					//axdir = 0
 				if axdir != 0
 					facing = sign(axdir)
 				if abs(axdir) > 0

@@ -1,4 +1,5 @@
 draw_text(x,y + bobsin,@"
-Number 2 :o
+hey the games not done yet 
+just wanna let u know
 
 Press Ⓐ to continue.") // this took forever to format correctly

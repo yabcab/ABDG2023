@@ -148,8 +148,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Swamp",
-    "path": "folders/Sprites/Levels/Swamp.yy",
+    "name": "QOTQ",
+    "path": "folders/Sprites/QOTQ.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprite247_1",

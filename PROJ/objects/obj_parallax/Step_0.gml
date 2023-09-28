@@ -1,6 +1,8 @@
-//no pausing BITCH!
-//if (pausestate != pause_state.pausenotplayer && pausestate != pause_state.pauseall)
-//{
-	x_scroll_val += x_scroll
-	y_scroll_val += y_scroll
-//}
+x_scroll_val += x_scroll
+y_scroll_val += y_scroll
+	
+if bob
+{
+	time++
+	boby = sin(time / bob_damp) * bob_amt
+}
