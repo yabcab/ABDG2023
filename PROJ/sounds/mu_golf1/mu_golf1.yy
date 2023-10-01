@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "mu_golf1.mp3",
-  "duration": 119.472,
+  "duration": 259.70938,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",

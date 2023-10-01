@@ -2,5 +2,8 @@ npcid = npcs.toaster
 
 text[0] = "Well well well buddy, let's see if you killed them all"
 text[1] = "@CHECK_ELI_KILLSTREAK"
-text[2] = "If you are seeing this, either I have not added the functionality yet, or something has gone horribly wrong with the code."
-max_texts = 2
+text[2] = "CHECK FAILED LOL."
+text[3] = "@MAKE_GOAL_FLAG_ELICAVE"
+text[4] = "Here touch that flag lookin' shit."
+text[5] = "We are playing golf soon get ready bitchass."
+max_texts = 5

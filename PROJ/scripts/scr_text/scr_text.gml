@@ -194,6 +194,14 @@ function text_checker()
 			dyslexia_mode = false
 		}
 		break;
+		
+		case "@MAKE_GOAL_FLAG_ELICAVE":
+		{
+			with instance_create_depth(9600,1760,depth,obj_nextlevel)
+				targetroom = rm_loadtogolf
+			repeat 25
+				instance_create_depth(9600,1760,depth,obj_whiteparticle)
+		}
 	}
 	
 	if string_copy(text[text_selected],1,1) = "@"

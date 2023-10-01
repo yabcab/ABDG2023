@@ -349,6 +349,13 @@ switch state
 			vsp *= -0.6
 			hsp /= 1.05
 		}
+		if place_meeting(x,y + vsp,obj_platform) && !place_meeting(x,y + 1,obj_platform) && (abs(vsp) > 7 || (abs(hsp) > 8 && abs(vsp) > 3)) && vsp > 0
+		{
+			if !place_meeting(x,y - vsp,obj_solid)
+				y -= vsp
+			vsp *= -0.6
+			hsp /= 1.05
+		}
 		if place_meeting(x + hsp,y,obj_solid) && abs(hsp) > 3
 		{
 			x -= hsp
