@@ -302,6 +302,8 @@ switch state
 	
 	case states.golf:
 	{
+		sprite_index = spr_playerR_golfball
+		
 		rot -= hsp
 		if rot > 360
 			rot -= 360
@@ -316,6 +318,8 @@ switch state
 		{
 			if mouse_check_button_pressed(mb_left)
 			{
+				play_sfx(sfx_golfhit)
+				
 				var sp = 30
 				var dir = point_direction(x,y,mouse_x,mouse_y)
 				var h = lengthdir_x(sp,dir)
@@ -327,11 +331,25 @@ switch state
 			}
 			
 			drawray = true
+			
+			if gamepad_button_check_pressed(0,CONT_LB) || gamepad_button_check_pressed(0,CONT_LT) || gamepad_button_check_pressed(0,CONT_RB) || gamepad_button_check_pressed(0,CONT_RT)
+			{
+				play_sfx(sfx_golfhit)
+				
+				var sp = 30
+				var dir = point_direction(x,y,x + gamepad_axis_value(0,gp_axislh),y + gamepad_axis_value(0,gp_axislv))
+				var h = lengthdir_x(sp,dir)
+				var v = lengthdir_y(sp,dir)
+				
+				hsp = h
+				vsp = v
+				cangolf = false
+			}
 		}
 		else
 		{
 			drawray = false
-			if abs(vsp) < 0.5 && abs(hsp) < 0.5
+			if abs(vsp) < 0.5 && abs(hsp) < 0.5 && !cangolf
 			{
 				cangolf = true
 				hsp = 0
@@ -344,6 +362,7 @@ switch state
 		
 		if place_meeting(x,y + vsp,obj_solid) && (abs(vsp) > 7 || (abs(hsp) > 8 && abs(vsp) > 3))
 		{
+			play_sfx(choose(sfx_hitwall1,sfx_hitwall2,sfx_hitwall3),false)
 			if !place_meeting(x,y - vsp,obj_solid)
 				y -= vsp
 			vsp *= -0.6
@@ -351,6 +370,7 @@ switch state
 		}
 		if place_meeting(x,y + vsp,obj_platform) && !place_meeting(x,y + 1,obj_platform) && (abs(vsp) > 7 || (abs(hsp) > 8 && abs(vsp) > 3)) && vsp > 0
 		{
+			play_sfx(choose(sfx_hitwall1,sfx_hitwall2,sfx_hitwall3),false)
 			if !place_meeting(x,y - vsp,obj_solid)
 				y -= vsp
 			vsp *= -0.6
@@ -358,6 +378,7 @@ switch state
 		}
 		if place_meeting(x + hsp,y,obj_solid) && abs(hsp) > 3
 		{
+			play_sfx(choose(sfx_hitwall1,sfx_hitwall2,sfx_hitwall3),false)
 			x -= hsp
 			hsp *= -0.6
 		}

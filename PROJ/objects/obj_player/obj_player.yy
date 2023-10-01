@@ -42,8 +42,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "yesyes",
-    "path": "folders/Objects/ITS A SECRET/aaa/yesyes.yy",
+    "name": "engine",
+    "path": "folders/Objects/engine.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_player",

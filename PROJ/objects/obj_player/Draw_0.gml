@@ -1,7 +1,10 @@
+draw_sprite_ext(sprite_index,image_index,x,y + yoff,image_xscale * facing,image_yscale,rot,image_blend,image_alpha)
+draw_sprite_ext(spr_npcarrow,arrowframe,x,y - 75 + arrowoff + arrowbob,1,1,0,c_white,arrowalph)
+
 if drawray
 {
 	//init ray
-	var x_new, y_new, x_old, y_old, x_vel, y_vel, init_spd, previously_walled, pset, max_steps, steps
+	var x_new, y_new, x_old, y_old, x_vel, y_vel, init_spd, previously_walled, pset, max_steps, steps, axh, axv
 	init_spd = 20
 	steps = 0
 	x_vel = 0
@@ -9,6 +12,10 @@ if drawray
 	previously_walled = false
 	pset = false
 	max_steps = 20
+	axh = gamepad_axis_value(0,gp_axislh)
+	axv = gamepad_axis_value(0,gp_axislv)
+	if axh = 0 && axv = 0
+		exit; //dont draw when not aiming
 	
 	//grab coords
 	x_old = x
@@ -17,7 +24,7 @@ if drawray
 	y_new = y_old
 	
 	//grab velocity
-	var dir = point_direction(x,y,mouse_x,mouse_y)
+	var dir = point_direction(x,y,x + axh,y + axv)
 	x_vel = lengthdir_x(init_spd,dir)
 	y_vel = lengthdir_y(init_spd,dir)
 	
@@ -52,6 +59,3 @@ if drawray
 			pset = position_meeting(x_new,y_new,obj_solid)
 	}
 }
-
-draw_sprite_ext(sprite_index,image_index,x,y + yoff,image_xscale * facing,image_yscale,rot,image_blend,image_alpha)
-draw_sprite_ext(spr_npcarrow,arrowframe,x,y - 75 + arrowoff + arrowbob,1,1,0,c_white,arrowalph)

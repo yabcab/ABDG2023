@@ -15,9 +15,14 @@ Elijah 'EAAK' Kowenski
 Nolan 'Bogos' Terrigino
 J 'T-Rex' P
 Gilberto 'gibbleton' Ruiz
-Jayla 'jarlatag' Williams
-Eli 'The Evil One' Marge-howdoyouspellthatbro
+Eli 'The Evil One' Marblecountertop
 Khizar 'Hamburger' Saiyad
+
+
+--Quest of The Quenge (2020)--
+Developed by Jacob Scherer and Elijah Kowenseki
+(QOTQ IS NOT REPRESENTATIVE OF TODAY'S CREATIONS,
+IT WAS INCLUDED AS AN ARCADE GAME FOR THE LOLS.)
 
 
 
@@ -28,15 +33,13 @@ Ash Room - trances
 Ash Battle - Battle Theme - Pokemon Emerald
 Ash Victory - TAC#21: The Journey Continues!
 Caverns - Candescent Chasm
+Hedgehog Theme - Red&Green - Op. 40 No. 1, Prelude
 Eli Goomba Tunnel - The Toneland Intermission
+Minigolf - No Speed Limit!
+Garbage World Deluxe Super - Metally Slime Melody
+Car Theme - zugzwang
+Shoot The Bogos - [Cover] SUPER-REFLEX - Megalomachia2
 Credits - TAC#6: Skinner Box
-
-
-
---Quest of The Quenge (2020)--
-Developed by Jacob Scherer and Elijah Kowenseki
-(QOTQ IS NOT REPRESENTATIVE OF TODAY'S CREATIONS,
-IT WAS INCLUDED AS AN ARCADE GAME FOR THE LOLS.)
 
 
 

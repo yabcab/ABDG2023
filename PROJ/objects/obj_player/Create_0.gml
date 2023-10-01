@@ -33,6 +33,7 @@ anim_egg = false
 // 4/20/23 - i predict there will be like 4 states in total
 // 5/17/23 - i was very wrong
 // 7/15/23 - hey guys im making another game on this engine
+// 10/1/23 - shut up hoe
 enum states
 {
 	none = -1,
@@ -63,3 +64,4 @@ lamptimer = 0
 mariotimer = 0
 mariospeed = 0
 hog_charge = 0
+dontkillme = false

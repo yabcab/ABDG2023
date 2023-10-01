@@ -7,4 +7,7 @@ rot = -180
 rotatepls = false
 render_trainer2 = true
 
+prev_axh = 0
+prev_axv = 0
+
 //sub496
