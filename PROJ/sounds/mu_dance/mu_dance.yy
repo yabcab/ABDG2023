@@ -14,8 +14,8 @@
   "soundFile": "mu_dance.mp3",
   "duration": 89.1298,
   "parent": {
-    "name": "music",
-    "path": "folders/Sounds/music.yy",
+    "name": "T&T leftover",
+    "path": "folders/Sounds/music/T&T leftover.yy",
   },
   "resourceVersion": "1.0",
   "name": "mu_dance",

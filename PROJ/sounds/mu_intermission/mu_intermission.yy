@@ -14,8 +14,8 @@
   "soundFile": "mu_intermission.mp3",
   "duration": 216.47673,
   "parent": {
-    "name": "music",
-    "path": "folders/Sounds/music.yy",
+    "name": "T&T leftover",
+    "path": "folders/Sounds/music/T&T leftover.yy",
   },
   "resourceVersion": "1.0",
   "name": "mu_intermission",

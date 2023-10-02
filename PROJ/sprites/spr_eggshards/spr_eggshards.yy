@@ -82,7 +82,7 @@
   "nineSlice": null,
   "parent": {
     "name": "egg",
-    "path": "folders/Sprites/ITS A SECRET/sir are you sure/yes ok/egg.yy",
+    "path": "folders/Sprites/trials and tribulations leftovers/egg.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_eggshards",

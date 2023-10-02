@@ -82,7 +82,7 @@
   "nineSlice": null,
   "parent": {
     "name": "playerR",
-    "path": "folders/Sprites/ITS A SECRET/sir are you sure/yes ok/playerR.yy",
+    "path": "folders/Sprites/playerR.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_playerR_jumpstart",

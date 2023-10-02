@@ -14,8 +14,8 @@
   "soundFile": "mu_golf3.mp3",
   "duration": 109.44,
   "parent": {
-    "name": "music",
-    "path": "folders/Sounds/music.yy",
+    "name": "T&T leftover",
+    "path": "folders/Sounds/music/T&T leftover.yy",
   },
   "resourceVersion": "1.0",
   "name": "mu_golf3",

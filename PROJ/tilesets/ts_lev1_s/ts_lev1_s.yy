@@ -816,8 +816,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "T&T leftover",
+    "path": "folders/Tile Sets/T&T leftover.yy",
   },
   "resourceVersion": "1.0",
   "name": "ts_lev1_s",
