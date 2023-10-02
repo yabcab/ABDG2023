@@ -1,1 +1,1 @@
-targetroom = rm_loadtocave
+targetroom = rm_loadtogarbage
