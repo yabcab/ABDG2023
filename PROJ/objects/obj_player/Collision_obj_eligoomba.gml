@@ -88,6 +88,7 @@ else if state = states.rocket
 }
 else if state = states.golf
 {
+	//TODO - golf hitting state
 	var sp = 30
 	var dir = point_direction(other.x,other.y,x,y - 25)
 	var h = lengthdir_x(sp,dir)
@@ -96,4 +97,41 @@ else if state = states.golf
 	hsp = h
 	vsp = v
 	cangolf = false
+}
+else if state = states.car
+{
+	if abs(hsp) < 10
+	{
+		with possessed_object
+		{
+			if possessmusic
+				override_cambound_music_slots = false
+			possessed_object = noone
+			obj_player.state = states.normal
+			//obj_player.hsp = 0
+			obj_player.vsp = -12
+			visible = true
+			obj_player.hasdoublejump = true
+		}
+		dontkillme = true
+		alarm[0] = 60
+	}
+	else
+	{
+		points += 125
+		instance_destroy(other)
+		play_sfx(sfx_egghit)
+		play_sfx(sfx_boom)
+		with instance_create_depth(x + 32,y + 32,-2,obj_smokepuff)
+		{
+			sprite_index = spr_explosion
+			image_speed = 3
+		}
+		with instance_create_depth(other.x,other.y,-1,obj_eggparticle)
+		{
+			sprite_index = spr_eligoomba_hedgehogkill
+			hspeed = (12 * obj_player.facing) + random_range(-2,2)
+			vspeed = random_range(-8,-12)
+		}
+	}
 }

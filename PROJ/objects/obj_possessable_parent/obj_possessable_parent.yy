@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "yesyes",
-    "path": "folders/Objects/ITS A SECRET/aaa/yesyes.yy",
+    "name": "possessables",
+    "path": "folders/Objects/engine/possessables.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_possessable_parent",

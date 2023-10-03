@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4ff655ca-64be-4b99-a7bb-1f1f81b30e5e","path":"sprites/bg_golfcloud/bg_golfcloud.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ff655ca-64be-4b99-a7bb-1f1f81b30e5e","path":"sprites/bg_golfcloud/bg_golfcloud.yy",},"LayerId":{"name":"365bdfb3-f800-4c4b-ae45-5eaa0be3d107","path":"sprites/bg_golfcloud/bg_golfcloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bg_golfcloud","path":"sprites/bg_golfcloud/bg_golfcloud.yy",},"resourceVersion":"1.0","name":"4ff655ca-64be-4b99-a7bb-1f1f81b30e5e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"22b99000-038f-489d-8089-50a531ca2581","path":"sprites/bg_golfcloud/bg_golfcloud.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"22b99000-038f-489d-8089-50a531ca2581","path":"sprites/bg_golfcloud/bg_golfcloud.yy",},"LayerId":{"name":"57800572-bf14-4ea3-943c-e001d8a503a9","path":"sprites/bg_golfcloud/bg_golfcloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bg_golfcloud","path":"sprites/bg_golfcloud/bg_golfcloud.yy",},"resourceVersion":"1.0","name":"22b99000-038f-489d-8089-50a531ca2581","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"bg_golfcloud","path":"sprites/bg_golfcloud/bg_golfcloud.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"15b5327b-3442-4ec5-9e4f-a0246759aeb7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ff655ca-64be-4b99-a7bb-1f1f81b30e5e","path":"sprites/bg_golfcloud/bg_golfcloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"29d21aa5-287f-4836-ac3a-a3dbe7fcc1e3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"22b99000-038f-489d-8089-50a531ca2581","path":"sprites/bg_golfcloud/bg_golfcloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"365bdfb3-f800-4c4b-ae45-5eaa0be3d107","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"57800572-bf14-4ea3-943c-e001d8a503a9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

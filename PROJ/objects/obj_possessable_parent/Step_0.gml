@@ -16,6 +16,8 @@ if closest_possessable = id && (KEY_POS_P || gamepad_button_check_pressed(0,CONT
 	possessed_object = id
 	just_possessed = true
 	visible = false
+	obj_player.x = x
+	obj_player.y = y
 }
 
 if possessed_object = id && !just_possessed

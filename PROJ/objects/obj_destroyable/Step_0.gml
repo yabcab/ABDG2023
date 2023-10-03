@@ -36,3 +36,22 @@ if obj_player.state = states.hedgehog && obj_player.image_index = 2 && distance_
 		
 	instance_destroy()
 }
+
+if obj_player.state = states.car && abs(obj_player.hsp) > 15 && distance_to_object(obj_player) < abs(obj_player.hsp) + 3
+{
+	play_sfx(sfx_boom)
+	play_sfx(sfx_cratehit)
+	repeat 10
+		with instance_create_depth(x + 32,y + 32,-1,obj_cratepart)
+		{
+			hspeed = (obj_player.hsp / 2) + random_range(-2,2)
+			vspeed = (obj_player.vsp / 2) + random_range(-2,2)
+		}
+	with instance_create_depth(x + 32,y + 32,-2,obj_smokepuff)
+	{
+		sprite_index = spr_explosion
+		image_speed = 3
+	}
+		
+	instance_destroy()
+}
