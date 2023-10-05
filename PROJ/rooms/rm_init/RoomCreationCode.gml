@@ -67,5 +67,22 @@ enum pokeframes
 	sel_other,
 	sel_flee,
 	supereffective,
-	winner,
+	winner
+}
+
+enum treasure // zomg bro theres like thirteen :exploiding head:"
+{
+	krabs = 0,
+	trophy_player,
+	trophy_eligoomba,
+	trophy_alien,
+	pen,
+	paper,
+	coffee,
+	dead_ant,
+	crumb,
+	rat_poison,
+	curry,
+	funny_apple,
+	funny_pinapple
 }
