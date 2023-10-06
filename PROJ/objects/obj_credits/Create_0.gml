@@ -10,16 +10,16 @@ Jacob Scherer
 
 
 
---Game Prompts--
+--Google Form Responders--
 Elijah 'EAAK' Kowenski
 Nolan 'Bogos' Terrigino
 J 'T-Rex' P
-Gilberto 'gibbleton' Ruiz
+Gilberto 'Gibbleton' Ruiz
 Eli 'The Evil One' Marblecountertop
 Khizar 'Hamburger' Saiyad
 
 
---Quest of The Quenge (2020)--
+--Quest of The Quenge (2020 Ver.)--
 Developed by Jacob Scherer and Elijah Kowenseki
 (QOTQ IS NOT REPRESENTATIVE OF TODAY'S CREATIONS,
 IT WAS INCLUDED AS AN ARCADE GAME FOR THE LOLS.)

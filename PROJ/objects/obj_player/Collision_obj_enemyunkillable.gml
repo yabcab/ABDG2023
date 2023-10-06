@@ -36,7 +36,7 @@ else if state = states.golf
 }
 else if state = states.car
 {
-	if hsp < 10
+	if abs(hsp) < 10
 	{
 		anim_hurt = true
 		y -= 11

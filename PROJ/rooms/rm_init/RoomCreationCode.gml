@@ -17,7 +17,7 @@ globalvar deaths; deaths = 0
 globalvar coins; coins = 0
 globalvar points; points = 0
 globalvar skip_loading; skip_loading = false
-globalvar version; version = "not done yet"
+globalvar version; version = "still not done yet"
 globalvar possessed_object; possessed_object = noone
 globalvar override_cambound_music_slots; override_cambound_music_slots = false
 
