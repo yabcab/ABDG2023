@@ -1,5 +1,13 @@
 draw_text(x,y + bobsin,@"
-hey the games not done yet 
-just wanna let u know
+TRIALS AND TRIBULATIONS 2!!!! 
+The sequel is in development.
 
-Press Ⓐ to continue.") // this took forever to format correctly
+--Things 2 Know--
+>The game is incomplete - nothing is final, not even all 
+of the content is in yet.
+>Not everything will remain - there are two months 
+left as of writing this, if it becomes necessary, some 
+incomplete parts of the game may go byebye
+>I will kill you xoxo
+
+Press Ⓐ to continue.")

@@ -1,5 +1,5 @@
 //WOOOOO CODE OPIMIZATION!!!!!!!!!
-var dyslexia = dyslexia_mode || dyslexia_override_all_npcs
+var dyslexia = dyslexia_mode || global_npc_dyslexia
 
 var xx = 5
 var yy = 440 + textbox_yoff

@@ -7,3 +7,5 @@ music_set_slot_target(1,mu_garbagesky)
 music_set_slot_target(2,mu_car)
 music_set_slot_target(3,mu_shootthebogos)
 music_set_active_slot(0)
+
+window_set_caption(gamename + " is garbage.")
