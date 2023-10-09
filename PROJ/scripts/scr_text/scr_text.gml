@@ -1,6 +1,11 @@
-function text_checker()
+function induct_text_command(str)
 {
-	switch text[text_selected]
+	text_checker(str)
+}
+
+function text_checker(str = text[text_selected])
+{
+	switch str
 	{
 		//old system remains
 		case "@TUTORIAL_BECOMEPLAT":
@@ -202,6 +207,20 @@ function text_checker()
 			repeat 25
 				instance_create_depth(9600,1760,depth,obj_whiteparticle)
 		}
+		break;
+		
+		case "@SHOOTBOGOS_START":
+		{
+			induct_text_command("@4:3_ENABLE")
+			instance_create_depth(x,y,depth,obj_shootthebogos)
+			with obj_checkeroverlay
+				sq_tsize = 32
+			obj_player.state = 1847385 // state one million eight hundred fourty seven thousand three hundred eighty five
+			override_cambound_music_slots = true
+			music_set_active_slot(3)
+			music_restart_slot(3)
+		}
+		break;
 	}
 	
 	if string_copy(text[text_selected],1,1) = "@"

@@ -39,7 +39,7 @@ switch npcid
 	
 	case npcs.toaster:
 	{
-		drawnbg = spr_textbg_placeholder
+		drawnbg = spr_textbg_toaster
 		talkspr = spr_toaster_idle
 		idlespr = spr_toaster_idle
 	}
@@ -53,11 +53,19 @@ switch npcid
 	}
 	break;
 	
-	case npcs.bogus: // TODO: FIND BOGOS SPRITE
+	case npcs.bogus:
 	{
-		drawnbg = spr_textbg_placeholder
+		drawnbg = spr_textbg_bogos
 		talkspr = spr_nolana_talk
 		idlespr = spr_nolana_idle
+	}
+	break;
+	
+	case npcs.hamster_with_rabies:
+	{
+		drawnbg = spr_textbg_hamster
+		talkspr = spr_hamster_talk
+		idlespr = spr_hamster_idle
 	}
 	break;
 }

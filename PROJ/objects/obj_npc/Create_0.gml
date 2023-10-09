@@ -32,7 +32,7 @@ xscroll = 0
 yscroll = 0
 
 npcid = npcs.lemonhead
-enum npcs // 5/11/23 - all npcs are in!!
+enum npcs // 5/11/23 - all npcs are in!! 10/8/23 - no the fuck they are not
 {
 	lemonhead,
 	badfather,
@@ -42,6 +42,7 @@ enum npcs // 5/11/23 - all npcs are in!!
 	toaster,
 	ash_pokemon,
 	bogus,
+	hamster_with_rabies,
 }
 alarm[0] = 1
 talkspr = sprite_index

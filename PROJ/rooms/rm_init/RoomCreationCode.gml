@@ -86,3 +86,7 @@ enum treasure // zomg bro theres like thirteen :exploiding head:"
 	funny_apple,
 	funny_pinapple
 }
+
+//"settings"
+globalvar colorblind_shader; colorblind_shader = noone
+globalvar dyslexia_override_all_npcs; dyslexia_override_all_npcs = false
