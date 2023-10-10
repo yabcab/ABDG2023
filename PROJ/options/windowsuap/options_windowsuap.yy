@@ -1,9 +1,9 @@
 {
-  "option_windowsuap_display_name": "TrialsTribulations-v1.0.0",
-  "option_windowsuap_package_name": "TrialsTribulations-v1.0.0",
+  "option_windowsuap_display_name": "TrialsTribulations2-xboxtest",
+  "option_windowsuap_package_name": "TrialsTribulations2-xboxtest",
   "option_windowsuap_publisher_display_name": "PLACEHOLD",
-  "option_windowsuap_package_display_name": "TrialsTribulations-v1.0.0",
-  "option_windowsuap_description": "TrialsTribulations",
+  "option_windowsuap_package_display_name": "TrialsTribulations2-xboxtest",
+  "option_windowsuap_description": "TrialsTribulations2",
   "option_windowsuap_version": "1.0.0.0",
   "option_windowsuap_orient_portrait": true,
   "option_windowsuap_orient_portrait_flipped": true,

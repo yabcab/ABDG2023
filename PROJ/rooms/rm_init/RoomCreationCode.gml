@@ -17,11 +17,11 @@ globalvar deaths; deaths = 0
 globalvar coins; coins = 0
 globalvar points; points = 0
 globalvar skip_loading; skip_loading = false
-globalvar version; version = "XBOX Stress Test Build 1"
+globalvar version; version = "DEV - 10/09/23"
 globalvar possessed_object; possessed_object = noone
 globalvar override_cambound_music_slots; override_cambound_music_slots = false
 
-room_goto(rm_disclaimer)
+room_goto(rm_loadtogarbage)
 
 if os_type = os_windows
 	window_set_size(1920,1080)
