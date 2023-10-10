@@ -47,7 +47,7 @@ switch npcid
 	
 	case npcs.ash_pokemon:
 	{
-		drawnbg = spr_textbg_placeholder
+		drawnbg = spr_textbg_ashpokemon
 		talkspr = spr_ashpokemon_talk
 		idlespr = spr_ashpokemon_idle
 	}

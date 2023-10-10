@@ -446,6 +446,7 @@
     {"id":{"name":"EnemySquareIdle","path":"sprites/EnemySquareIdle/EnemySquareIdle.yy",},"order":235,},
     {"id":{"name":"SpawnPointBSpr","path":"sprites/SpawnPointBSpr/SpawnPointBSpr.yy",},"order":126,},
     {"id":{"name":"sfx_eggsplat","path":"sounds/sfx_eggsplat/sfx_eggsplat.yy",},"order":16,},
+    {"id":{"name":"spr_textbg_ashpokemon","path":"sprites/spr_textbg_ashpokemon/spr_textbg_ashpokemon.yy",},"order":9,},
     {"id":{"name":"Scr_CharacterMoveDownWT","path":"scripts/Scr_CharacterMoveDownWT/Scr_CharacterMoveDownWT.yy",},"order":0,},
     {"id":{"name":"obj_golfytitle","path":"objects/obj_golfytitle/obj_golfytitle.yy",},"order":9,},
     {"id":{"name":"rm_khizarbasement1","path":"rooms/rm_khizarbasement1/rm_khizarbasement1.yy",},"order":2,},
