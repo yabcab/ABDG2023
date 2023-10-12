@@ -1,0 +1,1 @@
+hoodiestrike = false

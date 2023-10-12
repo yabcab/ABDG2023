@@ -21,12 +21,10 @@ globalvar version; version = "not done still lol"
 globalvar possessed_object; possessed_object = noone
 globalvar override_cambound_music_slots; override_cambound_music_slots = false
 
-room_goto(rm_loadtogarbage)
+room_goto(rm_loadtogolf)
 
 if os_type = os_windows
 	window_set_size(1920,1080)
-
-//show_debug_overlay(true)
 
 //for when i have music playing
 //audio_group_set_gain(audiogroup_default,0,0) 
@@ -89,7 +87,11 @@ enum treasure // zomg bro theres like thirteen :exploiding head:"
 
 //"settings"
 globalvar colorblind_shader; colorblind_shader = noone
-globalvar global_npc_dyslexia; global_npc_dyslexia = false
+globalvar global_npc_dyslexia; global_npc_dyslexia = false //IF TIME AT END OF DEV - make this also dylexify menus, everything else with strings, possibly sprites with text
+globalvar fucked_up_mode; fucked_up_mode = false // decide what this does later
+globalvar debug; debug = true // for now...
 
 globalvar gamename; gamename = "Trials And Tribulations 2"
 window_set_caption("Initializing the " + gamename)
+
+show_debug_overlay(debug)

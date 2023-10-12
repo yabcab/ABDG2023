@@ -1,1 +1,1 @@
-audio_stop_sound(mu_butter)
+//audio_stop_sound(mu_butter)

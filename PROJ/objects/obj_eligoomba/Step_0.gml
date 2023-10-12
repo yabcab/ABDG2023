@@ -24,6 +24,13 @@ if !dead
 	}
 
 	vsp = approach(vsp,14,0.4)
+	
+	if hoodiestrike
+	{
+		hsp = 0
+		sprite_index = spr_eligoomba_hoodiestrike
+	}
+	else sprite_index = spr_eligoomba_waltz
 
 	collider_step()
 }

@@ -88,8 +88,15 @@ else if state = states.rocket
 }
 else if state = states.golf
 {
-	//TODO - golf hitting state
-	var sp = 30
+	with other
+	{
+		hoodiestrike = true
+		image_index = 0
+		if x != other.x
+			facing = sign(x - other.x)
+	}
+	
+	var sp = 20
 	var dir = point_direction(other.x,other.y,x,y - 25)
 	var h = lengthdir_x(sp,dir)
 	var v = lengthdir_y(sp,dir)
