@@ -221,6 +221,15 @@ function text_checker(str = text[text_selected])
 			music_restart_slot(3)
 		}
 		break;
+		
+		case "@GIVE_SHADES":
+		{
+			with obj_player
+			{
+				shades = true	
+			//	alarm[1] = 1800 // 30 seconds
+			}
+		}
 	}
 	
 	if string_copy(text[text_selected],1,1) = "@"

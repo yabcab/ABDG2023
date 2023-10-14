@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_playerR_idle",
-    "path": "sprites/spr_playerR_idle/spr_playerR_idle.yy",
+    "name": "spr_camregioncenter",
+    "path": "sprites/spr_camregioncenter/spr_camregioncenter.yy",
   },
   "solid": false,
   "visible": false,

@@ -40,3 +40,5 @@ else
 	if deadtimer <= 0
 		instance_destroy()
 }
+
+cull_me()

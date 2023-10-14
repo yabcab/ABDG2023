@@ -5,8 +5,15 @@ alarm[0] = 120 // fucked up workaround for the audio refusing to play
 
 creditstring = @"
 
---Developed by--
+--Developed By--
 Jacob Scherer
+
+
+
+--Voice Acting--
+PLACEHOLDER - as Skoimp
+Nolan 'Bogos' Terrigion - as Himself
+Gilberto 'Gibbleton' Ruiz - as Link
 
 
 
@@ -15,8 +22,8 @@ Elijah 'EAAK' Kowenski
 Nolan 'Bogos' Terrigino
 J 'T-Rex' P
 Gilberto 'Gibbleton' Ruiz
-Eli 'The Evil One' Marblecountertop
-Khizar 'Hamburger' Saiyad
+Eli 'Evil A4 Franklin Paper' Marblecountertop
+Khizar 'Hamburger' Saiyad (i spelled it right)
 
 
 --Quest of The Quenge (2020 Ver.)--

@@ -24,3 +24,4 @@ if grounded
 vsp = approach(vsp,14,0.4)
 
 collider_step()
+cull_me()

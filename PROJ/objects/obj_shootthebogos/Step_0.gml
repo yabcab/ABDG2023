@@ -92,6 +92,16 @@ if hits >= 20
 		play_sfx(sfx_boom)
 		music_set_active_slot(4)
 		instance_destroy(inst_SHOOTBOGOS_NPC)
+		
+		repeat 100
+		{
+			with instance_create_depth(random_range(0,960),random_range(0,540),-2,obj_smokepuff)
+			{
+				sprite_index = spr_explosion
+				image_speed = random_range(0.5,2)
+				gui = true
+			}
+		}
 	}
 }
 

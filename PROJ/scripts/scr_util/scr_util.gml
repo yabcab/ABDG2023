@@ -30,3 +30,15 @@ function glue_overlay(spr)
 	with instance_create_depth(0,0,0,obj_golfytitle)
 		sprite_index = spr
 }
+
+function cull_me()
+{
+	if !place_meeting(x,y,obj_camera.playercamregion) && !place_meeting(x,y,obj_camera)
+		instance_deactivate_object(id)
+}
+
+function cull_me_onlycam()
+{
+	if !place_meeting(x,y,obj_camera.playercamregion) && !place_meeting(x,y,obj_camera)
+		instance_deactivate_object(id)
+}

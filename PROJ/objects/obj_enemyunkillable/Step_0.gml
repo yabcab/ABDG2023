@@ -19,3 +19,5 @@ if hitting
 	sprite_index = spr_enemyangry_hitting
 else
 	sprite_index = spr_enemyangry_walk
+	
+cull_me()

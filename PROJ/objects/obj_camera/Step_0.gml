@@ -1,6 +1,7 @@
 if instance_exists(obj_player)
 {
-	playercamregion = instance_place(obj_player.x,obj_player.y,obj_camregion)
+	with obj_player
+		other.playercamregion = instance_place(x,y,obj_camregion)
 	
 	//if playercamregion = noone
 	//{
@@ -13,5 +14,10 @@ if instance_exists(obj_player)
 		y = lerp(y,clamp(obj_player.y + (obj_player.yoff / 2),playercamregion.y + 270,playercamregion.y - 270 + (540 * playercamregion.image_yscale)),0.2)
 		if playercamregion.setslot != -1 && !override_cambound_music_slots
 			music_set_active_slot(playercamregion.setslot)
+		
+		//i actually need optimization lol
+		instance_activate_region(playercamregion.x,playercamregion.y,960 * playercamregion.image_xscale,540 * playercamregion.image_yscale,true) // in cam region
+		instance_activate_region(x - 480,y - 270,960,540,true) // in cam
+		
 	//}
 }

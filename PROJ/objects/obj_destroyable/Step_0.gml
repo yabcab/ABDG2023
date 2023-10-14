@@ -55,3 +55,5 @@ if obj_player.state = states.car && abs(obj_player.hsp) > 15 && distance_to_obje
 		
 	instance_destroy()
 }
+
+cull_me()

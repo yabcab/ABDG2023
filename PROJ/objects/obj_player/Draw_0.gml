@@ -1,4 +1,6 @@
 draw_sprite_ext(sprite_index,image_index,x,y + yoff,image_xscale * facing,image_yscale,rot,image_blend,image_alpha)
+if shades
+	draw_sprite_ext(spr_coolshades,0,x,y + yoff,image_xscale * facing,image_yscale,rot,image_blend,image_alpha)
 draw_sprite_ext(spr_npcarrow,arrowframe,x,y - 75 + arrowoff + arrowbob,1,1,0,c_white,arrowalph)
 
 if drawray

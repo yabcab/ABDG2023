@@ -65,3 +65,4 @@ mariotimer = 0
 mariospeed = 0
 hog_charge = 0
 dontkillme = false
+shades = false
