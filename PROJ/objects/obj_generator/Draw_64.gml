@@ -1,0 +1,1 @@
+draw_text(10,50,string(audio_sound_get_track_position(music)))

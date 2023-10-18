@@ -1300,7 +1300,37 @@ switch state
 	
 	case states.circle:
 	{
+		if anim_fire
+			sprite_index = spr_playerR_ringfire
+		else
+			sprite_index = spr_playerR_ring
 		
+		if !place_meeting(x + scroll,y,obj_solid)
+			x += scroll
+		else while !place_meeting(x + 1,y,obj_solid)
+			x++
+		
+		var axh, axv, axdir
+		axh = gamepad_axis_value(0,gp_axislh)
+		axv = gamepad_axis_value(0,gp_axislv)
+		axdir = point_direction(0,0,axh,axv)
+		
+		hsp = approach(hsp,6 * axh,1)
+		vsp = approach(vsp,6 * axv,1)
+		
+		if KEY_EGG_P || gamepad_button_check_pressed(0,CONT_X)
+		{
+			image_index = 0
+			anim_fire = true
+			instance_create_depth(x,y,depth,obj_bullet)
+		}
+		
+		if x < camera_get_view_x(view_camera[0])
+		{
+			x = obj_generator.x
+			y = 270
+			points -= 250
+		}
 	}
 	break;
 }

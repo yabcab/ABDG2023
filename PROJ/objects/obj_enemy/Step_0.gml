@@ -25,3 +25,7 @@ vsp = approach(vsp,14,0.4)
 
 collider_step()
 cull_me()
+if inside_wall_check()
+	instance_destroy()
+if instance_exists(obj_generator)
+	generator_cull_check()

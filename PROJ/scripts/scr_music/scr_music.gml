@@ -144,3 +144,8 @@ function music_set_slot_fadeouttime(slot,time)
 			
 	}
 }
+
+function music_get_slot_id(slot)
+{
+	return playing_id[slot]
+}

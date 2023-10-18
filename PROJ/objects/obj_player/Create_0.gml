@@ -29,6 +29,7 @@ alreadypounded = false
 anim_jump = false
 anim_hurt = false
 anim_egg = false
+anim_fire = false
 
 // 4/20/23 - i predict there will be like 4 states in total
 // 5/17/23 - i was very wrong

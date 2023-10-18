@@ -12,7 +12,7 @@ Jacob Scherer
 
 --Voice Acting--
 PLACEHOLDER - as Skoimp
-Nolan 'Bogos' Terrigion - as Himself
+Nolan 'Bogos' Terrigino - as Himself
 Gilberto 'Gibbleton' Ruiz - as Link
 
 
@@ -24,6 +24,7 @@ J 'T-Rex' P
 Gilberto 'Gibbleton' Ruiz
 Eli 'Evil A4 Franklin Paper' Marblecountertop
 Khizar 'Hamburger' Saiyad (i spelled it right)
+Mr. Harper The Government Teacher
 
 
 --Quest of The Quenge (2020 Ver.)--

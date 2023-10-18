@@ -42,3 +42,23 @@ function cull_me_onlycam()
 	if !place_meeting(x,y,obj_camera.playercamregion) && !place_meeting(x,y,obj_camera)
 		instance_deactivate_object(id)
 }
+
+function bg_blend(layer_name,color)
+{
+	layer_background_blend(layer_background_get_id(layer_get_id(layer_name)),color)		
+}
+
+function generator_cull_check() {
+	if x < obj_generator.distance - 500
+	{
+		silent = true
+		instance_destroy()
+		return true
+	}
+}
+
+function inside_wall_check()
+{
+	if (place_meeting(x + 1,y,obj_solid) && place_meeting(x - 1,y,obj_solid)) || (place_meeting(x,y + 1,obj_solid) && place_meeting(x,y - 1,obj_solid))
+		return 1
+}
