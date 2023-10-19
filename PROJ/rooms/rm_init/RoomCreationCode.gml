@@ -21,7 +21,7 @@ globalvar version; version = "not done still lol"
 globalvar possessed_object; possessed_object = noone
 globalvar override_cambound_music_slots; override_cambound_music_slots = false
 
-room_goto(rm_loadtopantry)
+room_goto(rm_disclaimer)
 
 if os_type = os_windows
 	window_set_size(1920,1080)
