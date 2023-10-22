@@ -11,6 +11,12 @@ function play_sfx(sound,do_pitch = true,pitch_low = 0.8,pitch_high = 1.2)
 	return s
 }
 
+function play_va(sound)
+{
+	var s = audio_play_sound(sound,0,false)
+	return s
+}
+
 function make_shadow()
 {
 	//init req'd vars

@@ -1,5 +1,5 @@
 //WOOOOO CODE OPIMIZATION!!!!!!!!!
-var dyslexia = dyslexia_mode || global_npc_dyslexia
+var dyslexia = dyslexia_mode || global_npc_dyslexia = 1
 
 var xx = 5
 var yy = 440 + textbox_yoff
@@ -7,6 +7,8 @@ if !surface_exists(surf)
 	surf = surface_create(960,115)
 surface_set_target(surf)
 draw_sprite_tiled(drawnbg,0,xscroll,yscroll)
+if global_npc_dyslexia = -1 // high contrast text mode
+	draw_sprite_tiled(drawnbg,1,xscroll,yscroll)
 surface_reset_target()
 draw_surface(surf,0,425 + textbox_yoff)
 draw_sprite(spr_textbox_border,0,0,textbox_yoff - 10)

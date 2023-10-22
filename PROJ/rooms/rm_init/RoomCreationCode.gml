@@ -17,7 +17,7 @@ globalvar deaths; deaths = 0
 globalvar coins; coins = 0
 globalvar points; points = 0
 globalvar skip_loading; skip_loading = false
-globalvar version; version = "not done still lol"
+globalvar version; version = "Dev"
 globalvar possessed_object; possessed_object = noone
 globalvar override_cambound_music_slots; override_cambound_music_slots = false
 
@@ -87,11 +87,11 @@ enum treasure // zomg bro theres like thirteen :exploiding head:"
 
 //"settings"
 globalvar colorblind_shader; colorblind_shader = noone
-globalvar global_npc_dyslexia; global_npc_dyslexia = false //IF TIME AT END OF DEV - make this also dylexify menus, everything else with strings, possibly sprites with text
+globalvar global_npc_dyslexia; global_npc_dyslexia = 0 //IF TIME AT END OF DEV - make this also dyslexify menus, everything else with strings, possibly sprites with text
 globalvar fucked_up_mode; fucked_up_mode = false // decide what this does later
-globalvar debug; debug = true // for now...
+globalvar debug; debug = false // for now...
 
 globalvar gamename; gamename = "Trials And Tribulations 2"
 window_set_caption("Initializing the " + gamename)
 
-show_debug_overlay(debug)
+//show_debug_overlay(debug)

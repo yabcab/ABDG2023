@@ -27,6 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"febebf14-2b65-4f70-8909-4d973c9a916a","path":"sprites/spr_textbg_ashpokemon/spr_textbg_ashpokemon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"febebf14-2b65-4f70-8909-4d973c9a916a","path":"sprites/spr_textbg_ashpokemon/spr_textbg_ashpokemon.yy",},"LayerId":{"name":"bc6c5c38-dbe9-4111-89f2-4fe8ff71da79","path":"sprites/spr_textbg_ashpokemon/spr_textbg_ashpokemon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_textbg_ashpokemon","path":"sprites/spr_textbg_ashpokemon/spr_textbg_ashpokemon.yy",},"resourceVersion":"1.0","name":"febebf14-2b65-4f70-8909-4d973c9a916a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b5c4ba52-c0f3-4beb-996f-eed1b1761f82","path":"sprites/spr_textbg_ashpokemon/spr_textbg_ashpokemon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b5c4ba52-c0f3-4beb-996f-eed1b1761f82","path":"sprites/spr_textbg_ashpokemon/spr_textbg_ashpokemon.yy",},"LayerId":{"name":"bc6c5c38-dbe9-4111-89f2-4fe8ff71da79","path":"sprites/spr_textbg_ashpokemon/spr_textbg_ashpokemon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_textbg_ashpokemon","path":"sprites/spr_textbg_ashpokemon/spr_textbg_ashpokemon.yy",},"resourceVersion":"1.0","name":"b5c4ba52-c0f3-4beb-996f-eed1b1761f82","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_textbg_ashpokemon","path":"sprites/spr_textbg_ashpokemon/spr_textbg_ashpokemon.yy",},
@@ -36,12 +39,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"caa7a3d9-fb38-417b-8d32-3222782f2019","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"febebf14-2b65-4f70-8909-4d973c9a916a","path":"sprites/spr_textbg_ashpokemon/spr_textbg_ashpokemon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"9b195ef5-2c91-4728-866c-a424cef6d71d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b5c4ba52-c0f3-4beb-996f-eed1b1761f82","path":"sprites/spr_textbg_ashpokemon/spr_textbg_ashpokemon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
