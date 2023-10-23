@@ -17,7 +17,6 @@ globalvar deaths; deaths = 0
 globalvar coins; coins = 0
 globalvar points; points = 0
 globalvar skip_loading; skip_loading = false
-globalvar version; version = "Dev"
 globalvar possessed_object; possessed_object = noone
 globalvar override_cambound_music_slots; override_cambound_music_slots = false
 
@@ -91,6 +90,7 @@ globalvar global_npc_dyslexia; global_npc_dyslexia = 0 //IF TIME AT END OF DEV -
 globalvar fucked_up_mode; fucked_up_mode = false // decide what this does later
 globalvar debug; debug = false // for now...
 
+globalvar version; version = "Dev"
 globalvar gamename; gamename = "Trials And Tribulations 2"
 window_set_caption("Initializing the " + gamename)
 

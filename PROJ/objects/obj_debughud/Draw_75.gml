@@ -44,7 +44,7 @@ switch page
 			sh = shader_get_name(sh)
 		else sh = "none"
 		
-		draw_text(10,100,"globalNPCDyslexia: " + string(global_npc_dyslexia) + "\ncolorBlindShader: " + sh)
+		draw_text(10,100,"globalNPCDyslexia: " + string(global_npc_dyslexia) + "\ncolorBlindShader: " + sh + "\nfuckedUpMode: " + string(fucked_up_mode))
 	}
 	break;
 }
