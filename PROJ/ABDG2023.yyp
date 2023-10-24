@@ -890,6 +890,7 @@
     {"id":{"name":"rm_egg3","path":"rooms/rm_egg3/rm_egg3.yy",},"order":6,},
     {"id":{"name":"rm_loadtopantry","path":"rooms/rm_loadtopantry/rm_loadtopantry.yy",},"order":10,},
     {"id":{"name":"spr_redcritter_talk","path":"sprites/spr_redcritter_talk/spr_redcritter_talk.yy",},"order":10,},
+    {"id":{"name":"story notes","path":"notes/story notes/story notes.yy",},"order":6,},
     {"id":{"name":"spr_bingle","path":"sprites/spr_bingle/spr_bingle.yy",},"order":20,},
     {"id":{"name":"spr_flourblocks","path":"sprites/spr_flourblocks/spr_flourblocks.yy",},"order":28,},
     {"id":{"name":"EnemyGunkIdle","path":"sprites/EnemyGunkIdle/EnemyGunkIdle.yy",},"order":225,},
