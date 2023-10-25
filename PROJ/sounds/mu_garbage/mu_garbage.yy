@@ -8,8 +8,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_music_trialstrib",
+    "path": "audiogroups/audio_music_trialstrib",
   },
   "soundFile": "mu_garbage.mp3",
   "duration": 258.27264,

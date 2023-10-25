@@ -8,8 +8,8 @@
   "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_voice_nolant",
+    "path": "audiogroups/audio_voice_nolant",
   },
   "soundFile": "va_bogos_heck.mp3",
   "duration": 0.992653,

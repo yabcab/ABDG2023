@@ -8,8 +8,8 @@
   "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_sound_quenge",
+    "path": "audiogroups/audio_sound_quenge",
   },
   "soundFile": "collect1",
   "duration": 0.925896,

@@ -179,6 +179,15 @@ function text_checker(str = text[text_selected])
 			y = -1000
 			
 			override_cambound_music_slots = false
+			
+			with inst_DOORSOLID
+				instance_destroy()
+			with obj_ashdoor
+			{
+				fuckuphater = true
+				vspeed = -7
+				hspeed = 4
+			}
 		}
 		break;
 		
@@ -230,6 +239,7 @@ function text_checker(str = text[text_selected])
 			//	alarm[1] = 1800 // 30 seconds
 			}
 		}
+		break;
 	}
 	
 	if string_copy(text[text_selected],1,1) = "@"

@@ -8,8 +8,8 @@
   "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_music_trialstrib",
+    "path": "audiogroups/audio_music_trialstrib",
   },
   "soundFile": "mu_butter.mp3",
   "duration": 190.272,

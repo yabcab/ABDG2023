@@ -8,8 +8,8 @@
   "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_sound_trialstrib",
+    "path": "audiogroups/audio_sound_trialstrib",
   },
   "soundFile": "sfx_jump.wav",
   "duration": 0.849104,

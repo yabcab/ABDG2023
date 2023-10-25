@@ -8,8 +8,8 @@
   "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_music_quenge",
+    "path": "audiogroups/audio_music_quenge",
   },
   "soundFile": "surfingonasinewave",
   "duration": 303.30777,

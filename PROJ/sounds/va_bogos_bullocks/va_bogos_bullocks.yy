@@ -8,8 +8,8 @@
   "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_voice_nolant",
+    "path": "audiogroups/audio_voice_nolant",
   },
   "soundFile": "va_bogos_bullocks.mp3",
   "duration": 2.324898,
