@@ -18,5 +18,5 @@ else
 	y = lerp(y,0,0.1)
 }
 
-if gamepad_button_check_pressed(0,CONT_A) && !outro
+if (gamepad_button_check_pressed(0,CONT_A) || KEY_JMP_P) && !outro
 	outro = true
