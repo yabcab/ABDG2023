@@ -16,11 +16,11 @@ globalvar can_groundpound; can_groundpound = false
 globalvar deaths; deaths = 0
 globalvar coins; coins = 0
 globalvar points; points = 0
-globalvar skip_loading; skip_loading = false
+globalvar skip_loading; skip_loading = false // old T&T leftover
 globalvar possessed_object; possessed_object = noone
 globalvar override_cambound_music_slots; override_cambound_music_slots = false
 
-room_goto(rm_test)
+room_goto(rm_disclaimer)
 
 if os_type = os_windows
 	window_set_size(1920,1080)
@@ -89,11 +89,11 @@ enum treasure // zomg bro theres like thirteen :exploiding head:"
 
 //"settings"
 globalvar colorblind_shader; colorblind_shader = noone
-globalvar global_npc_dyslexia; global_npc_dyslexia = -1
+globalvar global_npc_dyslexia; global_npc_dyslexia = 0
 globalvar fucked_up_mode; fucked_up_mode = false // decide what this does later
 globalvar debug; debug = false // for now...
 
-globalvar version; version = "Dev"
+globalvar version; version = "Xbox Test Build 2"
 globalvar gamename; gamename = "Trials And Tribulations 2"
 window_set_caption("Initializing the " + gamename)
 

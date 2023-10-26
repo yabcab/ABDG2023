@@ -139,6 +139,12 @@ function text_checker(str = text[text_selected])
 		}
 		break;
 		
+		case "@UPDOG_BAD_MEMORY":
+		{
+			glue_overlay(spr_updogbadmem)
+		}
+		break;
+		
 		case "@4:3_ENABLE":
 		{
 			with obj_4by3
@@ -238,6 +244,36 @@ function text_checker(str = text[text_selected])
 				shades = true	
 			//	alarm[1] = 1800 // 30 seconds
 			}
+		}
+		break;
+		
+		case "@VA_BOGOS_INTRO":
+		{
+			play_va(va_bogos_intro)
+		}
+		break;
+		
+		case "@VA_BOGOS_FRICK":
+		{
+			play_va(va_bogos_frick)
+		}
+		break;
+		
+		case "@VA_BOGOS_HECK":
+		{
+			play_va(va_bogos_heck)
+		}
+		break;
+		
+		case "@VA_BOGOS_GOSHDARN":
+		{
+			play_va(va_bogos_goshdarn)
+		}
+		break;
+		
+		case "@VA_BOGOS_BULLOCKS":
+		{
+			play_va(va_bogos_bullocks)
 		}
 		break;
 	}
