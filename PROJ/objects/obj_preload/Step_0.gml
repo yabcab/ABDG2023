@@ -46,7 +46,17 @@ switch loaderpos
 		groupname = "audio_voice_nolant"
 		audio_group_load(g)
 		if audio_group_is_loaded(g)
-			room_goto(rm_init)
+			loaderpos = 5
+	}
+	break;
+	
+	case 5:
+	{
+		var g = audio_voice_breadalliance
+		groupname = "audio_voice_breadalliance"
+		audio_group_load(g)
+		if audio_group_is_loaded(g)
+			loaderpos = 5
 	}
 	break;
 }
