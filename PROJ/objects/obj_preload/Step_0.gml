@@ -56,7 +56,7 @@ switch loaderpos
 		groupname = "audio_voice_breadalliance"
 		audio_group_load(g)
 		if audio_group_is_loaded(g)
-			loaderpos = 5
+			room_goto(rm_init)
 	}
 	break;
 }

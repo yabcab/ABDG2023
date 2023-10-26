@@ -68,3 +68,22 @@ function inside_wall_check()
 	if (place_meeting(x + 1,y,obj_solid) && place_meeting(x - 1,y,obj_solid)) || (place_meeting(x,y + 1,obj_solid) && place_meeting(x,y - 1,obj_solid))
 		return 1
 }
+
+function show_treasurehud(index,name,desc,prompt)
+{
+	with instance_create_depth(0,0,0,obj_treasurehud)
+	{
+		player_saved_state = obj_player.state
+		tname = name
+		tdesc = desc
+		tindex = index
+		tprompt = prompt
+	}
+	with obj_player
+	{
+		image_speed = 0
+		state = -3.14159265359 //pi
+		hsp = 0
+		vsp = 0
+	}
+}

@@ -1,0 +1,1 @@
+tres_id = treasure.guitar_pick_awesome
