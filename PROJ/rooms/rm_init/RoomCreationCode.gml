@@ -20,7 +20,7 @@ globalvar skip_loading; skip_loading = false // old T&T leftover
 globalvar possessed_object; possessed_object = noone
 globalvar override_cambound_music_slots; override_cambound_music_slots = false
 
-room_goto(rm_disclaimer)
+room_goto(rm_garbageworld)
 
 if os_type = os_windows
 	window_set_size(1920,1080)

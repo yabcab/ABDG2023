@@ -276,6 +276,26 @@ function text_checker(str = text[text_selected])
 			play_va(va_bogos_bullocks)
 		}
 		break;
+		
+		case "@VA_LINK1":
+		{
+			play_va(va_link_1)
+		}
+		break;
+		
+		case "@VA_LINK2":
+		{
+			audio_stop_sound(va_link_1)
+			play_va(va_link_2)
+		}
+		break;
+		
+		case "@VA_LINK3":
+		{
+			audio_stop_sound(va_link_2)
+			play_va(va_link_3)
+		}
+		break;
 	}
 	
 	if string_copy(text[text_selected],1,1) = "@"

@@ -68,4 +68,12 @@ switch npcid
 		idlespr = spr_hamster_idle
 	}
 	break;
+	
+	case npcs.link:
+	{
+		drawnbg = spr_textbg_placeholder
+		talkspr = spr_link_talk
+		idlespr = spr_link_idle
+	}
+	break;
 }
