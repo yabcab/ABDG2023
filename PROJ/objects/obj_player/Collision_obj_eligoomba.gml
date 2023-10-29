@@ -2,6 +2,7 @@ if state = states.normal && !other.dead && state != states.mariodeath
 {
 	if bbox_bottom < other.y + 40 && vsp > -9 // ag
 	{
+		eligoomba_kills++
 		points += 100
 		play_sfx(sfx_goombastomp)
 		instance_create_depth(other.x,other.y,-100,obj_100)
@@ -27,6 +28,7 @@ else if state = states.hedgehog
 	{
 		if bbox_bottom < other.y + 40 && vsp > -9 // ag
 		{
+			eligoomba_kills++
 			points += 100
 			play_sfx(sfx_goombastomp)
 			instance_create_depth(other.x,other.y,-100,obj_100)
@@ -59,6 +61,7 @@ else if state = states.hedgehog
 	}
 	else
 	{
+		eligoomba_kills++
 		points += 200
 		instance_destroy(other)
 		play_sfx(sfx_egghit)
@@ -76,6 +79,7 @@ else if state = states.hedgehog
 }
 else if state = states.rocket
 {
+	eligoomba_kills++
 	points += 125
 	instance_destroy(other)
 	play_sfx(sfx_egghit)

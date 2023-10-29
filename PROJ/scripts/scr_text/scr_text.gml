@@ -183,6 +183,7 @@ function text_checker(str = text[text_selected])
 			instance_create_depth(x,y,101,obj_risinggrave)
 			x = -1000
 			y = -1000
+			inst_ASHTRES.visible = true
 			
 			override_cambound_music_slots = false
 			
@@ -217,6 +218,9 @@ function text_checker(str = text[text_selected])
 		
 		case "@MAKE_GOAL_FLAG_ELICAVE":
 		{
+			if eligoomba_kills >= 25
+				inst_OZZYRECORD.visible = true
+			
 			with instance_create_depth(9600,1760,depth,obj_nextlevel)
 				targetroom = rm_loadtogolf
 			repeat 25
@@ -294,6 +298,25 @@ function text_checker(str = text[text_selected])
 		{
 			audio_stop_sound(va_link_2)
 			play_va(va_link_3)
+		}
+		break;
+		
+		case "@CHECK_ELI_KILLSTREAK":
+		{
+			if eligoomba_kills >= 25
+			{
+				text[2] = "Oh goodie! you did it! Here, you can have my really cool record I definitely did not steal!"
+			}
+			else
+			{
+				text[2] = "Woooow.... lame ass hoe over here..."
+			}
+		}
+		break;
+		
+		case "@SHOW_GOOMBAHUD":
+		{
+			obj_goombakillhud.showit = true
 		}
 		break;
 	}

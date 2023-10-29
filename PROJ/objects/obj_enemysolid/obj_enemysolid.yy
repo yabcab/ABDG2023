@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemysolid",
+    "path": "sprites/spr_enemysolid/spr_enemysolid.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

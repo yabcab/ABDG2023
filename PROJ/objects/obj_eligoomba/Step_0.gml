@@ -2,23 +2,24 @@ if !dead
 {
 	hsp = 2 * -facing
 	var solid_in_way = place_meeting(x + hsp,y,obj_solid)
+	var enemysolid_in_way = place_meeting(x + hsp,y,obj_enemysolid)
 	var no_ground_left = ((!position_meeting(bbox_left - hsp,bbox_bottom + 1,obj_solid) && !position_meeting(bbox_left - hsp,bbox_bottom + 1,obj_platform)) && facing = 1)
 	var no_ground_right = ((!position_meeting(bbox_right + hsp,bbox_bottom + 1,obj_solid) && !position_meeting(bbox_right + hsp,bbox_bottom + 1,obj_platform)) && facing = -1)
 	if grounded
 	{
 		if no_ground_left
 		{
-			x -= 5
+			x += 5
 			facing = -1
 		}
 		if no_ground_right
 		{
-			x += 5
+			x -= 5
 			facing = 1
 		}
-		if solid_in_way
+		if solid_in_way || enemysolid_in_way
 		{
-			x -= 5 * -facing
+			x += 5 * facing
 			facing *= -1
 		}
 	}

@@ -19,6 +19,7 @@ globalvar points; points = 0
 globalvar skip_loading; skip_loading = false // old T&T leftover
 globalvar possessed_object; possessed_object = noone
 globalvar override_cambound_music_slots; override_cambound_music_slots = false
+globalvar eligoomba_kills; eligoomba_kills = 0
 
 room_goto(rm_garbageworld)
 

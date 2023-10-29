@@ -1,0 +1,1 @@
+tres_id = treasure.trophy_alien

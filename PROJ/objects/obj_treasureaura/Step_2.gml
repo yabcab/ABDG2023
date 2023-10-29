@@ -7,4 +7,6 @@ if track
 	
 	if trackid.object_index = obj_treasure// || trackid.object_index = obj_timetrialstarter
 		height = trackid.height
+	
+	visible = trackid.visible
 }

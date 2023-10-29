@@ -32,7 +32,7 @@ yepordy_set_question(3,0,"What is my favorite color?","I can't decide between bl
 yepordy_set_question(3,1,"What was the model of the car I was born in?","Ford Explorer")
 yepordy_set_question(3,2,"What is my favorite song in the whooole world (hint: its really good and reminds me of the color blue or purple)","I don't have a favorite song")
 yepordy_set_question(3,3,"Who is my favorite person? (hint: in the room?)","Well... That's debatable. I just wanted to see you fight.")
-yepordy_set_question(3,4,"placeholder","placeholder")
+yepordy_set_question(3,4,"What president related dream did I once have?","A dream where Joe Biden was put on trial for creating fake Bidens, including Hunter Biden, who is apperantly fake in the dream. The result of the trial was a small fine and being told he is no longer allowed to create new Bidens.")
 
 //Anything Goes
 yepordy_set_question(4,0,"Define 'Judicial Review'","review by the US Supreme Court of the constitutional validity of a legislative act.")
