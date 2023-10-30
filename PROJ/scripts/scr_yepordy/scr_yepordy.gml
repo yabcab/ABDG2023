@@ -17,10 +17,10 @@ function yepordy_init()
 	final_answer = ""
 	q_cross_count = 0
 	
-	for (var c = 0; c < 4; c++)
+	for (var c = 0; c < 5; c++)
 	{
 		category_name[c] = "UNNAMED"
-		for (var q = 0; q < 4; q++)
+		for (var q = 0; q < 5; q++)
 		{
 			category_question_name[c,q] = "UNNAMED"
 			category_question_answer[c,q] = "UNNAMED"
@@ -54,7 +54,8 @@ function yepordy_set_question(category_id,question_id,question_name,answer)
 
 function yepordy_question_is_crossed(category,question)
 {
-	return crossed_questions[category,question]
+	if !is_undefined(crossed_questions[category,question])
+		return crossed_questions[category,question]
 }
 
 function yepordy_cross_question(category,question)

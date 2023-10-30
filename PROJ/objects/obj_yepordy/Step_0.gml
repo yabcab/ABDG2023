@@ -3,26 +3,26 @@ switch state
 	case yepordy_states.question_selector:
 	{
 		#region nav menu
-		if KEY_D_P
+		if KEY_R_P
 		{
 			selected_category++
 			if selected_category > 4
 				selected_category = 0
 		}
-		else if KEY_U_P
+		else if KEY_L_P
 		{
 			selected_category--
 			if selected_category < 0
 				selected_category = 4
 		}
 		
-		if KEY_R_P
+		if KEY_D_P
 		{
 			selected_question++
 			if selected_question > 4
 				selected_question = 0
 		}
-		else if KEY_R_P
+		else if KEY_U_P
 		{
 			selected_question--
 			if selected_question < 0
@@ -48,7 +48,7 @@ switch state
 	}
 	break;
 	
-	case yepordy_states.view_question:
+	case yepordy_states.view_answer:
 	{
 		if KEY_JMP_P
 			state = yepordy_states.question_selector
