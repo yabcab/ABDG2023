@@ -36,3 +36,7 @@ yepordy_set_question(3,4,"What president related dream did I once have?","A drea
 
 //Anything Goes
 yepordy_set_question(4,0,"Define 'Judicial Review'","review by the US Supreme Court of the constitutional validity of a legislative act.")
+yepordy_set_question(4,1,"Gage went shopping and bought 19 cupcakes, 18 apple pies, and 47 glazed donuts. How many items did he buy altogether?","84 Total Items.")
+yepordy_set_question(4,2,"What is the Cookie Monster's full name?","Sidney Monster")
+yepordy_set_question(4,3,"placeholder","placeholder")
+yepordy_set_question(4,4,"placeholder","placeholder")
