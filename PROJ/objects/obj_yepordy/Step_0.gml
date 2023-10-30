@@ -51,7 +51,10 @@ switch state
 	case yepordy_states.view_answer:
 	{
 		if KEY_JMP_P
-			state = yepordy_states.question_selector
+			if q_cross_count < 25
+				state = yepordy_states.question_selector
+			else
+				state = yepordy_states.final_question
 	}
 	break;
 	
@@ -83,15 +86,17 @@ switch state
 	
 	case yepordy_states.final_question:
 	{
-		if KEY_JMP_P
+		if KEY_JMP_P && pstate != state
 			state = yepordy_states.final_answer
 	}
 	break;
 	
 	case yepordy_states.final_answer:
 	{
-		if KEY_JMP_P
+		if KEY_JMP_P && pstate != state
 			state = yepordy_states.view_endscreen
 	}
 	break;
 }
+
+pstate = state

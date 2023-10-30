@@ -12,10 +12,11 @@ function yepordy_init()
 	selected_question = 0
 	loaded_question = ""
 	loaded_answer = ""
-	state = 0
+	state = yepordy_states.view_intro
 	final_question = ""
 	final_answer = ""
 	q_cross_count = 0
+	pstate = 0
 	
 	for (var c = 0; c < 5; c++)
 	{
@@ -61,7 +62,7 @@ function yepordy_question_is_crossed(category,question)
 function yepordy_cross_question(category,question)
 {
 	crossed_questions[category,question] = true	
-	q_cross_count++
+	q_cross_count += 1
 }
 
 function yepordy_load_question(category,question)

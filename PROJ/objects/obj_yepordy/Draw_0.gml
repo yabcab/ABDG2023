@@ -40,4 +40,29 @@ switch state
 		draw_set_halign(fa_left)
 	}
 	break;
+	
+	case yepordy_states.view_intro:
+	{
+		draw_text(10,10,@"It's time to get yepothargic... and play... Yepordy!
+		
+		At this time, please split into TWO teams with equal members.
+		Select ONE person of the team to be the speaker.
+		This member will be the one to buzz in the answer.
+		If needed, one person will sit out of the game.")
+	}
+	break;
+	
+	case yepordy_states.view_rules:
+	{
+		draw_text(10,10,@"THE RULES:
+		
+		>Teams take turns selecting the question
+		>The team that gets CLOSEST to the answer is correct
+		>After buzzing in, only the team speaker may speak to tell 
+		me the answer.
+		>You have 30 seconds to give an answer after buzzing in
+		>Don't die
+		")
+	}
+	break;
 }
