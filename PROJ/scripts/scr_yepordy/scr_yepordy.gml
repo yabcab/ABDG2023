@@ -17,6 +17,7 @@ function yepordy_init()
 	final_answer = ""
 	q_cross_count = 0
 	pstate = 0
+	yep_music = noone
 	
 	for (var c = 0; c < 5; c++)
 	{
@@ -37,6 +38,7 @@ function yepordy_init()
 		view_intro,
 		view_rules,
 		view_endscreen,
+		final_intro,
 		final_question,
 		final_answer,
 	}
