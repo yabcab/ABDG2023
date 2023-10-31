@@ -58,12 +58,7 @@ switch state
 	{
 		draw_sprite(spr_yepordy_bye,0,480,128)
 		
-		draw_text(10,210,@"It's time to get yepothargic... and play... Yepordy!
-		
-		At this time, please split into TWO teams with equal members.
-		Select ONE person of the team to be the speaker.
-		This member will be the one to buzz in the answer.
-		If needed, one person will sit out of the game.")
+		draw_text(10,210,@"The end go away")
 	}
 	break;
 	
