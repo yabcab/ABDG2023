@@ -319,6 +319,14 @@ function text_checker(str = text[text_selected])
 			obj_goombakillhud.showit = true
 		}
 		break;
+		
+		case "@GIVE_MONEY":
+		{
+			instance_create_depth(x,y,depth,obj_moneyfollower)	
+			max_texts = 0
+			text[0] = "But I already gave you my money, kind sir!"
+		}
+		break;
 	}
 	
 	if string_copy(text[text_selected],1,1) = "@"

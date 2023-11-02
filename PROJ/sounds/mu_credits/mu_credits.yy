@@ -12,7 +12,7 @@
     "path": "audiogroups/audio_music_trialstrib",
   },
   "soundFile": "mu_credits.mp3",
-  "duration": 89.05143,
+  "duration": 124.081635,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",

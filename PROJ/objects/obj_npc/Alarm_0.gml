@@ -71,9 +71,25 @@ switch npcid
 	
 	case npcs.link:
 	{
-		drawnbg = spr_textbg_placeholder
+		drawnbg = spr_textbg_link
 		talkspr = spr_link_talk
 		idlespr = spr_link_idle
+	}
+	break;
+	
+	case npcs.granny:
+	{
+		drawnbg = spr_textbg_granny
+		talkspr = spr_granny_talk
+		idlespr = spr_granny_idle
+	}
+	break;
+	
+	case npcs.harper:
+	{
+		drawnbg = spr_textbg_harper
+		talkspr = spr_harper_talk
+		idlespr = spr_harper_idle
 	}
 	break;
 }

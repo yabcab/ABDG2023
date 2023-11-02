@@ -21,7 +21,7 @@ globalvar possessed_object; possessed_object = noone
 globalvar override_cambound_music_slots; override_cambound_music_slots = false
 globalvar eligoomba_kills; eligoomba_kills = 0
 
-room_goto(rm_disclaimer)
+room_goto(rm_test)
 
 if os_type = os_windows
 	window_set_size(1920,1080)
@@ -92,7 +92,7 @@ enum treasure // zomg bro theres like thirteen :exploiding head:"
 globalvar colorblind_shader; colorblind_shader = noone
 globalvar global_npc_dyslexia; global_npc_dyslexia = 0
 globalvar fucked_up_mode; fucked_up_mode = false // decide what this does later
-globalvar debug; debug = false // for now...
+globalvar debug; debug = false
 
 globalvar version; version = "Dev"
 globalvar gamename; gamename = "Trials And Tribulations 2"
