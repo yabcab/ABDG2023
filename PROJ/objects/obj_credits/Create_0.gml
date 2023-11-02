@@ -46,12 +46,17 @@ Eli Goomba Tunnel - The Toneland Intermission
 Minigolf - No Speed Limit!
 Garbage World Deluxe Super - Metally Slime Melody
 Car Theme - zugzwang
-Shoot The Bogos - [Cover] SUPER-REFLEX - Megalomachia2
-Credits - TAC#6: Skinner Box
+Shoot The Bogos - PopFight
+Yepordy A - Voting Time
+Yepordy B - Snowmen Band
+Yepordy C - Saturday
+Yepordy D - Copper Forecast
+Yepordy E - Away From Home - Frinkle's Theme
+Credits - Weather
 
 
 
-Developed September 15th - ENDDATE
+Developed September 15th - December 8th
 Built off Trials and Tribulations v1.0.0 Engine
 
 
