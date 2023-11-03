@@ -81,7 +81,7 @@ switch state
 	{
 		if (KEY_JMP_P || gamepad_button_check_pressed(0,CONT_A))
 		{
-			room_goto(rm_finish) // temp
+			room_goto(rm_loadtonewpork) // temp
 			audio_stop_sound(yep_music)
 		}
 			//show_debug_message("Something should happen here! Probably taking you to the next level...")

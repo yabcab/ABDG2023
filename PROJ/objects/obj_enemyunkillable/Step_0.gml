@@ -34,3 +34,19 @@ else
 	sprite_index = spr_enemyangry_walk
 	
 cull_me()
+
+if (KEY_EGG_P || gamepad_button_check_pressed(0,CONT_X)) && obj_player.state = states.sandal && distance_to_object(obj_player) < 20
+{
+	points += 125
+	instance_destroy(other)
+	play_sfx(sfx_egghit)
+	with instance_create_depth(other.x,other.y,-1,obj_eggparticle)
+	{
+		sprite_index = spr_enemyangry_dead
+		if obj_player.state = states.hedgehog
+			hspeed = (obj_player.hsp * 2) + random_range(-2,2)
+		else
+			hspeed = (12 * obj_player.facing) + random_range(-2,2)
+		vspeed = random_range(-8,-12)
+	}
+}

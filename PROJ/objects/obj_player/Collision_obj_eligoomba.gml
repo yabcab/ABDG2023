@@ -1,4 +1,4 @@
-if state = states.normal && !other.dead && state != states.mariodeath
+if (state = states.normal || state = states.sandal) && !other.dead && state != states.mariodeath
 {
 	if bbox_bottom < other.y + 40 && vsp > -9 // ag
 	{

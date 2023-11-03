@@ -1,4 +1,4 @@
-if state = states.normal || (state = states.hedgehog && image_index = 1)
+if (state = states.normal || state = states.sandal) && !other.dead && state != states.mariodeath
 {
 	anim_hurt = true
 	y -= 11

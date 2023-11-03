@@ -1,0 +1,43 @@
+{
+  "spriteId": {
+    "name": "spr_possessable_sandal",
+    "path": "sprites/spr_possessable_sandal/spr_possessable_sandal.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "managed": true,
+  "spriteMaskId": {
+    "name": "spr_playerR_idle",
+    "path": "sprites/spr_playerR_idle/spr_playerR_idle.yy",
+  },
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_possessable_parent",
+    "path": "objects/obj_possessable_parent/obj_possessable_parent.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "possessables",
+    "path": "folders/Objects/engine/possessables.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_sandal",
+  "tags": [],
+  "resourceType": "GMObject",
+}
