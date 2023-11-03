@@ -66,6 +66,16 @@ switch loaderpos
 		groupname = "audio_voice_gilbertor"
 		audio_group_load(g)
 		if audio_group_is_loaded(g)
+			loaderpos = 7
+	}
+	break;
+	
+	case 7:
+	{
+		var g = audio_voice_harper
+		groupname = "audio_voice_harper"
+		audio_group_load(g)
+		if audio_group_is_loaded(g)
 			room_goto(rm_init)
 	}
 	break;
