@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "p2join",
-  "duration": 0.0,
+  "duration": 2.769229,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -1,1 +1,0 @@
-pal_swap_set(pal_titlecolorshift,col,false)

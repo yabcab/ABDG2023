@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "flowerguyspoolparty",
-  "duration": 0.0,
+  "duration": 187.08897,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
