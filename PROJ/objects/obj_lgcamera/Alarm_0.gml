@@ -1,0 +1,1 @@
+camerashake = 0

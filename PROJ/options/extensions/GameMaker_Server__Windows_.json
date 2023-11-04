@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "GameMaker_Server__Windows_",
+    "path": "extensions/GameMaker_Server__Windows_/GameMaker_Server__Windows_.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}

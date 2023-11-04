@@ -1,0 +1,1 @@
+str = "Beware of Gonk Balls, they can hurt."

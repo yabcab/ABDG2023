@@ -8,8 +8,8 @@
   "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_music_lg",
+    "path": "audiogroups/audio_music_lg",
   },
   "soundFile": "mu_sandwhichshop.mp3",
   "duration": 137.63919,

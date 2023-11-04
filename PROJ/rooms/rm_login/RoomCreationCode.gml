@@ -1,0 +1,20 @@
+keyboard_string = ""
+if instance_exists(obj_timer)
+	instance_destroy(obj_timer)
+if instance_exists(obj_freezetimer)
+	instance_destroy(obj_freezetimer)
+while instance_exists(obj_key)
+	instance_destroy(obj_key)
+	
+obj_LGhud.display = 0
+
+layer_background_xscale(layer_background_get_id(layer_get_id("Background")),2)
+layer_background_xscale(layer_background_get_id(layer_get_id("Backgrounds_2")),2)
+layer_background_xscale(layer_background_get_id(layer_get_id("Backgrounds_1")),2)
+layer_background_xscale(layer_background_get_id(layer_get_id("Backgrounds_3")),2)
+layer_background_xscale(layer_background_get_id(layer_get_id("Backgrounds_2_1")),2)
+layer_background_yscale(layer_background_get_id(layer_get_id("Background")),2)
+layer_background_yscale(layer_background_get_id(layer_get_id("Backgrounds_2")),2)
+layer_background_yscale(layer_background_get_id(layer_get_id("Backgrounds_1")),2)
+layer_background_yscale(layer_background_get_id(layer_get_id("Backgrounds_3")),2)
+layer_background_yscale(layer_background_get_id(layer_get_id("Backgrounds_2_1")),2)
