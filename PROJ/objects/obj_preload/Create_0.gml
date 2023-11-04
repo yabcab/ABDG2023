@@ -6,3 +6,5 @@ alarm[0] = 300
 
 loaderpos = 0
 groupname = ""
+
+loadingtime = 0

@@ -92,4 +92,12 @@ switch npcid
 		idlespr = spr_harper_idle
 	}
 	break;
+	
+	case npcs.airfry:
+	{
+		drawnbg = spr_textbg_harper
+		talkspr = spr_airfry_talk
+		idlespr = spr_airfry_idle
+	}
+	break;
 }
