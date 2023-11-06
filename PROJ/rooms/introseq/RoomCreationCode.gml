@@ -6,3 +6,6 @@
 //view_set_hport(view_get_camera(0),360)
 
 window_set_caption("Quest of The " + gamename)
+
+//k that makes it look even uglier
+//gpu_set_texfilter(true)
