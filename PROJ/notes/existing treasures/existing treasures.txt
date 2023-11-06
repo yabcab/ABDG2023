@@ -12,4 +12,6 @@
 -veneers
 
 4
--
+-curry
+-goomba trophy
+-guitar pick

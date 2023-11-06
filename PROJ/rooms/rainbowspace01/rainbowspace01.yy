@@ -1,5 +1,5 @@
 {
-  "isDnd": true,
+  "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
   "views": [
@@ -14,7 +14,6 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":true,"objectId":{"name":"SoundtrackerRainbowSpace","path":"objects/SoundtrackerRainbowSpace/SoundtrackerRainbowSpace.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":352.0,"resourceVersion":"1.0","name":"inst_697B766B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":true,"objectId":{"name":"Character","path":"objects/Character/Character.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":128.0,"resourceVersion":"1.0","name":"inst_766B8525","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":true,"objectId":{"name":"CollisionBlock","path":"objects/CollisionBlock/CollisionBlock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.875,"scaleY":12.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_7E617D9D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":true,"objectId":{"name":"CollisionBlock","path":"objects/CollisionBlock/CollisionBlock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":7.5,"scaleY":0.890625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":0.0,"resourceVersion":"1.0","name":"inst_15C3DF46","tags":[],"resourceType":"GMRInstance",},
@@ -82,10 +81,9 @@
     {"spriteId":{"name":"RainbowSpaceBackdrop","path":"sprites/RainbowSpaceBackdrop/RainbowSpaceBackdrop.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/RainbowSpace01/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_697B766B","path":"rooms/RainbowSpace01/RainbowSpace01.yy",},
     {"name":"inst_766B8525","path":"rooms/RainbowSpace01/RainbowSpace01.yy",},
     {"name":"inst_7E617D9D","path":"rooms/RainbowSpace01/RainbowSpace01.yy",},
     {"name":"inst_15C3DF46","path":"rooms/RainbowSpace01/RainbowSpace01.yy",},

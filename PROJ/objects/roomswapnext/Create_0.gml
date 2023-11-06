@@ -1,0 +1,1 @@
+rmt = room_next(room)

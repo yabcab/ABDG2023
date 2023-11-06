@@ -35,6 +35,7 @@ anim_fire = false
 // 5/17/23 - i was very wrong
 // 7/15/23 - hey guys im making another game on this engine
 // 10/1/23 - shut up hoe
+// 11/6/23 - hey what did i miss guys
 enum states
 {
 	none = -1,
@@ -67,3 +68,5 @@ mariospeed = 0
 hog_charge = 0
 dontkillme = false
 shades = false
+
+dead = false // ??
