@@ -327,6 +327,56 @@ function text_checker(str = text[text_selected])
 			text[0] = "But I already gave you my money, kind sir!"
 		}
 		break;
+		
+		case "@BUY_SAMMY_CHECK":
+		{
+			if instance_number(obj_moneyfollower) >= 4
+			{
+				max_texts = 5
+				text[3] = "Well call me a member of the free market, I'm selling you this sandwhich. Give me your yummy Ameribucks! Yum yum..."
+				text[4] = "Enjoy eating it! (Or give it to the inferior Mr. Harper. Your pick.)"
+				text[5] = "@SAMMY_BUY_OUT"
+				while instance_exists(obj_moneyfollower)
+					instance_destroy(obj_moneyfollower)
+				instance_create_depth(x,y,depth,obj_sammyfollower)
+			}
+		}
+		break;
+		
+		case "@SAMMY_BUY_OUT":
+		{
+			max_texts = 0
+			text[0] = "I already gave you my yummy capitalist sandwhich."
+		}
+		break;
+		
+		case "@SAMMY_CHECK":
+		{
+			if instance_exists(obj_sammyfollower)
+			{
+				instance_destroy(obj_sammyfollower)
+				
+				max_texts = 5
+				text[3] = "Yes. I will eat this."
+				text[4] = "MMmmmmmmmmmmm... I will also open the door mmmmmmmmmmm"
+				text[5] = "@SAMMY_EAT_OUT"
+			}
+		}
+		break;
+		
+		case "@SAMMY_EAT_OUT":
+		{
+			instance_destroy(inst_SAMMYWALL)
+			with obj_ashdoor
+			{
+				fuckuphater = true
+				vspeed = -7
+				hspeed = 4
+			}
+			max_texts = 0
+			text[0] = "I'm not hungry anymore go away"
+			
+		}
 	}
 	
 	if string_copy(text[text_selected],1,1) = "@"

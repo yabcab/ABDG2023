@@ -18,8 +18,27 @@ if (state = states.normal || state = states.sandal) && !other.dead && state != s
 	}
 	else if !dontkillme
 	{
-		state = states.mariodeath
-		play_sfx(sfx_goombadeath,false)
+		if state = states.sandal
+		{
+			with possessed_object
+			{
+				if possessmusic
+					override_cambound_music_slots = false
+				possessed_object = noone
+				obj_player.state = states.normal
+				//obj_player.hsp = 0
+				obj_player.vsp = -12
+				visible = true
+				obj_player.hasdoublejump = true
+			}
+			dontkillme = true
+			alarm[0] = 60
+		}
+		else
+		{
+			state = states.mariodeath
+			play_sfx(sfx_goombadeath,false)
+		}
 	}
 }
 else if state = states.hedgehog

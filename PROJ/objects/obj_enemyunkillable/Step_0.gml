@@ -35,7 +35,7 @@ else
 	
 cull_me()
 
-if (KEY_EGG_P || gamepad_button_check_pressed(0,CONT_X)) && obj_player.state = states.sandal && distance_to_object(obj_player) < 20
+if (KEY_EGG_P || gamepad_button_check_pressed(0,CONT_X)) && obj_player.state = states.sandal && distance_to_object(obj_player) < 35
 {
 	points += 125
 	instance_destroy(other)
