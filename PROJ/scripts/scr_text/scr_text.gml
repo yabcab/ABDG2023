@@ -338,7 +338,7 @@ function text_checker(str = text[text_selected])
 				text[5] = "@SAMMY_BUY_OUT"
 				while instance_exists(obj_moneyfollower)
 					instance_destroy(obj_moneyfollower)
-				instance_create_depth(x,y,depth,obj_sammyfollower)
+				instance_create_depth(x,y,-1001,obj_sammyfollower)
 			}
 		}
 		break;
