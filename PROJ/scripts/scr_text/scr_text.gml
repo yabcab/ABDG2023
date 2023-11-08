@@ -475,7 +475,7 @@ function text_checker(str = text[text_selected])
 				instance_destroy(obj_sammyfollower)
 				
 				max_texts = 10
-				text[5] = "@VA_HARPER_IWLLEAT"
+				text[5] = "@VA_HARPER_IWILLEAT"
 				text[6] = "Yes. I will eat this."
 				text[7] = "@VA_HARPER_MMMM"
 				text[8] = "MMmmmmmmmmmmm... I will also open the door mmmmmmmmmmm"
