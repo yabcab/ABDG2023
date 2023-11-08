@@ -93,7 +93,6 @@ switch loaderpos
 		{
 			loaderpos = 7
 			loadingtime = 0	
-			room_goto(rm_init) // temp until harper voicelines
 		}
 	}
 	break;

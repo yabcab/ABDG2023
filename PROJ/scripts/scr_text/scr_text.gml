@@ -301,6 +301,121 @@ function text_checker(str = text[text_selected])
 		}
 		break;
 		
+		case "@VA_HARPER_HUNGRY":
+		{
+			//audio_stop_sound(va_link_2)
+			play_va(va_harper_hungry)
+		}
+		break;
+		
+		case "@VA_HARPER_CAPITALISM":
+		{
+			audio_stop_sound(va_harper_sandwichfunds)
+			play_va(va_harper_capitalsimgood)
+		}
+		break;
+		
+		case "@VA_HARPER_COMMUNISM":
+		{
+			audio_stop_sound(va_harper_pleasesandwich)
+			play_va(va_harper_communismbad)
+		}
+		break;
+		
+		case "@VA_HARPER_EATTHAT":
+		{
+			audio_stop_sound(va_harper_freemarket)
+			play_va(va_harper_eatthat)
+		}
+		break;
+		
+		case "@VA_HARPER_GOSCAM":
+		{
+			audio_stop_sound(va_harper_capitalsimgood)
+			play_va(va_harper_justgoscam)
+		}
+		break;
+		
+		case "@VA_HARPER_MMMM":
+		{
+			audio_stop_sound(va_harper_iwilleat)
+			play_va(va_harper_mmmmm)
+		}
+		break;
+		
+		case "@VA_HARPER_OUTTAKE":
+		{
+			//audio_stop_sound(va_link_2)
+			play_va(va_harper_outtake)
+		}
+		break;
+		
+		case "@VA_HARPER_PLEASESANDWICH":
+		{
+			audio_stop_sound(va_harper_hungry)
+			play_va(va_harper_pleasesandwich)
+		}
+		break;
+		
+		case "@VA_HARPER_SANDWICHFUNDS":
+		{
+			audio_stop_sound(va_harper_sellsandwich)
+			play_va(va_harper_sandwichfunds)
+		}
+		break;
+		
+		case "@VA_HARPER_SELLSANDWICH":
+		{
+			//audio_stop_sound(va_link_2)
+			play_va(va_harper_sellsandwich)
+		}
+		break;
+		
+		case "@VA_HARPER_INNOCENTGRANDMAS":
+		{
+			audio_stop_sound(va_harper_communismbad)
+			play_va(va_harper_innocentgrandmas)
+		}
+		break;
+		
+		case "@VA_HARPER_IWILLEAT":
+		{
+			audio_stop_sound(va_harper_pleasesandwich)
+			play_va(va_harper_iwilleat)
+		}
+		break;
+		
+		case "@VA_HARPER_FREEMARKET":
+		{
+			audio_stop_sound(va_harper_sandwichfunds)
+			play_va(va_harper_freemarket)
+		}
+		break;
+		
+		case "@CANCEL_VA_INNOCENTGRANDMAS":
+		{
+			audio_stop_sound(va_harper_innocentgrandmas)
+		}
+		break;
+		
+		case "@CANCEL_VA_GOSCAM":
+		{
+			audio_stop_sound(va_harper_justgoscam)
+		}
+		break;
+		
+		case "@CANCEL_VA_EATTHAT":
+		{
+			audio_stop_sound(va_harper_eatthat)
+		}
+		break;
+		
+		case "@CANCEL_VA_MMMM":
+		{
+			audio_stop_sound(va_harper_mmmmm)
+		}
+		break;
+		
 		case "@CHECK_ELI_KILLSTREAK":
 		{
 			if eligoomba_kills >= 25
@@ -322,7 +437,7 @@ function text_checker(str = text[text_selected])
 		
 		case "@GIVE_MONEY":
 		{
-			instance_create_depth(x,y,depth,obj_moneyfollower)	
+			instance_create_depth(x,y,-1,obj_moneyfollower)	
 			max_texts = 0
 			text[0] = "But I already gave you my money, kind sir!"
 		}
@@ -332,13 +447,16 @@ function text_checker(str = text[text_selected])
 		{
 			if instance_number(obj_moneyfollower) >= 4
 			{
-				max_texts = 5
-				text[3] = "Well call me a member of the free market, I'm selling you this sandwhich. Give me your yummy Ameribucks! Yum yum..."
-				text[4] = "Enjoy eating it! (Or give it to the inferior Mr. Harper. Your pick.)"
-				text[5] = "@SAMMY_BUY_OUT"
+				max_texts = 10
+				text[5] = "@VA_HARPER_FREEMARKET"
+				text[6] = "Well call me a member of the free market, I'm selling you this sandwhich. Give me your yummy Ameribucks! Yum yum..."
+				text[7] = "@VA_HARPER_EATTHAT"
+				text[8] = "Enjoy eating it! (Or give it to the inferior Mr. Harper. Your pick.)"
+				text[9] = "@CANCE_VA_EATTHAT"
+				text[10] = "@SAMMY_BUY_OUT"
 				while instance_exists(obj_moneyfollower)
 					instance_destroy(obj_moneyfollower)
-				instance_create_depth(x,y,-1001,obj_sammyfollower)
+				instance_create_depth(x,y,-1,obj_sammyfollower)
 			}
 		}
 		break;
@@ -346,7 +464,7 @@ function text_checker(str = text[text_selected])
 		case "@SAMMY_BUY_OUT":
 		{
 			max_texts = 0
-			text[0] = "I already gave you my yummy capitalist sandwhich."
+			text[0] = "@EXPLODE_AND_DIE"
 		}
 		break;
 		
@@ -356,10 +474,13 @@ function text_checker(str = text[text_selected])
 			{
 				instance_destroy(obj_sammyfollower)
 				
-				max_texts = 5
-				text[3] = "Yes. I will eat this."
-				text[4] = "MMmmmmmmmmmmm... I will also open the door mmmmmmmmmmm"
-				text[5] = "@SAMMY_EAT_OUT"
+				max_texts = 10
+				text[5] = "@VA_HARPER_IWLLEAT"
+				text[6] = "Yes. I will eat this."
+				text[7] = "@VA_HARPER_MMMM"
+				text[8] = "MMmmmmmmmmmmm... I will also open the door mmmmmmmmmmm"
+				text[9] = "@CANCEL_VA_MMMM"
+				text[10] = "@SAMMY_EAT_OUT"
 			}
 		}
 		break;
@@ -374,8 +495,7 @@ function text_checker(str = text[text_selected])
 				hspeed = 4
 			}
 			max_texts = 0
-			text[0] = "I'm not hungry anymore go away"
-			
+			text[0] = "@EXPLODE_AND_DIE"
 		}
 	}
 	
