@@ -1,4 +1,4 @@
-if (state = states.normal || state = states.sandal) && !other.dead && state != states.mariodeath
+if (state = states.normal || state = states.sandal || (state = states.hedgehog && image_index != 2)) && !other.dead && state != states.mariodeath
 {
 	if bbox_bottom < other.y + 40 && vsp > -9 // ag
 	{
@@ -18,7 +18,7 @@ if (state = states.normal || state = states.sandal) && !other.dead && state != s
 	}
 	else if !dontkillme
 	{
-		if state = states.sandal
+		if state = states.sandal || state = states.hedgehog
 		{
 			with possessed_object
 			{
