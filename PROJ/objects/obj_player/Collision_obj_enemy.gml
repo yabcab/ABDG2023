@@ -17,7 +17,7 @@ if (state = states.normal || state = states.sandal || (state = states.hedgehog &
 	hsp = lengthdir_x(sp,dir)
 	vsp = lengthdir_y(sp,dir)
 }
-else if state = states.rocket || state = states.chicken || (state = states.hedgehog && image_index = 2)
+else if state = states.rocket || state = states.chicken
 {
 	points += 125
 	instance_destroy(other)
@@ -29,6 +29,19 @@ else if state = states.rocket || state = states.chicken || (state = states.hedge
 			hspeed = (obj_player.hsp * 2) + random_range(-2,2)
 		else
 			hspeed = (12 * obj_player.facing) + random_range(-2,2)
+		vspeed = random_range(-8,-12)
+	}
+}
+else if (state = states.hedgehog && image_index = 2)
+{
+	points += 125
+	instance_destroy(other)
+	play_sfx(sfx_hedgehogpoke)
+	with instance_create_depth(other.x,other.y,-1,obj_eggparticle)
+	{
+		rotspd = random_range(0,2)
+		sprite_index = spr_enemy_dead
+		hspeed = random_range(-3,3)
 		vspeed = random_range(-8,-12)
 	}
 }

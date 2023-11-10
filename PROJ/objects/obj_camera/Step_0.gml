@@ -10,6 +10,9 @@ if instance_exists(obj_player)
 	//}
 	//else
 	//{ //plssss work plsssssss
+		if playercamregion != prev_pregion
+			play_sfx(sfx_camregionswap)
+	
 		x = lerp(x,clamp(obj_player.x,playercamregion.x + 480,playercamregion.x - 480 + (960 * playercamregion.image_xscale)),0.2)
 		y = lerp(y,clamp(obj_player.y + (obj_player.yoff / 2),playercamregion.y + 270,playercamregion.y - 270 + (540 * playercamregion.image_yscale)),0.2)
 		if playercamregion.setslot != -1 && !override_cambound_music_slots
@@ -19,5 +22,6 @@ if instance_exists(obj_player)
 		instance_activate_region(playercamregion.x,playercamregion.y,960 * playercamregion.image_xscale,540 * playercamregion.image_yscale,true) // in cam region
 		instance_activate_region(x - 480,y - 270,960,540,true) // in cam
 		
+		prev_pregion = playercamregion
 	//}
 }

@@ -29,6 +29,7 @@ if possessed_object = id && !just_possessed
 		if possessmusic
 			override_cambound_music_slots = false
 		possessed_object = noone
+		play_sfx(sfx_depossess)
 		obj_player.state = states.normal
 		//obj_player.hsp = 0
 		obj_player.vsp = -12

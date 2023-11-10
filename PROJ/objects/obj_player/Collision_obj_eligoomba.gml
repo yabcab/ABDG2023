@@ -83,7 +83,7 @@ else if state = states.hedgehog
 		eligoomba_kills++
 		points += 200
 		instance_destroy(other)
-		play_sfx(sfx_egghit)
+		play_sfx(sfx_hedgehogpoke)
 		with instance_create_depth(other.x,other.y,-1,obj_eggparticle)
 		{
 			rotspd = random_range(0,2)

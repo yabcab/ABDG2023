@@ -1,5 +1,6 @@
 if visible
 {
+	play_sfx(sfx_gettres)
 	instance_destroy()
 	//destroylist_add()
 	//audio_play_sound(sfx_collecttreasure,0,false,1,0,random_range(0.8,1.2))

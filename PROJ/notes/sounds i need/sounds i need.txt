@@ -1,0 +1,58 @@
+GENERAL:
+-camregion swap - DONE
+-enemy hit player - DONE
+-depossess - DONE
+-treasure get - DONE
+-treasure get close menu - DONE
+-npc spawn treasure 
+
+TITLE:
+-title pick option
+-title select settings
+-title back from settings
+-title select play
+-title setting swap
+
+KHIZAR BASEMENT:
+-lavalamp force depossess
+-pokebattle dialogue advance
+-pokebattle option pick
+-pokebattle option select
+-possess chicken
+-possess lavalamp
+
+ELICAVERNS:
+-intro door kick
+-possess hedgehog
+-goomba killhud open
+-goomba killhud get kill
+-goomba killhud close
+-hedgehog poke enemy
+-hedgehog shinespark
+
+MINIGOLF:
+-golf hit (make new one)
+-golf hit wall
+-golf end stroke
+-eligoomba hoodie strike
+
+GARBAGE WORLD:
+-hamster give shades
+-possess car
+-shoot bogos - miss
+-shoot bogos - hit
+-shoot bogos - start
+
+YEPORDY:
+-select option
+-pick option
+-continue
+
+NEW PORK
+-granny give money
+-harper take money
+-harper eat sandwich
+-possess sandal
+-sandal slap air
+-sandal slap enemy
+-sandal scale wall
