@@ -1,10 +1,6 @@
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
-/// @DnDVersion : 1
-/// @DnDHash : 1221F689
-/// @DnDArgument : "key" "vk_right"
-var l1221F689_0;
-l1221F689_0 = keyboard_check(vk_right);
-if (l1221F689_0)
+var l49760457_0;
+l49760457_0 = keyboard_check(vk_right) || (speed != 0 && direction = 0)
+if (l49760457_0)
 {
-
+	instance_create_layer(0, 0, "Instances", BoostTracker);
 }
