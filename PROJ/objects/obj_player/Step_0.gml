@@ -43,7 +43,7 @@ switch state
 			else if anim_jump
 				sprite_index = spr_playerR_jumpstart
 			else if anim_egg
-				sprite_index = spr_playerJ_egg
+				sprite_index = spr_playerR_jumphold
 			else
 				sprite_index = spr_playerR_jumphold
 		}
@@ -51,7 +51,7 @@ switch state
 		//STROMBULOUS
 		if levelcomplete
 		{
-			sprite_index = spr_playerJ_air
+			sprite_index = spr_playerR_jumphold
 			instance_create_depth(x,bbox_bottom + yoff,depth - 1,obj_whiteparticle)	
 		}
 		
@@ -193,7 +193,7 @@ switch state
 			
 		if broimdead
 		{
-			sprite_index = spr_playerJ_pain
+			sprite_index = spr_playerR_hurt
 			hsp = lerp(hsp,0,0.05)
 			vsp = lerp(vsp,0,0.05)
 			deadtimer = approach(deadtimer,-1,1)

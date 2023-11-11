@@ -24,6 +24,7 @@ speaking = false
 
 dyslexia_mode = false
 dys_textcopy = ""
+can_talk = true
 
 //435y
 surf = surface_create(960,115)
@@ -47,6 +48,7 @@ enum npcs // 5/11/23 - all npcs are in!! 10/8/23 - no the fuck they are not
 	granny,
 	harper,
 	airfry,
+	signpost,
 }
 alarm[0] = 1
 talkspr = sprite_index

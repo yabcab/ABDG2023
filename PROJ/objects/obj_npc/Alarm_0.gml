@@ -100,4 +100,12 @@ switch npcid
 		idlespr = spr_airfry_idle
 	}
 	break;
+	
+	case npcs.signpost:
+	{
+		drawnbg = spr_textbg_sign
+		talkspr = spr_signpost
+		idlespr = spr_signpost
+	}
+	break;
 }

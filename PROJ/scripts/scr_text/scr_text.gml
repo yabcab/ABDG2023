@@ -67,6 +67,7 @@ function text_checker(str = text[text_selected])
 			play_sfx(sfx_flyup,false)
 			vspeed = -3
 			alarm[1] = 300
+			can_talk = false
 		}
 		break;
 		
