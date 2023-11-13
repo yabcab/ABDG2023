@@ -1,3 +1,4 @@
+//fun fact - this is the single MOST buggy object in the game (in terms of bugs encountered thru development)
 if !dead
 {
 	hsp = 2 * -facing

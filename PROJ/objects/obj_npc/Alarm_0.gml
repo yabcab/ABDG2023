@@ -116,4 +116,12 @@ switch npcid
 		idlespr = spr_jp_idle
 	}
 	break;
+	
+	case npcs.ace:
+	{
+		drawnbg = spr_textbg_ace
+		talkspr = spr_ace_talk
+		idlespr = spr_ace_idle
+	}
+	break;
 }

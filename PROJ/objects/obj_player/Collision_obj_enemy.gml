@@ -32,11 +32,13 @@ else if state = states.rocket || state = states.chicken
 		vspeed = random_range(-8,-12)
 	}
 }
-else if (state = states.hedgehog && image_index = 2)
+else if (state = states.hedgehog && image_index = 2) || state = states.floured
 {
 	points += 125
 	instance_destroy(other)
-	play_sfx(sfx_hedgehogpoke)
+	if state = states.hedgehog
+		play_sfx(sfx_hedgehogpoke)
+	else play_sfx(sfx_owie)
 	with instance_create_depth(other.x,other.y,-1,obj_eggparticle)
 	{
 		rotspd = random_range(0,2)
