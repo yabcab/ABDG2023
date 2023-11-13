@@ -90,7 +90,7 @@ switch sel
 				text[i++] = "I HATE your BITCH ASS I hope you DIE tomorrow because I DO NOT LIKE YOU VERY MUCH OKAY."
 				text[i++] = "Also, I will open the door, because I am a rebel and do not follow the rules, because I am Ash from Pokemon."
 				text[i++] = "Ash from Pokemon out!"
-				text[i++] = "Oh, and you can have my Ash from Pokemon apple too."
+				text[i++] = "Oh, and you can have my Ash from Pokemon apple too. Enjoy visiting tech support."
 				text[i++] = "@ASH_OUT"
 				
 				max_texts = i - 1

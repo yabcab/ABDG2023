@@ -435,8 +435,9 @@ switch state
 			runtimer = 99
 		
 		image_speed = 1
-		sprite_index = spr_playerJ_flour
-		instance_create_depth(x,y,depth,obj_whiteparticle)
+		sprite_index = spr_possessable_rollers
+		image_index = 1
+		//instance_create_depth(x,y,depth,obj_whiteparticle)
 		
 		vsp = approach(vsp,18,0.5)
 		
@@ -464,7 +465,7 @@ switch state
 				if (grounded || place_meeting(x,y,obj_airjump) || place_meeting(x,y + 20,obj_solid)) && (gamepad_button_check_pressed(0,CONT_A) || KEY_JMP_P)
 				{
 					play_sfx(sfx_jump)
-					vsp = -15
+					vsp = -11
 					jumping = true
 					hasdoublejump = true
 					anim_jump = true

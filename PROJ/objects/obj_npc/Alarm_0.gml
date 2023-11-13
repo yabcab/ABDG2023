@@ -108,4 +108,12 @@ switch npcid
 		idlespr = spr_signpost
 	}
 	break;
+	
+	case npcs.jp:
+	{
+		drawnbg = spr_textbg_jp
+		talkspr = spr_jp_talk
+		idlespr = spr_jp_idle
+	}
+	break;
 }

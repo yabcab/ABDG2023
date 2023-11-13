@@ -21,7 +21,7 @@ globalvar possessed_object; possessed_object = noone
 globalvar override_cambound_music_slots; override_cambound_music_slots = false
 globalvar eligoomba_kills; eligoomba_kills = 0
 
-room_goto(rm_khizarbasement1)
+room_goto(rm_finish)
 
 if os_type = os_windows
 	window_set_size(1920,1080)

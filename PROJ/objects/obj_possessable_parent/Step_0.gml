@@ -5,7 +5,7 @@ with obj_player
 var closest_possessable = instance_nearest(obj_player.x,obj_player.y,obj_possessable_parent)
 var just_possessed = false
 
-if closest_possessable = id && (KEY_POS_P || gamepad_button_check_pressed(0,CONT_Y)) && possessed_object = noone && obj_player.grounded && dist < 300 && !obj_player.talking
+if closest_possessable = id && (KEY_POS_P || gamepad_button_check_pressed(0,CONT_Y)) && possessed_object = noone && obj_player.grounded && dist < 200 && !obj_player.talking
 {
 	if possessmusic
 	{

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_flourblocks",
-    "path": "sprites/spr_flourblocks/spr_flourblocks.yy",
+    "name": "spr_crates",
+    "path": "sprites/spr_crates/spr_crates.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "yesyes",
-    "path": "folders/Objects/ITS A SECRET/aaa/yesyes.yy",
+    "name": "geometry",
+    "path": "folders/Objects/geometry.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_flourdestroyable",
