@@ -980,7 +980,7 @@ switch state
 				axdir = 1
 			var holdrun = 0 //gamepad_button_check(0,CONT_RB)
 			var runsp = 0
-			var walksp = 7
+			var walksp = 9
 	
 			if levelcomplete
 			{
