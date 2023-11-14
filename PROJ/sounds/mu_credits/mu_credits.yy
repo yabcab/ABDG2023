@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 1,
-  "volume": 0.4,
+  "volume": 0.3,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/audio_music_trialstrib",
   },
   "soundFile": "mu_credits.mp3",
-  "duration": 124.081635,
+  "duration": 122.25306,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",

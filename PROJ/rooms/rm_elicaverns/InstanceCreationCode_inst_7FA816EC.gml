@@ -1,1 +1,1 @@
-tres_id = treasure.funny_pinapple
+tres_id = treasure.crumb

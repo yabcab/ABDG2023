@@ -1,9 +1,11 @@
 1
 -krabs
 -apple
+-pineapple
+-paper
 
 2
--pineapple
+-crumb
 -ozzys golden record
 
 3

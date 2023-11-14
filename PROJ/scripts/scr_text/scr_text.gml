@@ -498,6 +498,29 @@ function text_checker(str = text[text_selected])
 			max_texts = 0
 			text[0] = "@EXPLODE_AND_DIE"
 		}
+		break;
+		
+		case "@START_ACEGAME":
+		{
+			obj_player.state = sin(9) * -1
+			instance_create_depth(0,0,-5000,obj_acegame_colmap)
+			instance_create_depth(40,120,-5001,obj_acegame_player)
+			instance_create_depth(506,289,-5001,obj_acegame_toilet)
+			override_cambound_music_slots = true
+			music_set_active_slot(5)
+		}
+		break;
+		
+		case "@ACE_KEY_CHECK":
+		{
+			if ace_game_finished
+			{
+				instance_create_depth(x,y,depth,obj_key)
+				text[1] = "YOU DID IT! He can now shit, here is the key. Take my thang."
+				max_texts = 1
+			}
+		}
+		break;
 	}
 	
 	if string_copy(text[text_selected],1,1) = "@"
