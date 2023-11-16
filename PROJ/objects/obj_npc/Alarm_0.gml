@@ -124,4 +124,28 @@ switch npcid
 		idlespr = spr_ace_idle
 	}
 	break;
+	
+	case npcs.ramsay:
+	{
+		drawnbg = spr_textbg_ramsay
+		talkspr = spr_ramsay_talk
+		idlespr = spr_ramsay_idle
+	}
+	break;
+	
+	case npcs.gilbertminecraft_dead:
+	{
+		drawnbg = spr_textbg_gilbertminecraft
+		talkspr = spr_gilbertminecraft_dead
+		idlespr = spr_gilbertminecraft_dead
+	}
+	break;
+	
+	case npcs.gilbertminecraft_live:
+	{
+		drawnbg = spr_textbg_gilbertminecraft
+		talkspr = spr_gilbertminecraft_alive
+		idlespr = spr_gilbertminecraft_alive
+	}
+	break;
 }

@@ -31,7 +31,7 @@
     "path": "folders/Objects/misc.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_elicavebgenable",
+  "name": "obj_elicavebg_normal",
   "tags": [],
   "resourceType": "GMObject",
 }

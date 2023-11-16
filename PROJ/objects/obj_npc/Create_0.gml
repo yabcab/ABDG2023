@@ -33,7 +33,7 @@ xscroll = 0
 yscroll = 0
 
 npcid = npcs.lemonhead
-enum npcs // 5/11/23 - all npcs are in!! 10/8/23 - no the fuck they are not
+enum npcs // 5/11/23 - all npcs are in!! 10/8/23 - no the fuck they are not - 11/15/23 - JESUS FUCK THERES SO MANY
 {
 	lemonhead,
 	badfather,
@@ -52,6 +52,9 @@ enum npcs // 5/11/23 - all npcs are in!! 10/8/23 - no the fuck they are not
 	jp,
 	eligoomba_butlike_notevil,
 	ace,
+	ramsay,
+	gilbertminecraft_live,
+	gilbertminecraft_dead,
 }
 alarm[0] = 1
 talkspr = sprite_index

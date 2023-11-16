@@ -7,6 +7,7 @@
 2
 -crumb
 -ozzys golden record
+-player trophy
 
 3
 -dead ant
@@ -17,3 +18,10 @@
 -curry
 -goomba trophy
 -guitar pick
+
+enum treasure // zomg bro theres like thirteen :exploiding head:"
+{
+	pen,
+	coffee,
+	rat_poison,
+}

@@ -1,10 +1,7 @@
 {
-  "spriteId": {
-    "name": "spr_flourdestroyable",
-    "path": "sprites/spr_flourdestroyable/spr_flourdestroyable.yy",
-  },
+  "spriteId": null,
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -21,9 +18,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +26,7 @@
     "path": "folders/Objects/misc.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_elicavebgdisable",
+  "name": "obj_firework",
   "tags": [],
   "resourceType": "GMObject",
 }

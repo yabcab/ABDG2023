@@ -521,6 +521,25 @@ function text_checker(str = text[text_selected])
 			}
 		}
 		break;
+		
+		case "@GOTO_PANTRY":
+		{
+			room_goto(rm_loadtopantry) // PRAY YALL
+		}
+		break;
+		
+		case "@KILL_ANOTHER_ASHDOOR":
+		{
+			with inst_CAVEDOORWALL
+				instance_destroy()
+			with obj_ashdoor
+			{
+				fuckuphater = true
+				vspeed = -7
+				hspeed = 4
+			}
+		}
+		break;
 	}
 	
 	if string_copy(text[text_selected],1,1) = "@"

@@ -19,16 +19,16 @@ function play_va(sound)
 
 function make_shadow()
 {
-	//init req'd vars
-	yoff = 0
-	rot = 0
-	facing = 1
-	bobsin = 0
-	rotsin = 0
+	////init req'd vars
+	//yoff = 0
+	//rot = 0
+	//facing = 1
+	//bobsin = 0
+	//rotsin = 0
 	
-	//make it
-	with instance_create_depth(0,0,101,obj_shadow)
-		assigned = other.id
+	////make it
+	//with instance_create_depth(0,0,101,obj_shadow)
+	//	assigned = other.id
 }
 
 function glue_overlay(spr)

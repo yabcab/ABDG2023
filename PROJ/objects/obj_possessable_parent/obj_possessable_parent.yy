@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "possessables",
-    "path": "folders/Objects/engine/possessables.yy",
+    "path": "folders/Objects/geometry/possessables.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_possessable_parent",
