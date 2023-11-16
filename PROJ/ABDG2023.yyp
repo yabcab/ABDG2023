@@ -583,6 +583,7 @@
     {"id":{"name":"InvSwapper","path":"objects/InvSwapper/InvSwapper.yy",},"order":0,},
     {"id":{"name":"spr_title_hoverright","path":"sprites/spr_title_hoverright/spr_title_hoverright.yy",},"order":7,},
     {"id":{"name":"CharacterSpingeWalkRightBoostWT","path":"sprites/CharacterSpingeWalkRightBoostWT/CharacterSpingeWalkRightBoostWT.yy",},"order":373,},
+    {"id":{"name":"prompt checklist","path":"notes/prompt checklist/prompt checklist.yy",},"order":9,},
     {"id":{"name":"spr_lemonhead_talk","path":"sprites/spr_lemonhead_talk/spr_lemonhead_talk.yy",},"order":2,},
     {"id":{"name":"CharacterAvoHitRS","path":"sprites/CharacterAvoHitRS/CharacterAvoHitRS.yy",},"order":53,},
     {"id":{"name":"SpawnB","path":"objects/SpawnB/SpawnB.yy",},"order":13,},

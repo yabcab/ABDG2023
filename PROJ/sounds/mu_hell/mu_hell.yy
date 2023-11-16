@@ -12,7 +12,7 @@
     "path": "audiogroups/audio_music_trialstrib",
   },
   "soundFile": "mu_hell.mp3",
-  "duration": 511.5298,
+  "duration": 198.89633,
   "parent": {
     "name": "music",
     "path": "folders/Sounds/music.yy",
