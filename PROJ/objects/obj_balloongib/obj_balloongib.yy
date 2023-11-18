@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_goomballoon",
-    "path": "sprites/spr_goomballoon/spr_goomballoon.yy",
+    "name": "spr_rice_balloon",
+    "path": "sprites/spr_rice_balloon/spr_rice_balloon.yy",
   },
   "solid": false,
   "visible": true,

@@ -35,5 +35,6 @@ if possessed_object = id && !just_possessed
 		obj_player.vsp = -12
 		visible = true
 		obj_player.hasdoublejump = true
+		obj_player.jumping = false
 	}
 }

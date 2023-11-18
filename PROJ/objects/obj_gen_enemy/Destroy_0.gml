@@ -4,11 +4,11 @@ if !silent
 	{
 		case enemytype.default_ai:
 		{
-			points += 100
+			points += 25
 			instance_create_depth(x,y,depth - 1,obj_cratepart, {
 				hspeed: 0,
 				vspeed: 0,
-				sprite_index: spr_eligoomba_hedgehogkill
+				sprite_index: spr_rice_dead
 			});
 		
 			play_sfx(sfx_balloonsnap)
@@ -18,13 +18,24 @@ if !silent
 
 		case enemytype.swarmer:
 		{
-			points += 25
+			points += 7
 			instance_create_depth(x,y,depth - 1,obj_cratepart, {
 				hspeed: random_range(9,12),
 				vspeed: random_range(-4,-6),
-				//sprite_index: spr_swarmerdog_dead,
+				sprite_index: spr_cracker_dead,
 				rotate_speed: 5
 			});
+		}
+		break;
+		
+		case enemytype.crier:
+		{
+			points += 25
+			with instance_create_depth(x,y,depth - 1,obj_smokepuff)
+			{
+				sprite_index = spr_explosion
+				image_speed = 3
+			}
 		}
 		break;
 	}

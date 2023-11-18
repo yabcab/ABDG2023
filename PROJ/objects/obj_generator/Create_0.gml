@@ -20,7 +20,6 @@ randomize()
 audio_stop_all()
 targetscroll = 0
 music = audio_play_sound(mu_pantry,1,false)
-audio_sound_set_track_position(music,203.5) // TEMP
 targetcolor_r = 0
 color_r = 0
 targetcolor_g = 0

@@ -5,7 +5,7 @@ rotation = lerp(rotation,(-hsp + -vsp) * 2,0.2)
 switch type {
 	case enemytype.default_ai:
 	{
-		sprite_index = spr_eligoomba_balloon
+		sprite_index = spr_rice_fly
 		if sittime <= 0
 		{
 			hsp = random_range(-6,6)
@@ -21,6 +21,7 @@ switch type {
 	
 	case enemytype.swarmer:
 	{
+		sprite_index = spr_cracker_fly
 		ignore_collides = true
 		//sprite_index = spr_swarmerdog
 		
@@ -39,6 +40,8 @@ switch type {
 		//		sprite_index = spr_crier_launchprep
 		//	else
 		//		sprite_index = spr_crier
+		
+		sprite_index = spr_tobasco
 			
 		if sittime <= 0 && !launching
 		{

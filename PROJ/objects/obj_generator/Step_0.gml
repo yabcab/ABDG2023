@@ -113,14 +113,15 @@ x += scroll
 if distance > lastwalldist + disttonextwall && spawnwalls
 {
 	lastwalldist = distance
-	disttonextwall = random_range(100,200)
+	disttonextwall = random_range(200,400)
 	wallsnap = choose(boundry_snap.top,boundry_snap.bottom)
 	if wallsnap = boundry_snap.top
 	{
-		instance_create_depth(distance + 1500,-32,depth,obj_gen_solid, {
-			image_xscale: irandom_range(5,10) / 4,
-			image_yscale: irandom_range(1,5) / 4,
-			sprite_index: spr_cloudwall
+		var ys = 1 //irandom_range(1,5) / 4
+		instance_create_depth(distance + 1500,0,depth,obj_gen_solid, {
+			image_xscale: 1,
+			image_yscale: ys,
+			sprite_index: choose(spr_pantrysolid_t1,spr_pantrysolid_t2,spr_pantrysolid_t3)
 		});
 	}
 	if wallsnap = boundry_snap.bottom
