@@ -91,11 +91,11 @@ enum treasure // zomg bro theres like thirteen :exploiding head:"
 
 //"settings"
 globalvar colorblind_shader; colorblind_shader = noone
-globalvar global_npc_dyslexia; global_npc_dyslexia = 0
+globalvar global_npc_dyslexia; global_npc_dyslexia = -1
 globalvar fucked_up_mode; fucked_up_mode = false // decide what this does later
 globalvar debug; debug = false
 
-globalvar version; version = "Xbox Test Build 3 (11/18/23)"
+globalvar version; version = "Dev"
 globalvar gamename; gamename = "Trials And Tribulations 2"
 window_set_caption("Initializing the " + gamename)
 
