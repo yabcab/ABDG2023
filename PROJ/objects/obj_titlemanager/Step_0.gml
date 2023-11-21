@@ -29,6 +29,7 @@ if obj_gameintro.activated
 		if faceright && (KEY_JMP_P || gamepad_button_check_pressed(0,CONT_A))
 		{
 			settingsactive = true	
+			play_sfx(sfx_settingsopen)
 		}
 	}
 	else
@@ -39,6 +40,7 @@ if obj_gameintro.activated
 		{
 			settingsactive = false
 			sett_sel = 0		
+			play_sfx(sfx_settingsclose)
 		}
 		
 		if (KEY_D_P || (jv > 0.55 && lastjoy_v <= 0.55))
