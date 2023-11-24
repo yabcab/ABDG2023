@@ -538,6 +538,31 @@ function text_checker(str = text[text_selected])
 				vspeed = -7
 				hspeed = 4
 			}
+			
+			max_texts = 0
+			text[0] = "I said go away."
+		}
+		break;
+		
+		case "@MORE_ASH_DOOR_KILL":
+		{
+			with inst_FUCKUPHATER
+				instance_destroy()
+			with obj_ashdoor
+			{
+				fuckuphater = true
+				vspeed = -7
+				hspeed = 4
+			}
+			
+			max_texts = 0
+			text[0] = "Heh"
+		}
+		break;
+		
+		case "@GO_QOTQ":
+		{
+			room_goto(IntroSeq)	
 		}
 		break;
 	}

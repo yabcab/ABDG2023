@@ -1,7 +1,7 @@
 npcid = npcs.lemonhead
 
-text[0] = "You'll never believe what is next for you..."
-text[1] = "ANOTHER GAME! (from 2020)"
-text[2] = "It is bad, but you still have to play."
+text[0] = "OK That's it! The game is over!"
+text[1] = "I'm done with your bitchass"
+text[2] = "Go to the credits!"
 
 max_texts = 2

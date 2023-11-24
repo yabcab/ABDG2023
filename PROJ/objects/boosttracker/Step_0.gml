@@ -6,7 +6,8 @@ joy_snap = 90
 joy_pos_snapped = round(joy_pos / joy_snap) * joy_snap
 
 
-if joy_pos_snapped = 180 && joy_h < -0.2
-{
-	instance_create_layer(0, 0, "Instances", BoostTracker);
-}
+//if (joy_h_p != 0 || joy_v_p != 0)
+//	instance_destroy()
+
+joy_h_p = joy_h
+joy_v_p = joy_v

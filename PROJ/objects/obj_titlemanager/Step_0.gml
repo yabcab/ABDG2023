@@ -22,7 +22,8 @@ if obj_gameintro.activated
 	
 		if !faceright && (KEY_JMP_P || gamepad_button_check_pressed(0,CONT_A))
 		{
-			room_goto(rm_khizarbasement1) // TEMPORARY
+			room_goto(rm_loadtobasement)
+			play_sfx(sfx_baby,false)
 			audio_stop_sound(mu_title)	
 		}
 		
@@ -48,12 +49,14 @@ if obj_gameintro.activated
 			sett_sel++
 			if sett_sel > 3
 				sett_sel = 0
+			play_sfx(sfx_optionsel)
 		}
 		if (KEY_D_P || (jv < -0.55 && lastjoy_v >= -0.55))
 		{
 			sett_sel--
 			if sett_sel < 0
 				sett_sel = 3
+			play_sfx(sfx_optionsel)
 		}
 		
 		switch sett_sel
@@ -65,12 +68,14 @@ if obj_gameintro.activated
 					sett_dys--
 					if sett_dys < -1
 						sett_dys = -1
+					play_sfx(sfx_settingsswap,true,1.2 + (sett_dys / 8),1.2 + (sett_dys / 8))
 				}
 				else if (KEY_R_P || (jh > 0.55 && lastjoy_h <= 0.55))
 				{
 					sett_dys++
 					if sett_dys > 1
 						sett_dys = 1
+					play_sfx(sfx_settingsswap,true,1.2 + (sett_dys / 8),1.2 + (sett_dys / 8))
 				}
 				
 				global_npc_dyslexia = sett_dys
@@ -84,12 +89,14 @@ if obj_gameintro.activated
 					sett_colb--
 					if sett_colb < 0
 						sett_colb = 0
+					play_sfx(sfx_settingsswap,true,1.2 + (sett_colb / 8),1.2 + (sett_colb / 8))	
 				}
 				else if (KEY_R_P || (jh > 0.55 && lastjoy_h <= 0.55))
 				{
 					sett_colb++
 					if sett_colb > 3
 						sett_colb = 3
+					play_sfx(sfx_settingsswap,true,1.2 + (sett_colb / 8),1.2 + (sett_colb / 8))	
 				}
 				
 				switch sett_colb
@@ -109,12 +116,14 @@ if obj_gameintro.activated
 					sett_fu--
 					if sett_fu < 0
 						sett_fu = 0
+					play_sfx(sfx_settingsswap,true,1.2 + (sett_fu / 8),1.2 + (sett_fu / 8))		
 				}
 				else if (KEY_R_P || (jh > 0.55 && lastjoy_h <= 0.55))
 				{
 					sett_fu++
 					if sett_fu > 1
 						sett_fu = 1
+					play_sfx(sfx_settingsswap,true,1.2 + (sett_fu / 8),1.2 + (sett_fu / 8))
 				}
 				
 				fucked_up_mode = sett_fu
@@ -128,12 +137,14 @@ if obj_gameintro.activated
 					sett_dbg--
 					if sett_dbg < 0
 						sett_dbg = 0
+					play_sfx(sfx_settingsswap,true,1.2 + (sett_dbg / 8),1.2 + (sett_dbg / 8))		
 				}
 				else if (KEY_R_P || (jh > 0.55 && lastjoy_h <= 0.55))
 				{
 					sett_dbg++
 					if sett_dbg > 1
 						sett_dbg = 1
+					play_sfx(sfx_settingsswap,true,1.2 + (sett_dbg / 8),1.2 + (sett_dbg / 8))		
 				}
 				
 				debug = sett_dbg

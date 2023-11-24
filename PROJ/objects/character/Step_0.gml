@@ -21,7 +21,13 @@ else if (joy_h_p != 0 || joy_v_p != 0)
 	event_perform(ev_keyrelease,vk_left)
 
 if gamepad_button_check(0,CONT_X)
-	event_perform(ev_keyboard,ord("X"))
+{
+	var l42720388_0 = instance_place(x + 0, y + 0, WaterHitbox);
+	if (!(l42720388_0 > 0))
+	{
+		scr_attackfind()
+	}
+}
 if gamepad_button_check_released(0,CONT_X)
 	event_perform(ev_keyrelease,ord("X"))
 

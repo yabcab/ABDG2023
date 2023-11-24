@@ -1,1 +1,1 @@
-targetroom = IntroSeq
+targetroom = rm_finish

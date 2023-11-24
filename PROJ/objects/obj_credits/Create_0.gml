@@ -11,9 +11,14 @@ Jacob Scherer
 
 
 --Voice Acting--
-PLACEHOLDER - as Skoimp
 Nolan 'Bogos' Terrigino - as Himself
 Gilberto 'Gibbleton' Ruiz - as Link
+
+
+
+--Playtesting--
+Echo Bellows
+Elijah Kowenski
 
 
 
