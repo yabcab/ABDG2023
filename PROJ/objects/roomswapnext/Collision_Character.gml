@@ -1,6 +1,8 @@
 room_goto(rmt)
 if is_last
 {
+	audio_stop_all()
+	
 	can_egg = false // no more!!
 	can_doublejump = true
 
