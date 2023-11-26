@@ -19,7 +19,7 @@ Gilberto 'Gibbleton' Ruiz - as Link
 --Playtesting--
 Echo Bellows
 Elijah Kowenski
-
+[REST OF TESTERS TO BE ADDED]
 
 
 --Google Form Responders--
@@ -32,10 +32,19 @@ Khizar 'Hamburger' Saiyad (i spelled it right)
 Mr. Harper The Government Teacher
 
 
---Quest of The Quenge (2020 Ver.)--
-Developed by Jacob Scherer and Elijah Kowenseki
+--Quest of The Quenge (2020)--
+Developed by Jacob Scherer
+QA by Elijah Kowenski
 (QOTQ IS NOT REPRESENTATIVE OF TODAY'S CREATIONS,
 IT WAS INCLUDED AS AN ARCADE GAME FOR THE LOLS.)
+
+
+
+--LouchGame (TVP May 2022)--
+Developed by Jacob Scherer
+QA by Elijah Kowenski
+OST by Jacob Scherer
+(STILL NOT REPRESENTATIVE OF TODAYS GAMES I MAKE)
 
 
 
@@ -52,12 +61,17 @@ Minigolf - No Speed Limit!
 Garbage World Deluxe Super - Metally Slime Melody
 Car Theme - zugzwang
 Shoot The Bogos - PopFight
+QOTQ Title - Influenza
+QOTQ Tutorial - something off freesound i forgot
+QOTQ Grass - Flame Repellant
+QOTQ Swamp - Funktinium99
+QOTQ Farm - In Retrospect
 Yepordy A - Voting Time
 Yepordy B - Snowmen Band
 Yepordy C - Saturday
 Yepordy D - Copper Forecast
 Yepordy E - Away From Home - Frinkle's Theme
-Credits - Weather
+Credits - Alex's Dream Land
 
 
 

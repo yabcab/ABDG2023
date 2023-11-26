@@ -36,9 +36,12 @@ anim_fire = false
 // 7/15/23 - hey guys im making another game on this engine
 // 10/1/23 - shut up hoe
 // 11/6/23 - hey what did i miss guys
+// 11/25/23 - oooookkkkk thats PROBABLY it,,
 enum states
 {
 	none = -1,
+	
+	//normal
 	normal,
 	rocket,
 	golf,
@@ -56,8 +59,12 @@ enum states
 	rollers,
 	hedgehog,
 	sandal,
+	
+	//debug
+	noclip,
 }
 state = states.normal
+noclip_saved_state = state
 
 make_shadow()
 

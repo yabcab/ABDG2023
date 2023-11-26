@@ -1165,6 +1165,7 @@
     {"id":{"name":"CharacterWalkDownInvRS","path":"sprites/CharacterWalkDownInvRS/CharacterWalkDownInvRS.yy",},"order":285,},
     {"id":{"name":"obj_poketrainers","path":"objects/obj_poketrainers/obj_poketrainers.yy",},"order":2,},
     {"id":{"name":"EnemyWormDead","path":"sprites/EnemyWormDead/EnemyWormDead.yy",},"order":105,},
+    {"id":{"name":"spr_emptymask","path":"sprites/spr_emptymask/spr_emptymask.yy",},"order":28,},
     {"id":{"name":"ProxTrackerHitbox","path":"sprites/ProxTrackerHitbox/ProxTrackerHitbox.yy",},"order":121,},
     {"id":{"name":"CameraPreset","path":"rooms/CameraPreset/CameraPreset.yy",},"order":2,},
     {"id":{"name":"obj_pokemonbattlestart","path":"objects/obj_pokemonbattlestart/obj_pokemonbattlestart.yy",},"order":0,},

@@ -1552,6 +1552,39 @@ switch state
 		}
 	}
 	break;
+	
+	case states.noclip:
+	{
+		//"simple"
+		var joy_pos, joy_snap, joy_pos_snapped, joy_h, joy_v, dir_x, dir_y, spd
+		spd = 8
+		joy_h = gamepad_axis_value(0,gp_axislh)
+		joy_v = gamepad_axis_value(0,gp_axislv)
+		joy_pos = point_direction(0,0,joy_h,joy_v)
+		joy_snap = 90
+		joy_pos_snapped = round(joy_pos / joy_snap) * joy_snap
+		dir_x = lengthdir_x(8,joy_pos_snapped)
+		dir_y = lengthdir_y(8,joy_pos_snapped)
+		
+		//see
+		hsp = dir_x
+		vsp = dir_y
+		
+		if KEY_R
+			hsp = spd
+		else if KEY_L
+			hsp = -spd
+		else
+			hsp = 0
+		
+		if KEY_D
+			vsp = spd
+		else if KEY_U
+			vsp = -spd
+		else
+			vsp = 0
+	}
+	break;
 }
 
 #region up arrow
