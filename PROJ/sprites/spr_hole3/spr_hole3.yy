@@ -86,7 +86,7 @@
   "nineSlice": null,
   "parent": {
     "name": "golftitle",
-    "path": "folders/Sprites/misc/golftitle.yy",
+    "path": "folders/T&T2proj/Sprites/misc/golftitle.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_hole3",

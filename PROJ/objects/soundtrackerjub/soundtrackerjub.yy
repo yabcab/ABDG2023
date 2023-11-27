@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Soundtrackers",
-    "path": "folders/Objects/QOTQ/Universal/Soundtrackers.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Universal/Soundtrackers.yy",
   },
   "resourceVersion": "1.0",
   "name": "SoundtrackerJUB",

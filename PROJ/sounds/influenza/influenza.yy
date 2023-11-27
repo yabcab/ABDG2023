@@ -15,7 +15,7 @@
   "duration": 249.7306,
   "parent": {
     "name": "QOTQ",
-    "path": "folders/Sounds/QOTQ.yy",
+    "path": "folders/T&T2proj/Sounds/QOTQ.yy",
   },
   "resourceVersion": "1.0",
   "name": "Influenza",

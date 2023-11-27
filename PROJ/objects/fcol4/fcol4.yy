@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Col",
-    "path": "folders/Objects/QOTQ/Col.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Col.yy",
   },
   "resourceVersion": "1.0",
   "name": "Fcol4",

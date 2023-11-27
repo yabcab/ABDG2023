@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "title",
-    "path": "folders/Objects/engine/title.yy",
+    "path": "folders/T&T2proj/Objects/engine/title.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_titlemanager",

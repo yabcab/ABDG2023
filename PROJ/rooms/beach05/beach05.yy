@@ -43,7 +43,7 @@
   },
   "parent": {
     "name": "Beach(WIP)",
-    "path": "folders/Rooms/QOTQ/Main/Beach(WIP).yy",
+    "path": "folders/T&T2proj/Rooms/QOTQ/Main/Beach(WIP).yy",
   },
   "resourceVersion": "1.0",
   "name": "Beach05",

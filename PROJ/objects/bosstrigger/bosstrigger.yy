@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Universal",
-    "path": "folders/Objects/QOTQ/Universal.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Universal.yy",
   },
   "resourceVersion": "1.0",
   "name": "BossTrigger",

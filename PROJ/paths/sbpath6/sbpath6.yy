@@ -9,7 +9,7 @@
   ],
   "parent": {
     "name": "SBpath",
-    "path": "folders/Paths/QOTQ/SBpath.yy",
+    "path": "folders/T&T2proj/Paths/QOTQ/SBpath.yy",
   },
   "resourceVersion": "1.0",
   "name": "SBpath6",

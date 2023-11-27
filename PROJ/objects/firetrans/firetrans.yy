@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Transformations",
-    "path": "folders/Objects/QOTQ/Transformations.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Transformations.yy",
   },
   "resourceVersion": "1.0",
   "name": "FireTrans",

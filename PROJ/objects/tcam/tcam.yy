@@ -47,7 +47,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "QOTQ",
-    "path": "folders/Objects/QOTQ.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ.yy",
   },
   "resourceVersion": "1.0",
   "name": "Tcam",

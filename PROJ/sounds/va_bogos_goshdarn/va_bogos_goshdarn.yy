@@ -15,7 +15,7 @@
   "duration": 1.436735,
   "parent": {
     "name": "nolant",
-    "path": "folders/Sounds/va/nolant.yy",
+    "path": "folders/T&T2proj/Sounds/va/nolant.yy",
   },
   "resourceVersion": "1.0",
   "name": "va_bogos_goshdarn",

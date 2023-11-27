@@ -93,7 +93,7 @@
   },
   "parent": {
     "name": "Early Test Rooms",
-    "path": "folders/Rooms/QOTQ/Early Test Rooms.yy",
+    "path": "folders/T&T2proj/Rooms/QOTQ/Early Test Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "SceneTestAvo",

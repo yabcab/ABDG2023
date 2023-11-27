@@ -817,7 +817,7 @@
   },
   "parent": {
     "name": "T&T leftover",
-    "path": "folders/Tile Sets/T&T leftover.yy",
+    "path": "folders/T&T2proj/Tile Sets/T&T leftover.yy",
   },
   "resourceVersion": "1.0",
   "name": "ts_lev2",

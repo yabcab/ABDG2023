@@ -65,7 +65,7 @@
   },
   "parent": {
     "name": "SnowHills",
-    "path": "folders/Rooms/QOTQ/Main/Glacier/SnowHills.yy",
+    "path": "folders/T&T2proj/Rooms/QOTQ/Main/Glacier/SnowHills.yy",
   },
   "resourceVersion": "1.0",
   "name": "SnowHills02",

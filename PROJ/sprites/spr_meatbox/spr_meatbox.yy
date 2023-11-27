@@ -94,7 +94,7 @@
   },
   "parent": {
     "name": "meat",
-    "path": "folders/Sprites/trials and tribulations leftovers/meat.yy",
+    "path": "folders/T&T2proj/Sprites/trials and tribulations leftovers/meat.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_meatbox",

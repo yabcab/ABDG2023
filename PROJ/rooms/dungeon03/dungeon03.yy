@@ -153,7 +153,7 @@
   },
   "parent": {
     "name": "Dungeon",
-    "path": "folders/Rooms/QOTQ/Main/Dungeon.yy",
+    "path": "folders/T&T2proj/Rooms/QOTQ/Main/Dungeon.yy",
   },
   "resourceVersion": "1.0",
   "name": "Dungeon03",

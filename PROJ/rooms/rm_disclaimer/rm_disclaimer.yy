@@ -47,7 +47,7 @@
   },
   "parent": {
     "name": "old trials and tribulations",
-    "path": "folders/Rooms/old trials and tribulations.yy",
+    "path": "folders/T&T2proj/Rooms/old trials and tribulations.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_disclaimer",

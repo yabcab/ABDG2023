@@ -78,7 +78,7 @@
   "nineSlice": null,
   "parent": {
     "name": "playerJ",
-    "path": "folders/Sprites/trials and tribulations leftovers/playerJ.yy",
+    "path": "folders/T&T2proj/Sprites/trials and tribulations leftovers/playerJ.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_playerJ_jump",

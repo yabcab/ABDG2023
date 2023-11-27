@@ -19250,7 +19250,7 @@
   },
   "parent": {
     "name": "QOTQ",
-    "path": "folders/Tile Sets/QOTQ.yy",
+    "path": "folders/T&T2proj/Tile Sets/QOTQ.yy",
   },
   "resourceVersion": "1.0",
   "name": "GrassTiles",

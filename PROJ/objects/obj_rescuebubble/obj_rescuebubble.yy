@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "engine",
-    "path": "folders/Objects/engine.yy",
+    "path": "folders/T&T2proj/Objects/engine.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_rescuebubble",

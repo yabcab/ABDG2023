@@ -15,7 +15,7 @@
   "duration": 0.992653,
   "parent": {
     "name": "nolant",
-    "path": "folders/Sounds/va/nolant.yy",
+    "path": "folders/T&T2proj/Sounds/va/nolant.yy",
   },
   "resourceVersion": "1.0",
   "name": "va_bogos_heck",

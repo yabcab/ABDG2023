@@ -15,7 +15,7 @@
   "duration": 83.088,
   "parent": {
     "name": "breadalliance",
-    "path": "folders/Sounds/va/breadalliance.yy",
+    "path": "folders/T&T2proj/Sounds/va/breadalliance.yy",
   },
   "resourceVersion": "1.0",
   "name": "va_breadalliance_full",

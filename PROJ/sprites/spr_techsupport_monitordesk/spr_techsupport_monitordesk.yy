@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "tech support destroyables",
-    "path": "folders/Sprites/misc/tech support destroyables.yy",
+    "path": "folders/T&T2proj/Sprites/misc/tech support destroyables.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_techsupport_monitordesk",

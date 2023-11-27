@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "acegame",
-    "path": "folders/Sprites/misc/acegame.yy",
+    "path": "folders/T&T2proj/Sprites/misc/acegame.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_acegame_colmap",

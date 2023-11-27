@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Glacier",
-    "path": "folders/Objects/QOTQ/Levels/Glacier.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Levels/Glacier.yy",
   },
   "resourceVersion": "1.0",
   "name": "Glacierwall1",

@@ -34,7 +34,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "World2",
-    "path": "folders/Objects/QOTQ/Enemies/World2.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Enemies/World2.yy",
   },
   "resourceVersion": "1.0",
   "name": "EnemyGhost",

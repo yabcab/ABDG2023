@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "tech support destroyables",
-    "path": "folders/Objects/geometry/tech support destroyables.yy",
+    "path": "folders/T&T2proj/Objects/geometry/tech support destroyables.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_techsupportdestroy_monitordesk",

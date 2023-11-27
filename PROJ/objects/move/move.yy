@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Tutorial",
-    "path": "folders/Objects/QOTQ/Levels/Tutorial.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Levels/Tutorial.yy",
   },
   "resourceVersion": "1.0",
   "name": "Move",

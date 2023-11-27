@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "particle",
-    "path": "folders/Objects/particle.yy",
+    "path": "folders/T&T2proj/Objects/particle.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_smoke",

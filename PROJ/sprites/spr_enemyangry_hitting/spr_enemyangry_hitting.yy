@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "enemy",
-    "path": "folders/Sprites/enemy.yy",
+    "path": "folders/T&T2proj/Sprites/enemy.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_enemyangry_hitting",

@@ -1,0 +1,1 @@
+obj_LGhud.display = 0

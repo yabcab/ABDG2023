@@ -82,7 +82,7 @@
   "nineSlice": null,
   "parent": {
     "name": "crate",
-    "path": "folders/Sprites/misc/crate.yy",
+    "path": "folders/T&T2proj/Sprites/misc/crate.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_crates",

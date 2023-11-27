@@ -82,7 +82,7 @@
   "nineSlice": null,
   "parent": {
     "name": "QOTQ",
-    "path": "folders/Sprites/QOTQ.yy",
+    "path": "folders/T&T2proj/Sprites/QOTQ.yy",
   },
   "resourceVersion": "1.0",
   "name": "CharacterWalkUpBoostWT",

@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Grasslands",
-    "path": "folders/Objects/QOTQ/Levels/Grasslands.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Levels/Grasslands.yy",
   },
   "resourceVersion": "1.0",
   "name": "GrasslandsDecor1",

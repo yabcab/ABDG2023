@@ -47,7 +47,7 @@
   },
   "parent": {
     "name": "Boss",
-    "path": "folders/Rooms/QOTQ/Main/GrassFeilds/Boss.yy",
+    "path": "folders/T&T2proj/Rooms/QOTQ/Main/GrassFeilds/Boss.yy",
   },
   "resourceVersion": "1.0",
   "name": "GrassBoss05",

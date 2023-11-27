@@ -34,7 +34,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "possessables",
-    "path": "folders/Objects/geometry/possessables.yy",
+    "path": "folders/T&T2proj/Objects/geometry/possessables.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_car",

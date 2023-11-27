@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "pokemon battle",
-    "path": "folders/Objects/engine/pokemon battle.yy",
+    "path": "folders/T&T2proj/Objects/engine/pokemon battle.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_poketrainers",

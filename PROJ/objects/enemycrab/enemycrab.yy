@@ -38,7 +38,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Enemies",
-    "path": "folders/Objects/QOTQ/Enemies.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "EnemyCrab",

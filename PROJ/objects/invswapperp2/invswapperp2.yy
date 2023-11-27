@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Inv",
-    "path": "folders/Objects/QOTQ/Var/Inv.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Var/Inv.yy",
   },
   "resourceVersion": "1.0",
   "name": "InvSwapperP2",

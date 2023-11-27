@@ -15,7 +15,7 @@
   "duration": 4.967846,
   "parent": {
     "name": "sfx",
-    "path": "folders/Sounds/sfx.yy",
+    "path": "folders/T&T2proj/Sounds/sfx.yy",
   },
   "resourceVersion": "1.0",
   "name": "sfx_gotitem",

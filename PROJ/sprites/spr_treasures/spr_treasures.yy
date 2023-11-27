@@ -130,7 +130,7 @@
   "nineSlice": null,
   "parent": {
     "name": "collect",
-    "path": "folders/Sprites/misc/collect.yy",
+    "path": "folders/T&T2proj/Sprites/misc/collect.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_treasures",

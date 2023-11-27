@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "settingsmenu",
-    "path": "folders/Sprites/settingsmenu.yy",
+    "path": "folders/T&T2proj/Sprites/settingsmenu.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_settingsmenu_logo",

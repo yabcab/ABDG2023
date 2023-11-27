@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "RainbowSpace",
-    "path": "folders/Objects/QOTQ/Levels/RainbowSpace.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Levels/RainbowSpace.yy",
   },
   "resourceVersion": "1.0",
   "name": "RainbowSpaceWall13",

@@ -202,7 +202,7 @@
   "maintainGms1Font": false,
   "parent": {
     "name": "Fonts",
-    "path": "folders/Fonts.yy",
+    "path": "folders/T&T2proj/Fonts.yy",
   },
   "resourceVersion": "1.0",
   "name": "FontTest",

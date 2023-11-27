@@ -123,7 +123,7 @@
   },
   "parent": {
     "name": "Old",
-    "path": "folders/Rooms/QOTQ/Main/Glacier/Old.yy",
+    "path": "folders/T&T2proj/Rooms/QOTQ/Main/Glacier/Old.yy",
   },
   "resourceVersion": "1.0",
   "name": "Glacier01",

@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Hitboxes",
-    "path": "folders/Objects/QOTQ/Universal/Hitboxes.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Universal/Hitboxes.yy",
   },
   "resourceVersion": "1.0",
   "name": "SwingHitboxLeft",

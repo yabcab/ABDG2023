@@ -47,7 +47,7 @@
   },
   "parent": {
     "name": "game",
-    "path": "folders/Rooms/game.yy",
+    "path": "folders/T&T2proj/Rooms/game.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_loadtogolf",

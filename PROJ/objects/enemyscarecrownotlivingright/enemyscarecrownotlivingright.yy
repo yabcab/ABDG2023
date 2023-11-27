@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Right",
-    "path": "folders/Objects/QOTQ/Enemies/Dead/Right.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Enemies/Dead/Right.yy",
   },
   "resourceVersion": "1.0",
   "name": "EnemyScarecrowNotLivingRight",

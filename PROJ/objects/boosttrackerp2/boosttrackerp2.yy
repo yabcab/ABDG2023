@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Var",
-    "path": "folders/Objects/QOTQ/Var.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Var.yy",
   },
   "resourceVersion": "1.0",
   "name": "BoostTrackerP2",

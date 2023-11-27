@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "yesyes",
-    "path": "folders/Objects/ITS A SECRET/aaa/yesyes.yy",
+    "path": "folders/T&T2proj/Objects/ITS A SECRET/aaa/yesyes.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_sugartreasure",

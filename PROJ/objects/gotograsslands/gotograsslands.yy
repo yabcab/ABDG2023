@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "HubStuffs",
-    "path": "folders/Objects/QOTQ/Levels/HubStuffs.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Levels/HubStuffs.yy",
   },
   "resourceVersion": "1.0",
   "name": "GotoGrasslands",

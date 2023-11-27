@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "shootemup",
-    "path": "folders/Objects/engine/shootemup.yy",
+    "path": "folders/T&T2proj/Objects/engine/shootemup.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_generator",

@@ -38,7 +38,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "World1",
-    "path": "folders/Objects/QOTQ/Enemies/World1.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Enemies/World1.yy",
   },
   "resourceVersion": "1.0",
   "name": "EnemyAppleJump",

@@ -548,7 +548,7 @@
   },
   "parent": {
     "name": "game",
-    "path": "folders/Rooms/old trials and tribulations/game.yy",
+    "path": "folders/T&T2proj/Rooms/old trials and tribulations/game.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_sugar5",

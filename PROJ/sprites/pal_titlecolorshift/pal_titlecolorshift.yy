@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "palettes",
-    "path": "folders/Shaders/palettes.yy",
+    "path": "folders/T&T2proj/Shaders/palettes.yy",
   },
   "resourceVersion": "1.0",
   "name": "pal_titlecolorshift",

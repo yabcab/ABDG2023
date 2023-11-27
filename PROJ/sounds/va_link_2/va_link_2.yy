@@ -15,7 +15,7 @@
   "duration": 6.138776,
   "parent": {
     "name": "gilbertor",
-    "path": "folders/Sounds/va/gilbertor.yy",
+    "path": "folders/T&T2proj/Sounds/va/gilbertor.yy",
   },
   "resourceVersion": "1.0",
   "name": "va_link_2",

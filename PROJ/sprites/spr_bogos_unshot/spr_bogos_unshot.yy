@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "shoot the bogos",
-    "path": "folders/Sprites/misc/shoot the bogos.yy",
+    "path": "folders/T&T2proj/Sprites/misc/shoot the bogos.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bogos_unshot",

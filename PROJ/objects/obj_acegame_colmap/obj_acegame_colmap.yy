@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "acegame",
-    "path": "folders/Objects/misc/acegame.yy",
+    "path": "folders/T&T2proj/Objects/misc/acegame.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_acegame_colmap",

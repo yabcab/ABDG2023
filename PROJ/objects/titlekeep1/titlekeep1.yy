@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Title",
-    "path": "folders/Objects/QOTQ/Var/Title.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Var/Title.yy",
   },
   "resourceVersion": "1.0",
   "name": "TitleKeep1",

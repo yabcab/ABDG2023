@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Levels",
-    "path": "folders/Objects/QOTQ/Levels.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Levels.yy",
   },
   "resourceVersion": "1.0",
   "name": "CharacterAvoIntroHit",

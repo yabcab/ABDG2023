@@ -94,7 +94,7 @@
   },
   "parent": {
     "name": "placeholder and internal",
-    "path": "folders/Sprites/placeholder and internal.yy",
+    "path": "folders/T&T2proj/Sprites/placeholder and internal.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_camregioncenter",

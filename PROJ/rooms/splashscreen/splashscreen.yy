@@ -43,7 +43,7 @@
   },
   "parent": {
     "name": "QOTQ",
-    "path": "folders/Rooms/QOTQ.yy",
+    "path": "folders/T&T2proj/Rooms/QOTQ.yy",
   },
   "resourceVersion": "1.0",
   "name": "SplashScreen",

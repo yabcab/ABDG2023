@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "misc",
-    "path": "folders/Objects/misc.yy",
+    "path": "folders/T&T2proj/Objects/misc.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cavetransitiondoor",

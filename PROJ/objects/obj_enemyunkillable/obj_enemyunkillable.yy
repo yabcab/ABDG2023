@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "enemy",
-    "path": "folders/Objects/enemy.yy",
+    "path": "folders/T&T2proj/Objects/enemy.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_enemyunkillable",

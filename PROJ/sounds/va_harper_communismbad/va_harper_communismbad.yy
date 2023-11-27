@@ -15,7 +15,7 @@
   "duration": 5.485714,
   "parent": {
     "name": "harper",
-    "path": "folders/Sounds/va/harper.yy",
+    "path": "folders/T&T2proj/Sounds/va/harper.yy",
   },
   "resourceVersion": "1.0",
   "name": "va_harper_communismbad",

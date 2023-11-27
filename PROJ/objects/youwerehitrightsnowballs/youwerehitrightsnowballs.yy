@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Enemy",
-    "path": "folders/Objects/QOTQ/Universal/Hitboxes/Enemy.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Universal/Hitboxes/Enemy.yy",
   },
   "resourceVersion": "1.0",
   "name": "YouWereHitRightSnowballs",

@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "shootemup",
-    "path": "folders/Sprites/misc/shootemup.yy",
+    "path": "folders/T&T2proj/Sprites/misc/shootemup.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tobasco",

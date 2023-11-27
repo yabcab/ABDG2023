@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "geometry",
-    "path": "folders/Objects/geometry.yy",
+    "path": "folders/T&T2proj/Objects/geometry.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_airjump",

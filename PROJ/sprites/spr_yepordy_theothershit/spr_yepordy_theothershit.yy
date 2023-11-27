@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "yepordy",
-    "path": "folders/Sprites/misc/yepordy.yy",
+    "path": "folders/T&T2proj/Sprites/misc/yepordy.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_yepordy_theothershit",

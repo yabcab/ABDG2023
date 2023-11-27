@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "egg",
-    "path": "folders/Sprites/trials and tribulations leftovers/egg.yy",
+    "path": "folders/T&T2proj/Sprites/trials and tribulations leftovers/egg.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_eggcollect",

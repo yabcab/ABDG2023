@@ -13,7 +13,7 @@
   ],
   "parent": {
     "name": "QOTQ",
-    "path": "folders/Paths/QOTQ.yy",
+    "path": "folders/T&T2proj/Paths/QOTQ.yy",
   },
   "resourceVersion": "1.0",
   "name": "IntroFallOffScreen",

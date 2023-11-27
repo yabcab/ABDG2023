@@ -36,7 +36,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "treasure",
-    "path": "folders/Objects/engine/treasure.yy",
+    "path": "folders/T&T2proj/Objects/engine/treasure.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_treasure",

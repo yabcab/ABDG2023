@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Attack",
-    "path": "folders/Objects/QOTQ/Var/Attack.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Var/Attack.yy",
   },
   "resourceVersion": "1.0",
   "name": "AttackTracker3",

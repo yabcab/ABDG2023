@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Title",
-    "path": "folders/Objects/QOTQ/Title.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Title.yy",
   },
   "resourceVersion": "1.0",
   "name": "Select1",

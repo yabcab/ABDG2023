@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "title",
-    "path": "folders/Sprites/title.yy",
+    "path": "folders/T&T2proj/Sprites/title.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_titleground",

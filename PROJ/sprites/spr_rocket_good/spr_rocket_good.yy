@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "rocket",
-    "path": "folders/Sprites/trials and tribulations leftovers/rocket.yy",
+    "path": "folders/T&T2proj/Sprites/trials and tribulations leftovers/rocket.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_rocket_good",

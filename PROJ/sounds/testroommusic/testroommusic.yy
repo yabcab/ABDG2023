@@ -15,7 +15,7 @@
   "duration": 31.814444,
   "parent": {
     "name": "QOTQ",
-    "path": "folders/Sounds/QOTQ.yy",
+    "path": "folders/T&T2proj/Sounds/QOTQ.yy",
   },
   "resourceVersion": "1.0",
   "name": "TestRoomMusic",

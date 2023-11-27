@@ -375,7 +375,7 @@
   },
   "parent": {
     "name": "RainbowSpace",
-    "path": "folders/Rooms/QOTQ/Main/RainbowSpace.yy",
+    "path": "folders/T&T2proj/Rooms/QOTQ/Main/RainbowSpace.yy",
   },
   "resourceVersion": "1.0",
   "name": "RainbowSpace03",

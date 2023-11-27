@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "path": "folders/T&T2proj/Scripts.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_music",

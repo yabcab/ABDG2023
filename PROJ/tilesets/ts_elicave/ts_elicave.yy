@@ -1321,7 +1321,7 @@
   },
   "parent": {
     "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "path": "folders/T&T2proj/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
   "name": "ts_elicave",

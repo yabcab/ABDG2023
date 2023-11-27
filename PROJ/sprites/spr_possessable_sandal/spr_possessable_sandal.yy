@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "possessables",
-    "path": "folders/Sprites/possessables.yy",
+    "path": "folders/T&T2proj/Sprites/possessables.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_possessable_sandal",

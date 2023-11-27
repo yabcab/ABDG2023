@@ -15,7 +15,7 @@
   "duration": 511.5298,
   "parent": {
     "name": "music",
-    "path": "folders/Sounds/music.yy",
+    "path": "folders/T&T2proj/Sounds/music.yy",
   },
   "resourceVersion": "1.0",
   "name": "mu_elicave",

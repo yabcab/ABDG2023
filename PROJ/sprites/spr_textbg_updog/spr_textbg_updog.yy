@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "textbg",
-    "path": "folders/Sprites/misc/textbg.yy",
+    "path": "folders/T&T2proj/Sprites/misc/textbg.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_textbg_updog",

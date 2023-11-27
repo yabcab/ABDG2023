@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Down",
-    "path": "folders/Objects/QOTQ/Enemies/Dead/Down.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Enemies/Dead/Down.yy",
   },
   "resourceVersion": "1.0",
   "name": "EnemyWormNotLivingDown",

@@ -103,7 +103,7 @@
   },
   "parent": {
     "name": "Tutorial",
-    "path": "folders/Rooms/QOTQ/Main/Tutorial.yy",
+    "path": "folders/T&T2proj/Rooms/QOTQ/Main/Tutorial.yy",
   },
   "resourceVersion": "1.0",
   "name": "TutorialRoom01",

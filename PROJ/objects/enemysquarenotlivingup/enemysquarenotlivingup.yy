@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Up",
-    "path": "folders/Objects/QOTQ/Enemies/Dead/Up.yy",
+    "path": "folders/T&T2proj/Objects/QOTQ/Enemies/Dead/Up.yy",
   },
   "resourceVersion": "1.0",
   "name": "EnemySquareNotLivingUp",

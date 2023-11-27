@@ -1,7 +1,7 @@
 {
   "parent": {
     "name": "Notes",
-    "path": "folders/Notes.yy",
+    "path": "folders/T&T2proj/Notes.yy",
   },
   "resourceVersion": "1.1",
   "name": "prompt checklist",

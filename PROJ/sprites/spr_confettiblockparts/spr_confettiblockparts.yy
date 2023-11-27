@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "trials and tribulations leftovers",
-    "path": "folders/Sprites/trials and tribulations leftovers.yy",
+    "path": "folders/T&T2proj/Sprites/trials and tribulations leftovers.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_confettiblockparts",
