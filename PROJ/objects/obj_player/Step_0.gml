@@ -469,7 +469,7 @@ switch state
 					jumping = true
 					hasdoublejump = true
 					anim_jump = true
-					image_index = 0
+					//image_index = 0
 					
 					if place_meeting(x,y,obj_airjump)
 					{
@@ -595,7 +595,7 @@ switch state
 					jumping = true
 					hasdoublejump = true
 					anim_jump = true
-					image_index = 0
+					//image_index = 0
 					
 					if place_meeting(x,y,obj_airjump)
 					{
@@ -625,7 +625,7 @@ switch state
 					jumping = true
 					hasdoublejump = false
 					anim_jump = true
-					image_index = 0
+					//image_index = 0
 					anim_hurt = false
 					anim_egg = false
 					
@@ -794,7 +794,7 @@ switch state
 					jumping = true
 					hasdoublejump = true
 					anim_jump = true
-					image_index = 0
+					//image_index = 0
 					
 					if place_meeting(x,y,obj_airjump)
 					{
@@ -824,7 +824,7 @@ switch state
 					jumping = true
 					hasdoublejump = false
 					anim_jump = true
-					image_index = 0
+					//image_index = 0
 					anim_hurt = false
 					anim_egg = false
 					
@@ -1009,7 +1009,7 @@ switch state
 					jumping = true
 					hasdoublejump = true
 					anim_jump = true
-					image_index = 0
+					//image_index = 0
 					
 					if place_meeting(x,y,obj_airjump)
 					{
@@ -1206,7 +1206,7 @@ switch state
 					jumping = true
 					hasdoublejump = true
 					anim_jump = true
-					image_index = 0
+					//image_index = 0
 					
 					if place_meeting(x,y,obj_airjump)
 					{
@@ -1236,7 +1236,7 @@ switch state
 					jumping = true
 					hasdoublejump = false
 					anim_jump = true
-					image_index = 0
+					//image_index = 0
 					anim_hurt = false
 					anim_egg = false
 					
@@ -1397,7 +1397,7 @@ switch state
 					jumping = true
 					hasdoublejump = true
 					anim_jump = true
-					image_index = 0
+					//image_index = 0
 					
 					if place_meeting(x,y,obj_airjump)
 					{
@@ -1427,7 +1427,7 @@ switch state
 					jumping = true
 					hasdoublejump = false
 					anim_jump = true
-					image_index = 0
+					//image_index = 0
 					anim_hurt = false
 					anim_egg = false
 					

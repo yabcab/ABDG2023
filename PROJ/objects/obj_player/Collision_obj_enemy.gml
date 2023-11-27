@@ -1,7 +1,8 @@
 if (state = states.normal || state = states.sandal || (state = states.hedgehog && image_index != 2)) && !other.dead && state != states.mariodeath
 {
 	anim_hurt = true
-	y -= 11
+	if !place_meeting(x,y - 11,obj_solid)
+		y -= 11
 	instance_destroy(other)
 	play_sfx(sfx_owie)
 	with instance_create_depth(other.x,other.y,-1,obj_eggparticle)
@@ -52,7 +53,8 @@ else if state = states.car
 	if abs(hsp) < 10
 	{
 		anim_hurt = true
-		y -= 11
+		if !place_meeting(x,y - 11,obj_solid)
+			y -= 11
 		instance_destroy(other)
 		play_sfx(sfx_owie)
 		with instance_create_depth(other.x,other.y,-1,obj_eggparticle)

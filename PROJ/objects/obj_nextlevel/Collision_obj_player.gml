@@ -10,6 +10,7 @@ if !other.levelcomplete
 	alarm[0] = 75
 	with other
 	{
+		rot = 0
 		if state = states.rocket
 			with instance_create_depth(x + (4 * facing),y - 20,-2,obj_killedrocket)
 				image_xscale = other.facing

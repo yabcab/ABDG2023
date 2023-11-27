@@ -7,6 +7,7 @@ alarm[0] = 60
 time = random_range(0,1000)
 image_index = random_range(0,1)
 bobsin = 0
+depth = -2
 
 enum follow_states
 {

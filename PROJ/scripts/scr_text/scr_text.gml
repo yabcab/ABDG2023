@@ -399,7 +399,7 @@ function text_checker(str = text[text_selected])
 		}
 		break;
 		
-		case "@CANCEL_VA_GOSCAM":
+		case "@VA_CANCEL_GOSCAM":
 		{
 			audio_stop_sound(va_harper_justgoscam)
 		}
@@ -563,6 +563,12 @@ function text_checker(str = text[text_selected])
 		case "@GO_QOTQ":
 		{
 			room_goto(IntroSeq)	
+		}
+		break;
+		
+		case "@LINK_STOP_VA":
+		{
+			audio_stop_sound(va_link_3)
 		}
 		break;
 	}

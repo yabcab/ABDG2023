@@ -51,7 +51,7 @@ if obj_gameintro.activated
 				sett_sel = 0
 			play_sfx(sfx_optionsel)
 		}
-		if (KEY_D_P || (jv < -0.55 && lastjoy_v >= -0.55))
+		if (KEY_U_P || (jv < -0.55 && lastjoy_v >= -0.55))
 		{
 			sett_sel--
 			if sett_sel < 0

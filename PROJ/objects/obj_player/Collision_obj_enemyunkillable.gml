@@ -1,7 +1,8 @@
 if (state = states.normal || state = states.sandal) && !other.dead && state != states.mariodeath
 {
 	anim_hurt = true
-	y -= 11
+	if !place_meeting(x,y - 11,obj_solid)
+		y -= 11
 	play_sfx(sfx_redhit)
 	//instance_destroy(other)
 	other.hitting = true
@@ -39,7 +40,8 @@ else if state = states.car
 	if abs(hsp) < 10
 	{
 		anim_hurt = true
-		y -= 11
+		if !place_meeting(x,y - 11,obj_solid)
+			y -= 11
 		play_sfx(sfx_redhit)
 		//instance_destroy(other)
 		other.hitting = true

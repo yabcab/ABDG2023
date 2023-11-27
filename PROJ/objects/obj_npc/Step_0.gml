@@ -198,3 +198,5 @@ if fadeaway
 		}
 	}
 //}
+
+cull_me()
