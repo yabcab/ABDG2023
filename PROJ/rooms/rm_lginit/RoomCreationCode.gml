@@ -46,15 +46,15 @@ rank_specialgoal_checkfunc = function() {
 }
 
 //loading
-audio_group_load(audio_sfx)
-audio_group_load(audio_mu)
+audio_group_load(audio_sound_louch)
+audio_group_load(audio_music_louch)
 
 //savedata
 ini_open("savedata.lmao")
 globalvar sfx_vol; sfx_vol = ini_read_real("settings","sfx_vol",0.2)
 globalvar mu_vol; mu_vol = ini_read_real("settings","mu_vol",0.2)
-audio_group_set_gain(audio_mu,mu_vol,0)
-audio_group_set_gain(audio_sfx,sfx_vol,0)
+audio_group_set_gain(audio_music_louch,mu_vol,0)
+audio_group_set_gain(audio_sound_louch,sfx_vol,0)
 globalvar cont_left; cont_left = ini_read_real("settings","bind_left",vk_left)
 globalvar cont_right; cont_right = ini_read_real("settings","bind_right",vk_right)
 globalvar cont_up; cont_up = ini_read_real("settings","bind_up",vk_up)
@@ -117,3 +117,8 @@ if !sprite_exists(asset_get_index("Sprite89"))
 //room_set_live(rm_funhouse_2,1)
 //room_set_live(rm_funhouse_3,1)
 //room_set_live(rm_funhouse_4,1)
+
+//T&T2 SPECIFIC
+obj_4by3.visible = false
+music_set_slot_count(0) // LG uses different audio sys
+music_set_slot_target(0,mu_nothing)

@@ -1,5 +1,5 @@
-time++
-bobsin = sin(time / 10) * 4
+_time++
+bobsin = sin(_time / 10) * 4
 rotation = lerp(rotation,(-hsp + -vsp) * 2,0.2)
 
 switch type {
@@ -26,7 +26,7 @@ switch type {
 		//sprite_index = spr_swarmerdog
 		
 		hsp = -6 * facing
-		bobsin = sin(time / 12) * 7.5
+		bobsin = sin(_time / 12) * 7.5
 		rotation = lerp(rotation,(-hsp + bobsin) * 2,0.2)
 	}
 	break;

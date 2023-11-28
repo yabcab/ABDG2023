@@ -135,7 +135,7 @@ if obj_LGplayer.pause
 				else
 					sfx_vol = 1
 			ini_write_real("settings","sfx_vol",sfx_vol)
-			audio_group_set_gain(audio_sfx,sfx_vol,0)
+			audio_group_set_gain(audio_sound_louch,sfx_vol,0)
 		}
 		if selector_targetheight = 325
 		{

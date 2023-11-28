@@ -13,7 +13,7 @@ with thing2
 	trackid = other.id
 	sprite_index = other.sprite_index
 	image_index = other.image_index	
-	time = 3600
+	_time = 3600
 }
 
 ini_open("trialssave.tt2") //file extension works i checked

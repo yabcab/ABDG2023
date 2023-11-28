@@ -14,5 +14,5 @@ else
 	y = lerp(y,obj_meatdunk.y,ls)
 }
 	
-time++
-bobsin = sin(time / 25) * 4
+_time++
+bobsin = sin(_time / 25) * 4

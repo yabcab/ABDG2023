@@ -3,5 +3,5 @@ if obj_player.state = states.rocket
 else
 	image_alpha = 1
 	
-time++
-bobsin = sin(time / 20) * 4
+_time++
+bobsin = sin(_time / 20) * 4

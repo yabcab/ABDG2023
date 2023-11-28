@@ -1,5 +1,5 @@
 bobsin = 0
-time = random_range(1,1000)
+_time = random_range(1,1000)
 type = enemytype.swarmer
 sittime = 0
 rotation = 0

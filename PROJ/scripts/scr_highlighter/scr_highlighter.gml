@@ -1,7 +1,7 @@
 function shd_highlight_init()
 {
 	add_s = 0
-	time = 0
+	_time = 0
 	_UniAdd = shader_get_uniform(shd_brighten,"add")
 	_Add = [add_s,add_s,add_s]
 }
@@ -18,8 +18,8 @@ function shd_highlight_set(highlight_me)
 function shd_highlight_wave_step(dotime,sindrag = 10,sindamp = 3)
 {
 	if dotime
-		time++
+		_time++
 	
-	var _add_s = abs(sin(time / sindrag) / sindamp)
+	var _add_s = abs(sin(_time / sindrag) / sindamp)
 	_Add = [_add_s,_add_s,_add_s]
 }

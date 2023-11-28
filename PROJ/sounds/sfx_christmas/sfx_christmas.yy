@@ -8,8 +8,8 @@
   "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_sound_louch",
+    "path": "audiogroups/audio_sound_louch",
   },
   "soundFile": "sfx_christmas.mp3",
   "duration": 22.517551,

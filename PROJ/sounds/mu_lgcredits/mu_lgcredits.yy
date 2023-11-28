@@ -8,8 +8,8 @@
   "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_music_louch",
+    "path": "audiogroups/audio_music_louch",
   },
   "soundFile": "mu_lgcredits.mp3",
   "duration": 135.20981,

@@ -566,6 +566,12 @@ function text_checker(str = text[text_selected])
 		}
 		break;
 		
+		case "@GO_LG":
+		{
+			room_goto(rm_LGinit)	
+		}
+		break;
+		
 		case "@LINK_STOP_VA":
 		{
 			audio_stop_sound(va_link_3)

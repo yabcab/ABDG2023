@@ -8,8 +8,8 @@
   "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_music_louch",
+    "path": "audiogroups/audio_music_louch",
   },
   "soundFile": "mu_hub2.mp3",
   "duration": 309.08084,

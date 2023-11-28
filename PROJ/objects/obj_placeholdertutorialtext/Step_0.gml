@@ -1,6 +1,6 @@
 dist = distance_to_object(obj_player)
-time++
-bobsin = sin(time / 30) * 5
+_time++
+bobsin = sin(_time / 30) * 5
 
 var ls = 0.1
 if dist < 200

@@ -37,5 +37,5 @@ if goup
 	upspeed = approach(upspeed,20,0.25)
 	y -= upspeed
 }
-time++
-bobsin = sin(time / 37) * 4
+_time++
+bobsin = sin(_time / 37) * 4

@@ -1,5 +1,5 @@
-time++
-bobsin = sin(time / 20) * 4
+_time++
+bobsin = sin(_time / 20) * 4
 
 var ls = 0.25
 image_xscale = lerp(image_xscale,1,ls)

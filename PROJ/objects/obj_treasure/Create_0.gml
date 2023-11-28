@@ -7,7 +7,7 @@ tres_prompter = ""
 alarm[3] = 1
 
 height = 0
-time = random_range(0,1200) // random arbitrary number
+_time = random_range(0,1200) // random arbitrary number
 ho = 0
 
 shd_highlight_init()

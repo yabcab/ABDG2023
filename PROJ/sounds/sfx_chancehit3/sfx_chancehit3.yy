@@ -8,8 +8,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "audio_sound_louch",
+    "path": "audiogroups/audio_sound_louch",
   },
   "soundFile": "sfx_chancehit3.mp3",
   "duration": 0.966531,

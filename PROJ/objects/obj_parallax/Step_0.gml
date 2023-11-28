@@ -3,6 +3,6 @@ y_scroll_val += y_scroll
 	
 if bob
 {
-	time++
-	boby = sin(time / bob_damp) * bob_amt
+	_time++
+	boby = sin(_time / bob_damp) * bob_amt
 }

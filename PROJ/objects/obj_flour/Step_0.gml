@@ -1,2 +1,2 @@
-time++
-bobsin = sin(time / 25) * 5
+_time++
+bobsin = sin(_time / 25) * 5

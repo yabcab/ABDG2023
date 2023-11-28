@@ -9,7 +9,7 @@ if KEY_D
 if axisv <= 0
 	alreadypounded = false
 
-time++
+_time++
 if grounded
 {
 	hasdoublejump = true
@@ -1598,7 +1598,7 @@ else
 	arrowoff = lerp(arrowoff,-45,0.1)
 	arrowalph = lerp(arrowalph,0,0.2)
 }
-arrowbob = sin(time / 30) * 5
+arrowbob = sin(_time / 30) * 5
 arrowframetime++
 if arrowframetime >= 30 //2 fps
 {

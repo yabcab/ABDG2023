@@ -18,5 +18,5 @@ switch follow_state
 image_xscale = lerp(image_xscale,1,0.1)
 image_yscale = lerp(image_yscale,1,0.1)
 
-time++
-bobsin = sin(time / 40) * 5
+_time++
+bobsin = sin(_time / 40) * 5
