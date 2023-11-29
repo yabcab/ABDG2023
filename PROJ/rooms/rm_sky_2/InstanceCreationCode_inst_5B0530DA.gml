@@ -1,0 +1,1 @@
+targetroom = rm_init_from_lg

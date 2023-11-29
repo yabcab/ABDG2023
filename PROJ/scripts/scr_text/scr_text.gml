@@ -560,6 +560,22 @@ function text_checker(str = text[text_selected])
 		}
 		break;
 		
+		case "@FINAL_ASHDOOR_GET_FUCKED":
+		{
+			with inst_SEXY
+				instance_destroy()
+			with obj_ashdoor
+			{
+				fuckuphater = true
+				vspeed = -7
+				hspeed = 4
+			}
+			
+			max_texts = 0
+			text[0] = "Heh"
+		}
+		break;
+		
 		case "@GO_QOTQ":
 		{
 			room_goto(IntroSeq)	
@@ -568,7 +584,7 @@ function text_checker(str = text[text_selected])
 		
 		case "@GO_LG":
 		{
-			room_goto(rm_LGinit)	
+			room_goto(rm_LGinit)
 		}
 		break;
 		

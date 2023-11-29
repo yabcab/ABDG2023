@@ -26,7 +26,7 @@ if disp_state = 0
 	{
 		if obj_LGplayer.key_jump_press
 		{
-			room_goto(rm_hub1)
+			room_goto(rm_testroom)
 			audio_play_sound(sfx_menupick1,1,0)
 			audio_play_sound(sfx_menupick2,1,0)
 			obj_LGplayer.key_jump_press = 0
@@ -51,8 +51,8 @@ if disp_state = 0
 	}
 	if selector_targetheight = 600
 	{
-		if obj_LGplayer.key_jump_press
-			game_end()
+		//if obj_LGplayer.key_jump_press
+		//	game_end()
 		selector_target_x = 430
 	}
 }

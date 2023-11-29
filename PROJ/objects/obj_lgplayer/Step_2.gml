@@ -1,23 +1,23 @@
-if key_pause_press && obj_pausemenucontroller.disp_state != 2 && fade = 0 && can_pause && !instance_place(x,y,obj_hallway) && state != playerstate.level_enter && !entering_level
-{
-	if !pause
-	{
-		previous_pause = pause_state
-		pause_state = pausestate.playerpause
-		pause = 1
-		audio_stop_sound(sfx_run)
-	}
-	else
-	{
-		pause_state = previous_pause
-		pause = 0
-		if pause_state = pausestate.playerpause && !instance_exists(obj_hitstun)
-			if instance_exists(obj_freezetimer)
-				pause_state = pausestate.nonplayerpause
-			else
-				pause_state = pausestate.none
-	}
-}
+//if key_pause_press && obj_pausemenucontroller.disp_state != 2 && fade = 0 && can_pause && !instance_place(x,y,obj_hallway) && state != playerstate.level_enter && !entering_level
+//{
+//	if !pause
+//	{
+//		previous_pause = pause_state
+//		pause_state = pausestate.playerpause
+//		pause = 1
+//		audio_stop_sound(sfx_run)
+//	}
+//	else
+//	{
+//		pause_state = previous_pause
+//		pause = 0
+//		if pause_state = pausestate.playerpause && !instance_exists(obj_hitstun)
+//			if instance_exists(obj_freezetimer)
+//				pause_state = pausestate.nonplayerpause
+//			else
+//				pause_state = pausestate.none
+//	}
+//}
 
 if (y > room_height + 64 || distance_to_object(obj_room_reset) < 2) && state != playerstate.noclip
 {

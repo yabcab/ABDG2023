@@ -1136,8 +1136,8 @@ switch state
 	{
 		sprite_index = spr_possessable_sandal
 		image_index = 1
-		if hog_charge > 0
-			image_index = 2
+		//if hog_charge > 0
+		//	image_index = 2
 		image_speed = 0
 		
 		if (place_meeting(x + 20,y,obj_solid) || place_meeting(x - 20,y,obj_solid)) && (KEY_EGG_P || gamepad_button_check_pressed(0,CONT_X)) // wall scale
@@ -1268,31 +1268,31 @@ switch state
 				//	anim_egg = false
 				//}
 		
-				if can_egg // yeah i wont remove this incase it gets used just keep the variable at false ok bye
-				{
-					if (gamepad_button_check_pressed(0,CONT_X) || KEY_EGG_P) && instance_number(obj_eggprojectile) < 5
-					{
-						play_sfx(sfx_eggtoss)
-						anim_egg = true
-						anim_hurt = false
+				//if can_egg // yeah i wont remove this incase it gets used just keep the variable at false ok bye
+				//{
+				//	if (gamepad_button_check_pressed(0,CONT_X) || KEY_EGG_P) && instance_number(obj_eggprojectile) < 5
+				//	{
+				//		play_sfx(sfx_eggtoss)
+				//		anim_egg = true
+				//		anim_hurt = false
 						
-						var dir = 1
-						if axdir < 0
-							dir = -1
-						if axdir = 0
-							dir = facing
+				//		var dir = 1
+				//		if axdir < 0
+				//			dir = -1
+				//		if axdir = 0
+				//			dir = facing
 					
-						with instance_create_depth(x,y,depth + 1,obj_eggprojectile)
-							hspeed = (20 * dir)
+				//		with instance_create_depth(x,y,depth + 1,obj_eggprojectile)
+				//			hspeed = (20 * dir)
 							
-						if grounded
-						{
-							vsp = -5
-							if !place_meeting(x,y - 11,obj_solid)
-								y -= 11
-						}
-					}
-				}
+				//		if grounded
+				//		{
+				//			vsp = -5
+				//			if !place_meeting(x,y - 11,obj_solid)
+				//				y -= 11
+				//		}
+				//	}
+				//}
 				
 				if can_groundpound
 				{

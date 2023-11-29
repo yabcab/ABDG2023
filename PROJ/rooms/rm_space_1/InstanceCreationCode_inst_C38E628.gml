@@ -1,2 +1,1 @@
-targetroom = rm_space_2
-spawn = 1
+targetroom = rm_icebergs_1
