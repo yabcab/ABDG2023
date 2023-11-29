@@ -122,3 +122,4 @@ if !sprite_exists(asset_get_index("Sprite89"))
 obj_4by3.visible = false
 music_set_slot_count(0) // LG uses different audio sys
 music_set_slot_target(0,mu_nothing)
+window_set_caption("Louch " + gamename + " Game")
