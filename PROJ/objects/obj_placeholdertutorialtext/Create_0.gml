@@ -7,3 +7,6 @@ depth = -100
 
 with instance_create_depth(0,0,101,obj_textshadow)
 	follow = other.id
+	
+need_specific_state = false
+state_needed = 0

@@ -179,12 +179,7 @@ function text_checker(str = text[text_selected])
 		
 		case "@ASH_OUT":
 		{
-			idlespr = spr_empty
-			talkspr = spr_empty
-			instance_create_depth(x,y,101,obj_risinggrave)
-			x = -1000
-			y = -1000
-			inst_ASHTRES.visible = true
+			induct_text_command("@EXPLODE_AND_DIE")
 			
 			override_cambound_music_slots = false
 			

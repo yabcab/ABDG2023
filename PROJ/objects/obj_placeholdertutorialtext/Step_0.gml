@@ -3,7 +3,7 @@ _time++
 bobsin = sin(_time / 30) * 5
 
 var ls = 0.1
-if dist < 200
+if dist < 200 && ((obj_player.state = state_needed && need_specific_state) || !need_specific_state)
 {
 	//glubble
 	textoff = lerp(textoff,0,ls)

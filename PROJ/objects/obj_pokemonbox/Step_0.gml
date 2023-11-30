@@ -94,6 +94,8 @@ switch sel
 				text[i++] = "@ASH_OUT"
 				
 				max_texts = i - 1
+				
+				talkspr = spr_ashpokemon_dying
 			}
 			
 			with obj_player
