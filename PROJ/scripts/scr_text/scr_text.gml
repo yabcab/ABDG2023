@@ -489,7 +489,7 @@ function text_checker(str = text[text_selected])
 		case "@SAMMY_EAT_OUT":
 		{
 			instance_destroy(inst_SAMMYWALL)
-			with obj_ashdoor
+			with inst_SAMMYDOOR
 			{
 				fuckuphater = true
 				vspeed = -7
@@ -564,7 +564,7 @@ function text_checker(str = text[text_selected])
 		{
 			with inst_SEXY
 				instance_destroy()
-			with obj_ashdoor
+			with inst_BITCH
 			{
 				fuckuphater = true
 				vspeed = -7
@@ -572,7 +572,7 @@ function text_checker(str = text[text_selected])
 			}
 			
 			max_texts = 0
-			text[0] = "Heh"
+			text[0] = "JP says bye."
 		}
 		break;
 		

@@ -1,3 +1,4 @@
+draw_set_font(fnt_game)
 draw_set_halign(fa_middle)
 //draw_text_color(480 - 8,540 + credheight + 8,creditstring,c_black,c_black,c_black,c_black,0.4)
 draw_sprite(sprite_index,image_index,480,630 + credheight)

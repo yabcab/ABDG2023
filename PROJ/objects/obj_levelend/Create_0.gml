@@ -34,23 +34,24 @@ final_showscore = 0
 final_display = 0
 final_score = floor((((score / rank_point_req) * 100) * 0.5) + (((crowncollects / crowncollecttotal) * 100) * 0.25) + (((rank_highestcombo / rank_highestcombo_req) * 100) * 0.25))
 
-ini_open("savedata.lmao")
-if ini_read_real("level_scoredata",string(level) + "_percent",0) < final_score
-{
-	ini_write_real("level_scoredata",string(level) + "_percent",final_score)
-	ini_write_real("level_scoredata",string(level) + "_points",score)
-	ini_write_real("level_scoredata",string(level) + "_combo",rank_highestcombo)
-	ini_write_real("level_scoredata",string(level) + "_crown",crowncollects)
-}
-if nodamage
-	ini_write_real("level_scoredata",string(level) + "_nodamage",nodamage)
-ini_write_real("level_completion",string(level),1)
+//nah dont write save lol
+//ini_open("savedata.lmao")
+//if ini_read_real("level_scoredata",string(level) + "_percent",0) < final_score
+//{
+//	ini_write_real("level_scoredata",string(level) + "_percent",final_score)
+//	ini_write_real("level_scoredata",string(level) + "_points",score)
+//	ini_write_real("level_scoredata",string(level) + "_combo",rank_highestcombo)
+//	ini_write_real("level_scoredata",string(level) + "_crown",crowncollects)
+//}
+//if nodamage
+//	ini_write_real("level_scoredata",string(level) + "_nodamage",nodamage)
+//ini_write_real("level_completion",string(level),1)
 
-var i;
-for (i = 0; i < crowncollecttotal; i++)
-	if ini_read_real("crowncollects_" + string(level),i,0) = 0
-		ini_write_real("crowncollects_" + string(level),i,crownarray[i])
-ini_write_real("stats","totalcrowns",totalcrowns)
+//var i;
+//for (i = 0; i < crowncollecttotal; i++)
+//	if ini_read_real("crowncollects_" + string(level),i,0) = 0
+//		ini_write_real("crowncollects_" + string(level),i,crownarray[i])
+//ini_write_real("stats","totalcrowns",totalcrowns)
 
 extras_off = 50
 extras_alpha = 0

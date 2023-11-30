@@ -15,6 +15,19 @@ else
 gamepad_set_axis_deadzone(0,0.2)
 display_set_gui_size(960,540)
 
-instance_destroy(obj_player)
+instance_destroy(obj_LGplayer)
+instance_destroy(obj_LGcamera)
+instance_destroy(obj_pausemenucontroller)
+instance_destroy(obj_LGhud)
 instance_destroy(obj_music)
 instance_destroy(obj_metronome)
+
+audio_stop_sound(mu_levelcomplete)
+
+music_set_slot_count(2)
+music_set_slot_target(0,mu_newpork)
+music_set_slot_target(1,mu_newpork2)
+music_set_slot_target(2,mu_sandwhichshop)
+music_set_active_slot(0)
+
+window_set_caption("Scamming people in the " + gamename)

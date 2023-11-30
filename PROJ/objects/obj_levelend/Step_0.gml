@@ -41,7 +41,7 @@ else
 	{
 		final_display = final_score
 		if obj_LGplayer.key_jump_press
-			room_goto(rm_hub1)
+			room_goto(rm_init_from_lg)
 		extras_off = lerp(extras_off,0,0.05)
 		extras_alpha = lerp(extras_alpha,1,0.05)
 	}
