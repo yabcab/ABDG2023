@@ -18,7 +18,7 @@
   "option_windowsuap_wide_logo": "${base_options_dir}/windowsuap/logos/WideLogo.scale-100.png",
   "option_windowsuap_large_logo": "logos/LargeLogo.scale-100.png",
   "option_windowsuap_splash_png": "splash/SplashScreen.scale-100.png",
-  "option_windowsuap_splash_background_colour": 4294439895,
+  "option_windowsuap_splash_background_colour": 4286593657,
   "option_windowsuap_interpolate_pixels": false,
   "option_windowsuap_display_cursor": true,
   "option_windowsuap_start_fullscreen": false,
