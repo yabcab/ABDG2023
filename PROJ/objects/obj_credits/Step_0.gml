@@ -1,6 +1,6 @@
 if im_so_active
 {
-	if credheight > (690 + string_height(creditstring)) * -1
+	if credheight > (1080 + string_height(creditstring)) * -1
 	{
 		credheight -= 0.4
 		fadeamount = lerp(fadeamount,0,0.025)
