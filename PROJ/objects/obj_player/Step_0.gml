@@ -546,6 +546,13 @@ switch state
 						starth = abs(hspeed / 50)
 						startv = abs(vspeed / 50)
 					}
+				play_sfx(sfx_boom)
+				
+			}
+			with instance_create_depth(x,y,-2,obj_smokepuff)
+			{
+				sprite_index = spr_explosion
+				image_speed = 3
 			}
 			possessed_object = noone
 			image_blend = c_white

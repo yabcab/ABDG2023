@@ -3,6 +3,7 @@ fadealph = 0
 outro = false
 gotcontrolback = false
 player_saved_state = 0
+wait = 0
 
 tname = ""
 tdesc = ""

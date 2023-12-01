@@ -18,8 +18,10 @@ else
 	y = lerp(y,0,0.1)
 }
 
-if (gamepad_button_check_pressed(0,CONT_A) || KEY_JMP_P) && !outro
+if (gamepad_button_check_pressed(0,CONT_A) || KEY_JMP_P) && !outro && wait >= 60
 {
 	outro = true
 	play_sfx(sfx_treasuremenuclose)	
 }
+
+wait = approach(wait,60,1)

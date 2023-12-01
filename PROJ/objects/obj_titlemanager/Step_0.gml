@@ -12,12 +12,14 @@ if obj_gameintro.activated
 			swapping = true
 			faceright = false
 			image_index = 0
+			play_sfx(sfx_optionsel)
 		}
 		else if (KEY_R_P || (jh > 0.55 && lastjoy_h <= 0.55)) && !faceright
 		{
 			swapping = true
 			faceright = true
 			image_index = 0
+			play_sfx(sfx_optionsel)
 		}
 	
 		if !faceright && (KEY_JMP_P || gamepad_button_check_pressed(0,CONT_A))

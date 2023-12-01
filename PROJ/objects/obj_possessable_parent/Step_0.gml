@@ -18,6 +18,9 @@ if closest_possessable = id && (KEY_POS_P || gamepad_button_check_pressed(0,CONT
 	visible = false
 	obj_player.x = x
 	obj_player.y = y
+	repeat 25
+		instance_create_depth(x,y,-2,obj_whiteparticle)
+	play_sfx(sfx_possess)
 }
 
 if possessed_object = id && !just_possessed
@@ -28,7 +31,10 @@ if possessed_object = id && !just_possessed
 	{
 		if possessmusic
 			override_cambound_music_slots = false
+		repeat 25
+			instance_create_depth(x,y,-2,obj_whiteparticle)
 		possessed_object = noone
+		audio_stop_sound(sfx_possess)
 		play_sfx(sfx_depossess)
 		obj_player.state = states.normal
 		//obj_player.hsp = 0
