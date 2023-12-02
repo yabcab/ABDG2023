@@ -20,7 +20,7 @@ if (state = states.normal || state = states.sandal || (state = states.hedgehog &
 }
 else if state = states.rocket || state = states.chicken
 {
-	points += 125
+	add_points(125)
 	instance_destroy(other)
 	play_sfx(sfx_egghit)
 	with instance_create_depth(other.x,other.y,-1,obj_eggparticle)
@@ -35,7 +35,7 @@ else if state = states.rocket || state = states.chicken
 }
 else if (state = states.hedgehog && image_index = 2) || state = states.floured
 {
-	points += 125
+	add_points(125)
 	instance_destroy(other)
 	if state = states.hedgehog
 		play_sfx(sfx_hedgehogpoke)
@@ -72,7 +72,7 @@ else if state = states.car
 	}
 	else
 	{
-		points += 125
+		add_points(125)
 		instance_destroy(other)
 		play_sfx(sfx_egghit)
 		play_sfx(sfx_boom)

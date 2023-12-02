@@ -12,7 +12,10 @@ if rotatepls
 		sel = pokeframes.supereffective
 		render_trainer2 = false
 		if !instance_exists(obj_deadash)
+		{
 			instance_create_depth(686,109,depth,obj_deadash)
+			play_sfx(sfx_redhit)
+		}
 	}
 	if rot > 180
 		rotatepls = false
@@ -46,6 +49,7 @@ switch sel
 		{
 			sel = pokeframes.menu_sfight
 			frame_delay = true	
+			play_sfx(sfx_textcontinue)
 		}
 	}
 	break;
@@ -56,6 +60,7 @@ switch sel
 		{
 			rotatepls = true
 			wait = true
+			play_sfx(sfx_textcontinue)
 		}
 	}
 	break;
@@ -66,6 +71,7 @@ switch sel
 		{
 			sel = pokeframes.winner
 			frame_delay = true
+			play_sfx(sfx_textcontinue)
 		}
 	}
 	break;
@@ -74,6 +80,7 @@ switch sel
 	{
 		if (KEY_JMP_P || pressjump) && !frame_delay && !wait
 		{
+			play_sfx(sfx_textcontinue)
 			instance_destroy()
 			instance_destroy(obj_poketrainers)
 			instance_destroy(obj_poke_waitthingy)
@@ -110,6 +117,7 @@ switch sel
 		{
 			sel = pokeframes.menu_sitem
 			frame_delay = true	
+			play_sfx(sfx_textcontinue)
 		}
 	}
 	break;
@@ -120,6 +128,7 @@ switch sel
 		{
 			sel = pokeframes.menu_sother
 			frame_delay = true	
+			play_sfx(sfx_textcontinue)
 		}
 	}
 	break;
@@ -130,6 +139,7 @@ switch sel
 		{
 			sel = pokeframes.menu_sflee
 			frame_delay = true	
+			play_sfx(sfx_textcontinue)
 		}
 	}
 	break;
@@ -139,19 +149,22 @@ switch sel
 		if (KEY_JMP_P || pressjump) && !frame_delay
 		{
 			sel = pokeframes.sel_fight
-			frame_delay = true		
+			frame_delay = true	
+			play_sfx(sfx_textcontinue)
 		}
 			
 		if (KEY_D_P || press_axv_d || dpd) && !frame_delay
 		{
 			sel = pokeframes.menu_sother
 			frame_delay = true	
+			play_sfx(sfx_text)
 		}
 		
 		if (KEY_R_P || press_axh_r || dpr) && !frame_delay
 		{
 			sel = pokeframes.menu_sitem
-			frame_delay = true	
+			frame_delay = true
+			play_sfx(sfx_text)
 		}
 	}
 	break;
@@ -162,18 +175,21 @@ switch sel
 		{
 			sel = pokeframes.sel_other
 			frame_delay = true		
+			play_sfx(sfx_textcontinue)
 		}
 			
 		if (KEY_U_P || press_axv_u || dpu) && !frame_delay
 		{
 			sel = pokeframes.menu_sfight
 			frame_delay = true	
+			play_sfx(sfx_text)
 		}
 		
 		if (KEY_R_P || press_axh_r || dpr) && !frame_delay
 		{
 			sel = pokeframes.menu_sflee
 			frame_delay = true	
+			play_sfx(sfx_text)
 		}
 	}
 	break;
@@ -184,18 +200,21 @@ switch sel
 		{
 			sel = pokeframes.sel_item
 			frame_delay = true		
+			play_sfx(sfx_textcontinue)
 		}
 			
 		if (KEY_D_P || press_axv_d || dpd) && !frame_delay
 		{
 			sel = pokeframes.menu_sflee
 			frame_delay = true	
+			play_sfx(sfx_text)
 		}
 		
 		if (KEY_L_P || press_axh_l || dpl) && !frame_delay
 		{
 			sel = pokeframes.menu_sfight
 			frame_delay = true	
+			play_sfx(sfx_text)
 		}
 	}
 	break;
@@ -206,18 +225,21 @@ switch sel
 		{
 			sel = pokeframes.sel_flee
 			frame_delay = true		
+			play_sfx(sfx_textcontinue)
 		}
 			
 		if (KEY_U_P || press_axv_u || dpu) && !frame_delay
 		{
 			sel = pokeframes.menu_sitem
 			frame_delay = true	
+			play_sfx(sfx_text)
 		}
 		
 		if (KEY_L_P || press_axh_l || dpl) && !frame_delay
 		{
 			sel = pokeframes.menu_sother
 			frame_delay = true	
+			play_sfx(sfx_text)
 		}
 	}
 	break;

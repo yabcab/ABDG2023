@@ -3,9 +3,9 @@ if (state = states.normal || state = states.sandal || (state = states.hedgehog &
 	if bbox_bottom < other.y + 40 && vsp > -9 // ag
 	{
 		eligoomba_kills++
-		points += 100
+		add_points(100)
 		play_sfx(sfx_goombastomp)
-		instance_create_depth(other.x,other.y,-100,obj_100)
+		//instance_create_depth(other.x,other.y,-100,obj_100)
 		
 		other.dead = true
 		other.sprite_index = spr_eligoomba_dead
@@ -48,7 +48,7 @@ else if state = states.hedgehog
 		if bbox_bottom < other.y + 40 && vsp > -9 // ag
 		{
 			eligoomba_kills++
-			points += 100
+			add_points(100)
 			play_sfx(sfx_goombastomp)
 			instance_create_depth(other.x,other.y,-100,obj_100)
 		
@@ -81,7 +81,7 @@ else if state = states.hedgehog
 	else
 	{
 		eligoomba_kills++
-		points += 200
+		add_points(200)
 		instance_destroy(other)
 		play_sfx(sfx_hedgehogpoke)
 		with instance_create_depth(other.x,other.y,-1,obj_eggparticle)
@@ -99,7 +99,7 @@ else if state = states.hedgehog
 else if state = states.rocket
 {
 	eligoomba_kills++
-	points += 125
+	add_points(125)
 	instance_destroy(other)
 	play_sfx(sfx_egghit)
 	with instance_create_depth(other.x,other.y,-1,obj_eggparticle)
@@ -148,7 +148,7 @@ else if state = states.car
 	}
 	else
 	{
-		points += 125
+		add_points(125)
 		instance_destroy(other)
 		play_sfx(sfx_egghit)
 		play_sfx(sfx_boom)

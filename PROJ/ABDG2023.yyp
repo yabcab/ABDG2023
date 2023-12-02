@@ -1606,6 +1606,7 @@
     {"id":{"name":"spr_cavespirit","path":"sprites/spr_cavespirit/spr_cavespirit.yy",},"order":2,},
     {"id":{"name":"rm_beach_7","path":"rooms/rm_beach_7/rm_beach_7.yy",},"order":6,},
     {"id":{"name":"obj_spawn_b","path":"objects/obj_spawn_b/obj_spawn_b.yy",},"order":1,},
+    {"id":{"name":"obj_pointindictaotr","path":"objects/obj_pointindictaotr/obj_pointindictaotr.yy",},"order":28,},
     {"id":{"name":"Scr_CharacterMoveRight","path":"scripts/Scr_CharacterMoveRight/Scr_CharacterMoveRight.yy",},"order":3,},
     {"id":{"name":"spr_playerJ_groundpound","path":"sprites/spr_playerJ_groundpound/spr_playerJ_groundpound.yy",},"order":8,},
     {"id":{"name":"CharacterWalkUpWT","path":"sprites/CharacterWalkUpWT/CharacterWalkUpWT.yy",},"order":323,},

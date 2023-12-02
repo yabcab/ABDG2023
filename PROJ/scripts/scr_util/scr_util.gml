@@ -87,3 +87,10 @@ function show_treasurehud(index,name,desc,prompt)
 		vsp = 0
 	}
 }
+
+function add_points(amount,xx = x,yy = y)
+{
+	points += amount
+	with instance_create_depth(xx,yy,-100,obj_pointindictaotr)
+		pts = amount
+}

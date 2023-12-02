@@ -1,0 +1,5 @@
+draw_set_halign(fa_middle)
+draw_set_alpha(fade)
+draw_text(x,y,string(pts))
+draw_set_alpha(1)
+draw_set_halign(fa_left)

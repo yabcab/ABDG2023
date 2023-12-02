@@ -33,7 +33,7 @@ if instance_exists(obj_generator)
 	
 if (KEY_EGG_P || gamepad_button_check_pressed(0,CONT_X)) && obj_player.state = states.sandal && distance_to_object(obj_player) < 35
 {
-	points += 125
+	add_points(125)
 	instance_destroy(other)
 	play_sfx(sfx_egghit)
 	with instance_create_depth(other.x,other.y,-1,obj_eggparticle)

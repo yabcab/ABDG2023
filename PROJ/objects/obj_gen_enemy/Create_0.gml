@@ -17,6 +17,7 @@ alarm[0] = 1
 starthp = 0
 depth = -1
 silent = false
+hitplayer = false
 
 //jumper
 jumping = false

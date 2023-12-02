@@ -6,4 +6,4 @@ with instance_create_depth(x,y,-1,obj_cratepart)
 	hspeed = obj_player.hsp + random_range(-4,4)
 	vspeed = random_range(-6,-1)
 }
-points += 10
+add_points(10)

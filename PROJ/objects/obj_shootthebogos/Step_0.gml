@@ -29,7 +29,7 @@ if bogos_physics
 		bogos_hit = false
 	if bogos_y > 600 && !outro
 	{
-		points -= 100
+		add_points(-100)
 		bogos_y -= 700
 		bogos_vsp = 0 // lol this caused a funny thing when it wasnt here
 	}

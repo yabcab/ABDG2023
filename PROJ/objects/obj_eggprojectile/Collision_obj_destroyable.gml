@@ -12,4 +12,4 @@ with other
 instance_destroy(other)
 instance_destroy()
 play_sfx(sfx_cratehit)
-points += 25
+add_points(25,x + 16,y + 16)

@@ -191,6 +191,8 @@ function text_checker(str = text[text_selected])
 				vspeed = -7
 				hspeed = 4
 			}
+			
+			inst_ASHTRES.visible = true
 		}
 		break;
 		
@@ -510,9 +512,18 @@ function text_checker(str = text[text_selected])
 		{
 			if ace_game_finished
 			{
-				instance_create_depth(x,y,depth,obj_key)
-				text[1] = "YOU DID IT! He can now shit, here is the key. Take my thang."
-				max_texts = 1
+				if instance_exists(obj_key)
+				{
+					//instance_create_depth(x,y,depth,obj_key)
+					text[1] = "I ALREADY GAVE YOU MY SHIT."
+					max_texts = 1
+				}
+				else
+				{
+					instance_create_depth(x,y,depth,obj_key)
+					text[1] = "YOU DID IT! He can now shit, here is the key. Take my thang."
+					max_texts = 1
+				}
 			}
 		}
 		break;

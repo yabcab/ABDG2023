@@ -4,7 +4,8 @@ if !silent
 	{
 		case enemytype.default_ai:
 		{
-			points += 25
+			if !hitplayer
+				add_points(25)
 			instance_create_depth(x,y,depth - 1,obj_cratepart, {
 				hspeed: 0,
 				vspeed: 0,
@@ -18,7 +19,8 @@ if !silent
 
 		case enemytype.swarmer:
 		{
-			points += 7
+			if !hitplayer
+				add_points(7)
 			instance_create_depth(x,y,depth - 1,obj_cratepart, {
 				hspeed: random_range(9,12),
 				vspeed: random_range(-4,-6),
@@ -30,7 +32,8 @@ if !silent
 		
 		case enemytype.crier:
 		{
-			points += 25
+			if !hitplayer
+				add_points(25)
 			with instance_create_depth(x,y,depth - 1,obj_smokepuff)
 			{
 				sprite_index = spr_explosion

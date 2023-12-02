@@ -14,7 +14,7 @@ if (state = states.normal || state = states.sandal) && !other.dead && state != s
 }
 else if state = states.rocket
 {
-	points += 175
+	add_points(175)
 	instance_destroy(other)
 	play_sfx(sfx_egghit)
 	with instance_create_depth(other.x,other.y,-1,obj_eggparticle)
@@ -53,7 +53,7 @@ else if state = states.car
 	}
 	else
 	{
-		points += 125
+		add_points(125)
 		instance_destroy(other)
 		play_sfx(sfx_egghit)
 		play_sfx(sfx_boom)
