@@ -8,3 +8,5 @@ music_set_slot_target(2,mu_sandwhichshop)
 music_set_active_slot(0)
 
 window_set_caption("Scamming people in the " + gamename)
+
+obj_hud.hudenable = true

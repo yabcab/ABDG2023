@@ -12,3 +12,5 @@ music_set_slot_target(5,mu_acemaze)
 music_set_active_slot(0)
 
 window_set_caption(gamename + " in the basement of Khizar")
+
+obj_hud.hudenable = true

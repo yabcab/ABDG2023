@@ -9,3 +9,5 @@ window_set_caption("Quest of The " + gamename)
 
 //k that makes it look even uglier
 //gpu_set_texfilter(true)
+
+obj_hud.hudenable = false

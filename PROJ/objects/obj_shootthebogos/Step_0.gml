@@ -92,6 +92,7 @@ if hits >= 20
 		play_sfx(sfx_boom)
 		music_set_active_slot(4)
 		instance_destroy(inst_SHOOTBOGOS_NPC)
+		obj_hud.hudenable = true
 		
 		repeat 100
 		{

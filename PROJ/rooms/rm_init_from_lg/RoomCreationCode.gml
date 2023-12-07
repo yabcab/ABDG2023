@@ -1,4 +1,4 @@
-
+obj_hud.hudenable = true
 
 room_goto(rm_newpork)
 

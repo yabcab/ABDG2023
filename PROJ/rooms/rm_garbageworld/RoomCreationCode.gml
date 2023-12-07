@@ -10,3 +10,5 @@ music_set_slot_target(4,mu_nothing)
 music_set_active_slot(0)
 
 window_set_caption(gamename + " is garbage.")
+
+obj_hud.hudenable = true

@@ -16,7 +16,7 @@ yepordy_set_question(0,4,"How many days until Christmas? (As of writing this)","
 
 //about the you
 yepordy_set_question(1,0,"Who fell off a bus?","Gilberto 'Fell Off A Bus' Ruiz")
-yepordy_set_question(1,1,"What is the favorite ice cream flavor of the group (according to the Google Form)","Mint Chocolate Chip")
+yepordy_set_question(1,1,"What is the favorite ice cream flavor of the group\n(according to the Google Form)","Mint Chocolate Chip")
 yepordy_set_question(1,2,"Who tipped two dollars at Waffle House?","Nolan 'Bogos' Terrigino")
 yepordy_set_question(1,3,"Who sent me a picture of Luigi on a Ring Doorbell cam?","JP")
 yepordy_set_question(1,4,"Who did I show an AI generated image of Sans punching\na woman in a gas station on CCTV, on\nOctober 26th, 2023?","Eli 'Pickle' Marblecountertop")

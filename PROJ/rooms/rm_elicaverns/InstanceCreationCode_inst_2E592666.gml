@@ -1,1 +1,0 @@
-txt = "Press Ⓧ to go spiky spiky"

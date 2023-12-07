@@ -15,3 +15,5 @@ audio_stop_sound(mu_yep2)
 audio_stop_sound(mu_yep3)
 audio_stop_sound(mu_yep4)
 audio_stop_sound(mu_yep5)
+
+obj_hud.hudenable = false

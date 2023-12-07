@@ -1,0 +1,1 @@
+txt = "Aim with the joystick and launch with LT / RT"

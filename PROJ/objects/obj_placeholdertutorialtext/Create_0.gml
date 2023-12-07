@@ -3,7 +3,7 @@ dist = 0
 textoff = 0
 bobsin = 0
 _time = 0
-depth = -100
+depth = -500
 
 with instance_create_depth(0,0,101,obj_textshadow)
 	follow = other.id

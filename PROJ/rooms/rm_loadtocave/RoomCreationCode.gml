@@ -9,3 +9,5 @@ music_set_slot_target(3,mu_eligoomba)
 music_set_active_slot(0)
 
 window_set_caption("Loading the " + gamename)
+
+obj_hud.hudenable = false

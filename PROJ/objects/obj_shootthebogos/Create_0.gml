@@ -21,3 +21,5 @@ hits = 0
 logo_y = 700
 
 outro = false
+
+obj_hud.hudenable = false

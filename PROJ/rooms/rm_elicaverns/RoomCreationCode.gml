@@ -11,3 +11,5 @@ music_set_slot_target(5,mu_kitchenpantry)
 music_set_active_slot(0)
 
 window_set_caption("The scary Eli Cave in the " + gamename)
+
+obj_hud.hudenable = true

@@ -87,6 +87,8 @@ switch sel
 			with obj_4by3 // disable 4:3
 				targ = -200
 			
+			obj_hud.hudenable = true
+			
 			music_set_slot_target(3,mu_nothing)
 				
 			with inst_ASHNPC
