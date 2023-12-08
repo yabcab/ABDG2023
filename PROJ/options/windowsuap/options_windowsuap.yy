@@ -1,8 +1,8 @@
 {
-  "option_windowsuap_display_name": "TrialsTribulations2-xboxtest",
-  "option_windowsuap_package_name": "TrialsTribulations2-xboxtest",
+  "option_windowsuap_display_name": "TrialsTribulations2-v1.0.0",
+  "option_windowsuap_package_name": "TrialsTribulations2-v1.0.0",
   "option_windowsuap_publisher_display_name": "Sandbox",
-  "option_windowsuap_package_display_name": "TrialsTribulations2-xboxtest",
+  "option_windowsuap_package_display_name": "TrialsTribulations2-v1.0.0",
   "option_windowsuap_description": "TrialsTribulations2",
   "option_windowsuap_version": "1.0.0.0",
   "option_windowsuap_orient_portrait": false,
