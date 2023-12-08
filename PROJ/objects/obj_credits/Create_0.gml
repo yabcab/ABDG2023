@@ -13,13 +13,14 @@ Jacob Scherer
 --Voice Acting--
 Nolan 'Bogos' Terrigino - as Himself
 Gilberto 'Gibbleton' Ruiz - as Link
+Mr. Harper - Mr. Harper
 
 
 
 --Playtesting--
 Echo Bellows
 Elijah Kowenski
-[REST OF TESTERS TO BE ADDED]
+Timothy Johnson
 
 
 --Google Form Responders--

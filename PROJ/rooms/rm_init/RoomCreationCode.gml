@@ -22,7 +22,7 @@ globalvar override_cambound_music_slots; override_cambound_music_slots = false
 globalvar eligoomba_kills; eligoomba_kills = 0
 globalvar ace_game_finished; ace_game_finished = false
 
-room_goto(rm_khizarbasement1)
+room_goto(rm_disclaimer)
 
 //if os_type = os_windows
 //	window_set_size(1920,1080)
@@ -97,7 +97,7 @@ globalvar global_npc_dyslexia; global_npc_dyslexia = 0
 globalvar fucked_up_mode; fucked_up_mode = false // decide what this does later
 globalvar debug; debug = false
 
-globalvar version; version = "v1.0.0-pre1"
+globalvar version; version = "v1.0.0-pre2-room10"
 globalvar gamename; gamename = "Trials And Tribulations 2"
 window_set_caption("Initializing the " + gamename)
 

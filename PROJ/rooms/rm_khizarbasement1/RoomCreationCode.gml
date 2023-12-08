@@ -14,3 +14,10 @@ music_set_active_slot(0)
 window_set_caption(gamename + " in the basement of Khizar")
 
 obj_hud.hudenable = true
+
+with obj_hud
+{
+	timer_sec = 0
+	timer_min = 0
+	timer_hour = 0
+}

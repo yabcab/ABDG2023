@@ -5,9 +5,9 @@ if hudenable
 	draw_sprite(spr_hudelems,0,0,0)
 
 	draw_set_halign(fa_left)
-	draw_text(43,20,string(coins))
+	draw_text(77,20,string(coins))
 	draw_text(817,20,string(points))
-	draw_text(43,70,string(deaths))
+	//draw_text(43,70,string(deaths))
 	
 	draw_set_halign(fa_right)
 	var s, m, h
