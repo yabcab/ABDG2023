@@ -1,3 +1,4 @@
+draw_set_font(fnt_game)
 draw_self()
 //bad way to do it - dont care
 draw_sprite(spr_settingsmenu_logo,image_index,x,y - 1000)
