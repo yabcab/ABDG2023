@@ -4,7 +4,6 @@ fadeamount = 1
 alarm[0] = 120 // fucked up workaround for the audio refusing to play
 
 creditstring = @"
-
 --Developed By--
 Jacob Scherer
 
@@ -30,6 +29,7 @@ J 'T-Rex' P
 Gilberto 'Gibbleton' Ruiz
 Eli 'Evil A4 Franklin Paper' Marblecountertop
 Khizar 'Hamburger' Saiyad (i spelled it right)
+Evan 'Horflet' Rocha
 Mr. Harper The Government Teacher
 
 
@@ -78,10 +78,8 @@ LouchGame Stuff - LouchGame OST
 Credits - Alex's Dream Land
 
 
-
 Developed September 15th - December 8th
 Built off Trials and Tribulations v1.0.0 Engine
-
 
 
 Thanks for playing!

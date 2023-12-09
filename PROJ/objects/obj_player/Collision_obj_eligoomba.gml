@@ -22,6 +22,7 @@ if (state = states.normal || state = states.sandal || (state = states.hedgehog &
 		{
 			with possessed_object
 			{
+				play_sfx(sfx_forcedepossess,false)
 				if possessmusic
 					override_cambound_music_slots = false
 				possessed_object = noone
@@ -65,6 +66,7 @@ else if state = states.hedgehog
 		{
 			with possessed_object
 			{
+				play_sfx(sfx_forcedepossess,false)
 				if possessmusic
 					override_cambound_music_slots = false
 				possessed_object = noone
@@ -113,10 +115,14 @@ else if state = states.golf
 {
 	with other
 	{
-		hoodiestrike = true
-		image_index = 0
-		if x != other.x
-			facing = sign(x - other.x)
+		if !hoodiestrike
+		{
+			play_sfx(sfx_redhit)
+			hoodiestrike = true
+			image_index = 0
+			if x != other.x
+				facing = sign(x - other.x)
+		}
 	}
 	
 	var sp = 20
@@ -134,6 +140,7 @@ else if state = states.car
 	{
 		with possessed_object
 		{
+			play_sfx(sfx_forcedepossess,false)
 			if possessmusic
 				override_cambound_music_slots = false
 			possessed_object = noone

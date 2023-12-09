@@ -4,7 +4,7 @@
     "path": "sprites/SwingHitBoxSpr/SwingHitBoxSpr.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": true,
