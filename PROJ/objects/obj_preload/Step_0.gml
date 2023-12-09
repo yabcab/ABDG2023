@@ -129,7 +129,19 @@ switch loaderpos
 		groupname = "audio_voice_harper"
 		audio_group_load(g)
 		if audio_group_is_loaded(g)
-			room_goto(rm_init)
+		{
+			loaderpos = 10
+			loadingtime = 0	
+		}
+	}
+	break;
+	
+	case 10:
+	{
+		groupname = "sprite_data"
+		for (var i = 0; sprite_exists(i + 1); i++)
+			sprite_prefetch(i)
+		room_goto(rm_init)
 	}
 	break;
 }
@@ -138,6 +150,6 @@ loadingtime++
 if loadingtime > 100
 {
 	loadingtime = 0
-	show_message("Failed to load audio group, skipping to next...")
+	show_message("Failed to load item, skipping to next...")
 	loaderpos++
 }

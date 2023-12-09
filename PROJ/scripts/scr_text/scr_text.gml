@@ -450,7 +450,7 @@ function text_checker(str = text[text_selected])
 				text[6] = "Well call me a member of the free market, I'm selling you this sandwhich. Give me your yummy Ameribucks! Yum yum..."
 				text[7] = "@VA_HARPER_EATTHAT"
 				text[8] = "Enjoy eating it! (Or give it to the inferior Mr. Harper. Your pick.)"
-				text[9] = "@CANCE_VA_EATTHAT"
+				text[9] = "@CANCEL_VA_EATTHAT"
 				text[10] = "@SAMMY_BUY_OUT"
 				while instance_exists(obj_moneyfollower)
 					instance_destroy(obj_moneyfollower)

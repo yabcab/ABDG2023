@@ -4,16 +4,15 @@ fadeamount = 1
 alarm[0] = 120 // fucked up workaround for the audio refusing to play
 
 creditstring = @"
+
 --Developed By--
 Jacob Scherer
-
 
 
 --Voice Acting--
 Nolan 'Bogos' Terrigino - as Himself
 Gilberto 'Gibbleton' Ruiz - as Link
 Mr. Harper - Mr. Harper
-
 
 
 --Playtesting--
@@ -40,13 +39,11 @@ QA by Elijah Kowenski
 IT WAS INCLUDED AS AN ARCADE GAME FOR THE LOLS.)
 
 
-
 --LouchGame (TVP May 2022)--
 Developed by Jacob Scherer
 QA by Elijah Kowenski
 OST by Jacob Scherer
 (STILL NOT REPRESENTATIVE OF TODAYS GAMES I MAKE)
-
 
 
 --Music Used--
@@ -55,9 +52,11 @@ Lava Lamp Camp - ghost surfing
 Ash Room - trances
 Ash Battle - Battle Theme - Pokemon Emerald
 Ash Victory - TAC#21: The Journey Continues!
+Ace Maze - Dragan Cirkovic Cira - Pink rege kolo
 Caverns - Candescent Chasm
 Hedgehog Theme - Red&Green - Op. 40 No. 1, Prelude
 Eli Goomba Tunnel - The Toneland Intermission
+Pantry Shootout - Unfinished Beef (.box)
 Minigolf - No Speed Limit!
 Garbage World Deluxe Super - Metally Slime Melody
 Car Theme - zugzwang

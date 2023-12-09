@@ -53,8 +53,8 @@ audio_group_load(audio_music_louch)
 
 //savedata
 ini_open("savedata.lmao")
-globalvar sfx_vol; sfx_vol = ini_read_real("settings","sfx_vol",0.2)
-globalvar mu_vol; mu_vol = ini_read_real("settings","mu_vol",0.2)
+globalvar sfx_vol; sfx_vol = 0.2//ini_read_real("settings","sfx_vol",0.2)
+globalvar mu_vol; mu_vol = 0.2//ini_read_real("settings","mu_vol",0.2)
 audio_group_set_gain(audio_music_louch,mu_vol,0)
 audio_group_set_gain(audio_sound_louch,sfx_vol,0)
 globalvar cont_left; cont_left = ini_read_real("settings","bind_left",vk_left)

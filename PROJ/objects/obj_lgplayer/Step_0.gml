@@ -1,3 +1,4 @@
+hp = 7
 //if grav = -1
 //	obj_LGcamera.targetangle = 180
 //else

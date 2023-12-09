@@ -5,4 +5,5 @@ crowncollecttotal = 100000
 rank_point_req = 99999999
 rank_highestcombo_req = -2.7
 obj_ambience.playambience = 0
+obj_LGhud.display = true
 
