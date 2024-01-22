@@ -97,7 +97,7 @@ globalvar global_npc_dyslexia; global_npc_dyslexia = 0
 globalvar fucked_up_mode; fucked_up_mode = false // decide what this does later //never did
 globalvar debug; debug = false
 
-globalvar version; version = "v1.0.1"
+globalvar version; version = "v1.0.3-dev"
 globalvar gamename; gamename = "Trials And Tribulations 2"
 window_set_caption("Initializing the " + gamename)
 

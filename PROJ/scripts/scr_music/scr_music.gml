@@ -32,13 +32,17 @@ function music_set_slot_count(slots)
 	}
 }
 
-function music_set_active_slot(slot)
+function music_set_active_slot(slot, fadeout = 1000, fadein = fadeout)
 {
 	with obj_musichandle
 	{
 		//f_absentvol[slot_active] = 0
 		if slot > active_slot_count && slot != noone
+		{
 			show_debug_message("Cannot set slot this high.")
+			passed_infade_time = fadein
+			passed_outfade_time = fadeout
+		}
 		else
 			slot_active = slot
 	}

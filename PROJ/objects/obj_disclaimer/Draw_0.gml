@@ -1,8 +1,15 @@
 draw_text(x,y + bobsin,@"
-WELCOME TO WINTER '23 PARTY!!!!! 
+Hello! 
 
-I worked hard on video game
-pls dont run away
-thank for coming :D
+v1.0.3 Changelog:
+-Added achievements (8 of em)
+-Added savedata support
+-LouchGame and QOTQ are now optional
+-Temporarily removed the pantry
+-Updated music system
+-Updated the credits
+-Edited some NPC dialogue
+-Misc edits to prep for v1.1
+-Bugfixes
 
 Press Ⓐ to continue.")

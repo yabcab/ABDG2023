@@ -504,7 +504,8 @@ function text_checker(str = text[text_selected])
 			instance_create_depth(40,120,-5001,obj_acegame_player)
 			instance_create_depth(506,289,-5001,obj_acegame_toilet)
 			override_cambound_music_slots = true
-			music_set_active_slot(5)
+			music_set_active_slot(5,0,0)
+			music_restart_slot(5)
 		}
 		break;
 		

@@ -10,7 +10,7 @@ if closest_possessable = id && (KEY_POS_P || gamepad_button_check_pressed(0,CONT
 	if possessmusic
 	{
 		override_cambound_music_slots = true
-		music_set_active_slot(pos_slot)	
+		music_set_active_slot(pos_slot,0,0)	
 	}
 	obj_player.state = possessed_state
 	possessed_object = id

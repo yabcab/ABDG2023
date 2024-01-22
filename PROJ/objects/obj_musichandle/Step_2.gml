@@ -4,8 +4,12 @@ for (var i = 0; i <= active_slot_count; i++)
 	if playing_index[i] != target_index[i]
 	{
 		audio_stop_sound(playing_id[i])
-		playing_id[i] = audio_play_sound(target_index[i],true,1) //audio_play_sound_on(music_bus,target_index[i],true,1)
+		playing_id[i] = audio_play_sound(target_index[i],true,1)
 		playing_index[i] = target_index[i]
+		if slot_active = i
+			audio_sound_gain(playing_id[i],f_vol[i],passed_infade_time)
+		else
+			audio_sound_gain(playing_id[i],f_absentvol[i],passed_outfade_time)
 	}
 	
 	//quiet non-active slots

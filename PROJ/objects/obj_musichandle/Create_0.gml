@@ -8,6 +8,9 @@ playing_index = []
 target_index = []
 slot_active = 1
 
+passed_outfade_time = 0
+passed_infade_time = 0
+
 //set with funcs
 f_fadeintime = []
 f_fadeouttime = []
@@ -20,8 +23,8 @@ for (var i = 0; i < MAX_MUSIC_SLOTS; i++)
 	playing_index[i] = noone
 	target_index[i] = noone
 	
-	f_fadeintime[i] = 0
-	f_fadeouttime[i] = 0
+	f_fadeintime[i] = 1000
+	f_fadeouttime[i] = 1000
 	f_vol[i] = 1
 	f_absentvol[i] = 0
 }

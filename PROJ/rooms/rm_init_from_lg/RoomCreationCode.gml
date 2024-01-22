@@ -2,9 +2,9 @@ obj_hud.hudenable = true
 
 room_goto(rm_newpork)
 
-if os_type = os_windows
-	window_set_size(1920,1080)
-else
+//if os_type = os_windows
+//	window_set_size(1920,1080)
+//else
 	window_set_size(960,540)
 
 //for when i have music playing
