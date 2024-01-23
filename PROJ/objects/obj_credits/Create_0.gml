@@ -5,6 +5,8 @@ alarm[0] = 120 // fucked up workaround for the audio refusing to play
 
 creditstring = @"
 
+Ver. " + version + @" - Release Patch 3
+
 --Developed By--
 Jacob Scherer
 
@@ -12,7 +14,7 @@ Jacob Scherer
 --Voice Acting--
 Nolan 'Bogos' Terrigino - as Himself
 Gilberto 'Gibbleton' Ruiz - as Link
-Mr. Harper - Mr. Harper
+Mr. Harper - Mr. Harper and Other Mr. Harper
 
 
 --Playtesting--
@@ -21,7 +23,7 @@ Elijah Kowenski
 Timothy Johnson
 
 
---Google Form Responders--
+--Google Form Responses (v1.0)--
 Elijah 'EAAK' Kowenski
 Nolan 'Bogos' Terrigino
 J 'T-Rex' P
@@ -30,6 +32,12 @@ Eli 'Evil A4 Franklin Paper' Marblecountertop
 Khizar 'Hamburger' Saiyad (i spelled it right)
 Evan 'Horflet' Rocha
 Mr. Harper The Government Teacher
+
+
+
+--Google Form Responses (v1.1)--
+Echo 'Etch-A-Sketch' Bellows
+
 
 
 --Quest of The Quenge (2020)--
@@ -78,9 +86,9 @@ LouchGame Stuff - LouchGame OST
 Credits - Alex's Dream Land
 
 
-Developed September 15th - December 8th
+
 Built off Trials and Tribulations v1.0.0 Engine
+Made in GameMaker 2022.600.0.153 - Runtime 2022.600.0.133
 
 
-Thanks for playing!
-Ver. " + version
+Thanks for playing!"
