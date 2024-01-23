@@ -22,7 +22,7 @@ globalvar override_cambound_music_slots; override_cambound_music_slots = false
 globalvar eligoomba_kills; eligoomba_kills = 0
 globalvar ace_game_finished; ace_game_finished = false
 
-room_goto(rm_disclaimer)
+room_goto(rm_elicaverns)
 
 //if os_type = os_windows
 //	window_set_size(1920,1080)
@@ -99,6 +99,9 @@ globalvar debug; debug = false
 
 globalvar version; version = "v1.0.3-dev"
 globalvar gamename; gamename = "Trials And Tribulations 2"
+var date = date_current_datetime()
+if date_get_month(date) = 3 && date_get_day(date) = 9
+	gamename = "Birthdays And Tribulations 2"
 window_set_caption("Initializing the " + gamename)
 
 //show_debug_overlay(debug)
