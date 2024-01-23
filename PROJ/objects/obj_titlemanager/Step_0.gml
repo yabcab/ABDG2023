@@ -24,7 +24,7 @@ if obj_gameintro.activated
 	
 		if !faceright && (KEY_JMP_P || gamepad_button_check_pressed(0,CONT_A))
 		{
-			room_goto(rm_loadtobasement)
+			room_goto(rm_loadtohub)
 			play_sfx(sfx_baby,false)
 			audio_stop_sound(mu_title)	
 		}

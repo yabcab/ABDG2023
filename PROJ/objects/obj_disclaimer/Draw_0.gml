@@ -3,7 +3,6 @@ Hello!
 
 v1.0.3 Changelog:
 Added achievements (8 of em)
-Added savedata support
 LouchGame and QOTQ are now optional
 -Temporarily removed the pantry (To be reworked in v1.1 or later)
 -Updated music system
