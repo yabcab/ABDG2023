@@ -1,4 +1,4 @@
-ini_open("save.tt2"
+ini_open("save.tt2")
 isunlocked = ini_read_real("ach","tres",false)
 ini_close()
 

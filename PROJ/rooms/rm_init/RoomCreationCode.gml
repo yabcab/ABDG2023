@@ -97,7 +97,7 @@ globalvar global_npc_dyslexia; global_npc_dyslexia = 0
 globalvar fucked_up_mode; fucked_up_mode = false // decide what this does later //never did
 globalvar debug; debug = false
 
-globalvar version; version = "v1.0.3-dev"
+globalvar version; version = "shut up im working on it"
 globalvar gamename; gamename = "Trials And Tribulations 2"
 var date = date_current_datetime()
 if date_get_month(date) = 3 && date_get_day(date) = 9
