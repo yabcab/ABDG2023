@@ -37,6 +37,7 @@ anim_fire = false
 // 10/1/23 - shut up hoe
 // 11/6/23 - hey what did i miss guys
 // 11/25/23 - oooookkkkk thats PROBABLY it,,
+// 1/26/24 - v1.1 will be real
 enum states
 {
 	none = -1,
