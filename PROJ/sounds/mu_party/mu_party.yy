@@ -12,7 +12,7 @@
     "path": "audiogroups/audio_music_trialstrib",
   },
   "soundFile": "mu_party.mp3",
-  "duration": 235.67674,
+  "duration": 127.08572,
   "parent": {
     "name": "music",
     "path": "folders/T&T2proj/Sounds/music.yy",

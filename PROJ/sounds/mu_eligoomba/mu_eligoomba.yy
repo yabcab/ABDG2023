@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 1,
-  "volume": 0.3,
+  "volume": 0.4,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/audio_music_trialstrib",
   },
   "soundFile": "mu_eligoomba.mp3",
-  "duration": 142.36734,
+  "duration": 62.249798,
   "parent": {
     "name": "music",
     "path": "folders/T&T2proj/Sounds/music.yy",
