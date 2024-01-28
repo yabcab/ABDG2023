@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 1,
-  "volume": 0.5,
+  "volume": 0.3,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/audio_music_trialstrib",
   },
   "soundFile": "mu_hubtt2.mp3",
-  "duration": 384.5747,
+  "duration": 133.32898,
   "parent": {
     "name": "music",
     "path": "folders/T&T2proj/Sounds/music.yy",
