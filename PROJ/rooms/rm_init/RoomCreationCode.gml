@@ -97,10 +97,11 @@ globalvar global_npc_dyslexia; global_npc_dyslexia = 0
 globalvar fucked_up_mode; fucked_up_mode = false // decide what this does later //never did //and i never will
 globalvar debug; debug = false
 
+#macro force_birthday true
 globalvar version; version = "shut up im working on it"
 globalvar gamename; gamename = "Trials And Tribulations 2"
 var date = date_current_datetime()
-if date_get_month(date) = 3 && date_get_day(date) = 9
+if (date_get_month(date) = 3 && date_get_day(date) = 9) || force_birthday
 	gamename = "Birthdays And Parties 2"
 window_set_caption("Initializing the " + gamename)
 

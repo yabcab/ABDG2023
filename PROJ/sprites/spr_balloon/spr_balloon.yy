@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "misc",
-    "path": "folders/T&T2proj/Sprites/misc.yy",
+    "name": "picklebday",
+    "path": "folders/T&T2proj/Sprites/picklebday.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_balloon",

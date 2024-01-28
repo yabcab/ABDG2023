@@ -3,4 +3,4 @@ isunlocked = ini_read_real("ach","debt",false)
 ini_close()
 
 ach_name = "Debt"
-ach_desc = "Get your score below -200 points"
+ach_desc = "Get your score below -200 points."

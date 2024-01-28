@@ -1,3 +1,3 @@
 _time++
-bobsin = sin(_time / 20) * 8
+bobsin = sin(_time / 60) * 16
 //image_index = hit

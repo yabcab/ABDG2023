@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_achievementplaceholder",
-    "path": "sprites/spr_achievementplaceholder/spr_achievementplaceholder.yy",
+    "name": "spr_achievementpaintings",
+    "path": "sprites/spr_achievementpaintings/spr_achievementpaintings.yy",
   },
   "solid": false,
   "visible": true,
