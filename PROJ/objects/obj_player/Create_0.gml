@@ -60,6 +60,8 @@ enum states
 	rollers,
 	hedgehog,
 	sandal,
+	chocosub,
+	glock,
 	
 	//debug
 	noclip,

@@ -1601,6 +1601,12 @@ switch state
 			vsp = 0
 	}
 	break;
+	
+	case states.chocosub:
+	{
+		
+	}
+	break;
 }
 
 #region up arrow

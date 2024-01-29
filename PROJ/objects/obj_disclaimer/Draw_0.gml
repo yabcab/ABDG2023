@@ -1,14 +1,9 @@
 draw_text(x,y + bobsin,@"
-Hello! 
+Hello! It's not christmas anymore!
+But... the update is still coming!
 
-v1.0.3 Changelog:
-Added achievements (8 of em)
-LouchGame and QOTQ are now optional
--Temporarily removed the pantry (To be reworked in v1.1 or later)
--Updated music system
--Updated the credits
--Edited some NPC dialogue
--Misc edits to prep for v1.1
--Bugfixes
+*This is a playtest version, please do not
+share it around or show people any new content without
+my permission first.
 
 Press Ⓐ to continue.")

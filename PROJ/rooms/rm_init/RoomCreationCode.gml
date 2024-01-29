@@ -22,7 +22,7 @@ globalvar override_cambound_music_slots; override_cambound_music_slots = false
 globalvar eligoomba_kills; eligoomba_kills = 0
 globalvar ace_game_finished; ace_game_finished = false
 
-room_goto(rm_hub)
+room_goto(rm_docks)
 
 //if os_type = os_windows
 //	window_set_size(1920,1080)
@@ -73,6 +73,7 @@ enum pokeframes
 
 enum treasure // zomg bro theres like thirteen :exploiding head:"
 {
+	//v1.0
 	krabs = 0,
 	trophy_player,
 	trophy_eligoomba,
@@ -89,6 +90,12 @@ enum treasure // zomg bro theres like thirteen :exploiding head:"
 	veneers,
 	guitar_pick_awesome,
 	gold_ozzy_vinyl,
+	
+	//v1.1
+	chaos_emerald,
+	chewed_finger,
+	apple_sauce,
+	bear,
 }
 
 //"settings"
@@ -97,8 +104,8 @@ globalvar global_npc_dyslexia; global_npc_dyslexia = 0
 globalvar fucked_up_mode; fucked_up_mode = false // decide what this does later //never did //and i never will
 globalvar debug; debug = false
 
-#macro force_birthday true
-globalvar version; version = "shut up im working on it"
+#macro force_birthday false
+globalvar version; version = "v1.1.dev"
 globalvar gamename; gamename = "Trials And Tribulations 2"
 var date = date_current_datetime()
 if (date_get_month(date) = 3 && date_get_day(date) = 9) || force_birthday
