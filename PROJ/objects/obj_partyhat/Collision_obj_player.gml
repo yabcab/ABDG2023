@@ -19,8 +19,13 @@ if visible
 			vspeed = random_range(-3,3)
 		}
 	}
-
+	
 	ini_open("save.tt2")
+	if ini_read_real("hats",hat_id,false)
+	{
+		hat_count++
+		instance_create_depth(x,y,-50,obj_partyhatindicatior)
+	}
 	ini_write_real("hats",hat_id,true)
 	ini_close()
 }

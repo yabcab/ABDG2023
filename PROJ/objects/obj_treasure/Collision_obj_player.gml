@@ -23,5 +23,6 @@ if visible
 
 	ini_open("save.tt2")
 	ini_write_real("tres",tres_id,true)
+	treasure_save[i] = true
 	ini_close()
 }

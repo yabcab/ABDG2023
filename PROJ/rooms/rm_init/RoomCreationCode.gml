@@ -111,6 +111,16 @@ var date = date_current_datetime()
 if (date_get_month(date) = 3 && date_get_day(date) = 9) || force_birthday
 	gamename = "Birthdays And Parties 2"
 window_set_caption("Initializing the " + gamename)
+globalvar hat_count; hat_count = 0
+
+globalvar treasure_save; treasure_save = []
+ini_open("save.tt2")
+for (var i = 1; i <= 20; i++)
+	if ini_read_real("hats",i,false)
+		hat_count++
+for (var i = 0; i < 20; i++)
+	if ini_read_real("tres",i,false)
+		treasure_save[i] = true
 
 //show_debug_overlay(debug)
 gamepad_set_axis_deadzone(0,0.2)

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_treasures",
-    "path": "sprites/spr_treasures/spr_treasures.yy",
+    "name": "spr_partyhat",
+    "path": "sprites/spr_partyhat/spr_partyhat.yy",
   },
   "solid": false,
   "visible": true,
