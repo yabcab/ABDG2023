@@ -1,3 +1,5 @@
+draw_set_halign(fa_left)
+
 //WOOOOO CODE OPIMIZATION!!!!!!!!!
 var dyslexia = dyslexia_mode || global_npc_dyslexia = 1
 

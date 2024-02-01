@@ -2306,6 +2306,7 @@
     {"id":{"name":"EnemyAppleShootLeftSpr","path":"sprites/EnemyAppleShootLeftSpr/EnemyAppleShootLeftSpr.yy",},"order":212,},
     {"id":{"name":"Scr_CharacterMoveDownP2","path":"scripts/Scr_CharacterMoveDownP2/Scr_CharacterMoveDownP2.yy",},"order":3,},
     {"id":{"name":"spr_textbg_updog","path":"sprites/spr_textbg_updog/spr_textbg_updog.yy",},"order":4,},
+    {"id":{"name":"obj_partyhat","path":"objects/obj_partyhat/obj_partyhat.yy",},"order":4,},
     {"id":{"name":"rm_loadtocave","path":"rooms/rm_loadtocave/rm_loadtocave.yy",},"order":6,},
     {"id":{"name":"SnowHills03","path":"rooms/SnowHills03/SnowHills03.yy",},"order":2,},
     {"id":{"name":"spr_fullscreenicon","path":"sprites/spr_fullscreenicon/spr_fullscreenicon.yy",},"order":1,},

@@ -1,5 +1,5 @@
 ini_open("save.tt2")
-isunlocked = ini_read_real("ach","partyking",false)
+isunlocked = ini_read_real("ach","partyking",true)
 ini_close()
 
 ach_name = "King of Party"

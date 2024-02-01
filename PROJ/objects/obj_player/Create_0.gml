@@ -80,3 +80,5 @@ dontkillme = false
 shades = false
 
 dead = false // ??
+
+lastframe_inwater = false

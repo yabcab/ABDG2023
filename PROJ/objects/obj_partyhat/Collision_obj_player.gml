@@ -19,9 +19,8 @@ if visible
 			vspeed = random_range(-3,3)
 		}
 	}
-	show_treasurehud(tres_id,tres_name,tres_desc,tres_prompter)
 
 	ini_open("save.tt2")
-	ini_write_real("tres",tres_id,true)
+	ini_write_real("hats",hat_id,true)
 	ini_close()
 }
