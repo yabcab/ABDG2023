@@ -57,6 +57,7 @@ enum npcs // 5/11/23 - all npcs are in!! 10/8/23 - no the fuck they are not - 11
 	gilbertminecraft_dead,
 	egbert,
 	echo,
+	partier,
 }
 alarm[0] = 1
 talkspr = sprite_index

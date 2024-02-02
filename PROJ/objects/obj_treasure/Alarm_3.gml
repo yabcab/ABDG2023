@@ -205,4 +205,58 @@ switch tres_id
 	}
 	break;
 	
+	case treasure.apple_sauce:
+	{
+		tres_prompter = "ME!!!"
+		tres_name = "Apple Sauce"
+		tres_desc = @"This isn't a beverage,
+		you do NOT drink apple juice 
+		like a beverage. Otherwise, 
+		it's prettygood, tastes like 
+		apples butI stepped on their 
+		family."
+	}
+	break;
+	
+	case treasure.bear:
+	{
+		tres_prompter = "ME!!!"
+		tres_name = "Bear"
+		tres_desc = @"TERRIFYING CREATURE.
+		BEWARE. If one was to 
+		turn away from the beast, 
+		they are already dead. Do not 
+		take the bear lightly, start 
+		running before it gets to the 
+		tennis balls."
+	}
+	break;
+	
+	case treasure.chaos_emerald:
+	{
+		tres_prompter = "Etch-A-Sketch"
+		tres_name = "Chaos Emerald"
+		tres_desc = @"There were like
+		a billion Nintendo
+		references, it's about time 
+		we get a sega one. Hell, we 
+		even have Eli Goombas, 
+		that's a lot of Nintendo 
+		stuff."
+	}
+	break;
+	
+	case treasure.chewed_finger:
+	{
+		tres_prompter = "ME AGAIN!"
+		tres_name = "Chewed Finger"
+		tres_desc = @"Yuuup, that's been
+		chewed up alright. Is this
+		normal? Yes. Do I still worry?
+		Yes as well. Why? I don't
+		know what you want, get
+		out of my house."
+	}
+	break;
+	
 }

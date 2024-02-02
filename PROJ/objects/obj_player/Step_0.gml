@@ -1794,6 +1794,18 @@ switch state
 			}
 			else
 				runtimer = 99
+				
+			if lastframe_inwater
+				vsp = -15
+		}
+		else
+		{
+			var hmove, vmove
+			hmove = (KEY_R - KEY_L) * 8
+			vmove = (KEY_D - KEY_U) * 8
+			
+			hsp = approach(hsp,hmove,0.4)
+			vsp = approach(vsp,vmove,0.4)
 		}
 	}
 	break;

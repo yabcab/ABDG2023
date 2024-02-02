@@ -17,6 +17,6 @@ with thing2
 }
 
 ini_open("save.tt2") //file extension works i checked
-if ini_read_real("tres",hat_id,false)
+if ini_read_real("hats",hat_id,false)
 	image_alpha = 0.5
 ini_close()

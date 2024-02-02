@@ -21,7 +21,7 @@ if visible
 	}
 	
 	ini_open("save.tt2")
-	if ini_read_real("hats",hat_id,false)
+	if !ini_read_real("hats",hat_id,false)
 	{
 		hat_count++
 		instance_create_depth(x,y,-50,obj_partyhatindicatior)

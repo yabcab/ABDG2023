@@ -1,5 +1,5 @@
 draw_set_halign(fa_middle)
 draw_set_alpha(fade)
-draw_text(x,y,string(string(hat_count) + " / 20"))
+draw_text(x,y,string(string(hat_count) + "/20"))
 draw_set_alpha(1)
 draw_set_halign(fa_left)

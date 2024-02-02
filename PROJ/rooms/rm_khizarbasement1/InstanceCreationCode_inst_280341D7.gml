@@ -1,0 +1,1 @@
+npcid = npcs.partier

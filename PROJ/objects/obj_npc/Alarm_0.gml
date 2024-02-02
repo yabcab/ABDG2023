@@ -148,4 +148,12 @@ switch npcid
 		idlespr = spr_gilbertminecraft_alive
 	}
 	break;
+	
+	case npcs.partier:
+	{
+		drawnbg = spr_textbg_gilbertminecraft
+		talkspr = spr_partier_talk
+		idlespr = spr_partier_idle
+	}
+	break;
 }
