@@ -12,7 +12,7 @@
     "path": "audiogroups/audio_music_trialstrib",
   },
   "soundFile": "mu_yep1.mp3",
-  "duration": 196.15347,
+  "duration": 53.65551,
   "parent": {
     "name": "music",
     "path": "folders/T&T2proj/Sounds/music.yy",

@@ -65,7 +65,9 @@ Ash Victory - TAC#21: The Journey Continues!
 Ace Maze - Dragan Cirkovic Cira - Pink rege kolo
 Caverns - Candescent Chasm
 Hedgehog Theme - Red&Green - Op. 40 No. 1, Prelude
-Eli Goomba Tunnel - The Toneland Intermission
+Hell - Treefrog Turnpike
+Hell's Kitchen - hillside saunter
+Eli Goomba Tunnel - Melodious Mischief in the Metropolis
 Pantry Shootout - Unfinished Beef (.box)
 Minigolf - No Speed Limit!
 Garbage World Deluxe Super - Metally Slime Melody
@@ -76,16 +78,15 @@ QOTQ Tutorial - something off freesound i forgot
 QOTQ Grass - Flame Repellant
 QOTQ Swamp - Funktinium99
 QOTQ Farm - In Retrospect
-Yepordy A - Voting Time
-Yepordy B - Snowmen Band
+Yepordy A - Deckromancer - Puzzle Theme
+Yepordy B - YMO 'Simoon' from Yellow Magic Orchestra
 Yepordy C - Saturday
-Yepordy D - Copper Forecast
+Yepordy D - pinkover
 Yepordy E - Away From Home - Frinkle's Theme
 New Pork - (midi) disentanglement dynamo
 Sammy Shops - GrandmaSockBlast
 LouchGame Stuff - LouchGame OST
 Credits - Alex's Dream Land
-
 
 
 Built off Trials and Tribulations v1.0.0 Engine
