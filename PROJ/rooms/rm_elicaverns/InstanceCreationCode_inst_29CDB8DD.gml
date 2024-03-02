@@ -9,7 +9,7 @@ npcid = npcs.ramsay
 //text[6] = "@KILL_ANOTHER_ASHDOOR"
 
 text[0] = "Hey..... I need YOU... to get me.... ingredients... from my pantry..."
-text[1] = "This is Hell's Kitchen, but unfortunately... The pantry is currently under maintenance... To return in v1.1 or later"
+text[1] = "This is Hell's Kitchen, but unfortunately... The pantry is currently under maintenance... To return in v1.2 or later"
 text[2] = "I shall simply kill that door you saw earlier.. Goodbye."
 text[3] = "@KILL_ANOTHER_ASHDOOR"
 

@@ -1812,7 +1812,7 @@ switch state
 }
 
 #region up arrow
-if place_meeting(x,y,obj_npc) && controllable && possessed_object = noone
+if (place_meeting(x,y,obj_npc) || place_meeting(x,y,obj_jukebox)) && controllable && possessed_object = noone
 {
 	arrowoff = lerp(arrowoff,0,0.1)
 	arrowalph = lerp(arrowalph,1,0.2)

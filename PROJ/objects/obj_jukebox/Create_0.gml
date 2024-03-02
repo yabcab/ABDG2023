@@ -1,3 +1,4 @@
+texty = 500
 selected_track = 0
 is_active = 0
 
@@ -194,3 +195,4 @@ i++
 max_songs = i - 1
 
 show_debug_message(song_ingame[14])
+show_debug_message(array_length(song_index))

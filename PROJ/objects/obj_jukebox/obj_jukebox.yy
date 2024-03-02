@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite89",
-    "path": "sprites/Sprite89/Sprite89.yy",
+    "name": "spr_boombox",
+    "path": "sprites/spr_boombox/spr_boombox.yy",
   },
   "solid": false,
   "visible": true,

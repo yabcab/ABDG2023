@@ -967,6 +967,7 @@
     {"id":{"name":"mu_hub2","path":"sounds/mu_hub2/mu_hub2.yy",},"order":9,},
     {"id":{"name":"rm_testroom2","path":"rooms/rm_testroom2/rm_testroom2.yy",},"order":6,},
     {"id":{"name":"rm_gauntlet_grass_1","path":"rooms/rm_gauntlet_grass_1/rm_gauntlet_grass_1.yy",},"order":1,},
+    {"id":{"name":"spr_boombox","path":"sprites/spr_boombox/spr_boombox.yy",},"order":2,},
     {"id":{"name":"obj_smoke","path":"objects/obj_smoke/obj_smoke.yy",},"order":5,},
     {"id":{"name":"va_harper_hungry","path":"sounds/va_harper_hungry/va_harper_hungry.yy",},"order":0,},
     {"id":{"name":"GrassfeildsSpr","path":"sprites/GrassfeildsSpr/GrassfeildsSpr.yy",},"order":3,},
@@ -2880,7 +2881,7 @@
     {"folderPath":"folders/LGproj/Tile Sets/secret.yy","order":1,"resourceVersion":"1.0","name":"secret","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/T&T2proj.yy","order":0,"resourceVersion":"1.0","name":"T&T2proj","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/T&T2proj/Sprites/picklebday.yy","order":11,"resourceVersion":"1.0","name":"picklebday","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/T&T2proj/Sprites/picklebday/dancers.yy","order":2,"resourceVersion":"1.0","name":"dancers","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/T&T2proj/Sprites/picklebday/dancers.yy","order":3,"resourceVersion":"1.0","name":"dancers","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
