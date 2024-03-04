@@ -151,9 +151,17 @@ switch npcid
 	
 	case npcs.partier:
 	{
-		drawnbg = spr_textbg_gilbertminecraft
+		drawnbg = spr_textbg_partier
 		talkspr = spr_partier_talk
 		idlespr = spr_partier_idle
+	}
+	break;
+	
+	case npcs.pickl:
+	{
+		drawnbg = spr_textbg_pickl
+		talkspr = spr_pickl
+		idlespr = spr_pickl
 	}
 	break;
 }
