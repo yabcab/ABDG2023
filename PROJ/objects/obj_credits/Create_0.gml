@@ -5,7 +5,7 @@ alarm[0] = 120 // fucked up workaround for the audio refusing to play
 
 creditstring = @"
 
-Ver. " + version + @" - Release Patch 3
+Ver. " + version + @"
 
 --Developed By--
 Jacob Scherer
