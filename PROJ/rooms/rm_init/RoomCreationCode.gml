@@ -105,7 +105,7 @@ globalvar fucked_up_mode; fucked_up_mode = false // decide what this does later 
 globalvar debug; debug = false
 
 #macro force_birthday true
-globalvar version; version = "v1.1.dev"
+globalvar version; version = "v1.1.dev-PickleDay"
 globalvar gamename; gamename = "Trials And Tribulations 2"
 var date = date_current_datetime()
 if (date_get_month(date) = 3 && date_get_day(date) = 9) || force_birthday

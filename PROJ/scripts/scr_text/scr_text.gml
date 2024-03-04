@@ -600,6 +600,13 @@ function text_checker(str = text[text_selected])
 			audio_stop_sound(va_link_3)
 		}
 		break;
+		
+		case "@FUCK_THE_SCORE":
+		{
+			points -= 25000
+			score -= 25000
+		}
+		break;
 	}
 	
 	if string_copy(text[text_selected],1,1) = "@"
