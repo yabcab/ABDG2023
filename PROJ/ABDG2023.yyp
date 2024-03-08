@@ -1501,6 +1501,7 @@
     {"id":{"name":"EnemyTriangleTrap2","path":"sprites/EnemyTriangleTrap2/EnemyTriangleTrap2.yy",},"order":243,},
     {"id":{"name":"spr_hole2","path":"sprites/spr_hole2/spr_hole2.yy",},"order":1,},
     {"id":{"name":"spr_cherries_dead1","path":"sprites/spr_cherries_dead1/spr_cherries_dead1.yy",},"order":5,},
+    {"id":{"name":"spr_dancer_echo","path":"sprites/spr_dancer_echo/spr_dancer_echo.yy",},"order":1,},
     {"id":{"name":"bg_tutorial","path":"sprites/bg_tutorial/bg_tutorial.yy",},"order":0,},
     {"id":{"name":"__init_view","path":"scripts/__init_view/__init_view.yy",},"order":0,},
     {"id":{"name":"CharacterWalkUpRS","path":"sprites/CharacterWalkUpRS/CharacterWalkUpRS.yy",},"order":298,},
