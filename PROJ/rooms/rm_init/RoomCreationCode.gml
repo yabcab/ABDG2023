@@ -22,12 +22,12 @@ globalvar override_cambound_music_slots; override_cambound_music_slots = false
 globalvar eligoomba_kills; eligoomba_kills = 0
 globalvar ace_game_finished; ace_game_finished = false
 
-room_goto(rm_hub)
+room_goto(rm_disclaimer)
 
 //if os_type = os_windows
 //	window_set_size(1920,1080)
 //else
-//	window_set_size(960,540)
+	window_set_size(960,540)
 
 //for when i have music playing
 //audio_group_set_gain(audiogroup_default,0,0) 
